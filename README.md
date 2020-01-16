@@ -6,8 +6,7 @@ communicate with your Effortless API.
 # Installing the tools
 
 ## SSoT.me 
-SSoT.me `ssotme` is the dynamic package manager which keeps the code up to date.  This
-tool requires [DotNet Core 2.2](https://dotnet.microsoft.com/download).
+SSoT.me `ssotme` is the dynamic package manager which keeps the code up to date
 
     > npm install ssotme -g
 
