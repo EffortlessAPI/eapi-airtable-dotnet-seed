@@ -1,20 +1,11 @@
 {
   "ShowHidden": false,
   "ShowAllFiles": false,
+  "CurrentPath": "",
   "SaveDisabled": false,
   "SSoTmeProjectId": "3c107f35-85eb-4847-8bbe-dcdc046b1f16",
-  "Name": "dotnetSeed2",
+  "Name": "GwPlatform",
   "ProjectSettings": [
-    {
-      "ProjectSettingId": "52298204-f642-4a83-ab51-658e983b8f07",
-      "Name": "project-name",
-      "Value": "dotnetSeed2"
-    },
-    {
-      "ProjectSettingId": "73d856e2-d60b-4c31-a91c-a49dec2fbc9f",
-      "Name": "amqps",
-      "Value": "amqps://smqPublic:smqPublic@effortlessapi-rmq.ssot.me/jmillar-naf"
-    },
     {
       "ProjectSettingId": "5e421284-8add-480d-bec1-8e84c1720b26",
       "Name": "make-fks-collections",
@@ -48,12 +39,22 @@
     {
       "ProjectSettingId": "94d49088-739f-4063-b1e9-22316a7a0903",
       "Name": "namespace",
-      "Value": "YourProject.Lib.DataClasses"
+      "Value": "GwPlatform.Lib.DataClasses"
     },
     {
-      "ProjectSettingId": "0b9e2524-2f35-4d8f-86e0-8bd2aaf251e8",
+      "ProjectSettingId": "b84b4347-bf3c-4f2c-b1b9-9ef6128500ac",
+      "Name": "amqps",
+      "Value": "amqps://smqPublic:smqPublic@effortlessapi-rmq.ssot.me/jmillar-gw-platform"
+    },
+    {
+      "ProjectSettingId": "0f4b8b51-9344-4765-968f-f55916928ad9",
+      "Name": "project-name",
+      "Value": "GwPlatform"
+    },
+    {
+      "ProjectSettingId": "f7d11b33-17e7-49e9-8893-1e4e609a44b3",
       "Name": "dataclasses-namespace",
-      "Value": "YourProject.Lib.DataClasses"
+      "Value": "GwPlatform.Lib.DataClasses"
     }
   ],
   "ProjectTranspilers": [
@@ -76,7 +77,7 @@
       },
       "ProjectTranspilerId": "38069e8e-e468-468f-adb6-06cbfe211251",
       "Name": "SmqlToDotNetRabbitMQ",
-      "RelativePath": "/DotNet/DotNetClassLibrary/SassyMQ",
+      "RelativePath": "/DotNet/GwPlatformLib/SassyMQ",
       "CommandLine": "sassymq/smql-to-csharp-rabbitmq -i ../../../SassyMQ/Lexicon.smql -i ../../../ODXML/DataSchema.odxml -p smq-namespace=EffortlessApi.SassyMQ.Lib"
     },
     {
@@ -87,8 +88,19 @@
       },
       "ProjectTranspilerId": "05446ed8-0087-433d-a28b-948e30bbc8da",
       "Name": "OdxmlToCSharpPOCOs",
-      "RelativePath": "/DotNet/DotNetClassLibrary/DataClasses",
+      "RelativePath": "/DotNet/GwPlatformLib/DataClasses",
       "CommandLine": "odxml42/odxml-to-csharp-pocos -i ../../../ODXML/DataSchema.odxml"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "19d8142a-2f4d-46ac-9de6-77441f233192",
+        "Name": "AirtableToXml",
+        "Description": "Extracts the contents of an airtable base as a single Xml file."
+      },
+      "ProjectTranspilerId": "062a5e7b-d6e7-4a83-9296-1a4b64cb1a57",
+      "Name": "AirtableToXml",
+      "RelativePath": "/SSoT",
+      "CommandLine": "airtable/airtable-to-xml -p baseId=apphD1KcIwZ02ANPL -i Entities.json -w 120000"
     }
   ]
 }
