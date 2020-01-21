@@ -27,15 +27,16 @@ namespace GwPlatform.Lib.DataClasses
             return String.Format("GNodeRole: {0}", this.Name);
         }
 
-        public FuzzyLogicEnum HasAgent { get; private set; }
+        public FuzzyLogicEnum HasAgentEnum { get; private set; }
 
-        public FuzzyLogicEnum ElectricallyConnectsAndDisconnects { get; private set; }
+        public FuzzyLogicEnum ElectricallyConnectsAndDisconnectsEnum { get; private set; }
 
-        public FuzzyLogicEnum HasVoltage { get; private set; }
+        public FuzzyLogicEnum HasVoltageEnum { get; private set; }
         public Nullable<DateTime> IRLCreatedAtUTC { get; set; }
         public static List<GNodeRole> AllGNRs { get; private set; }
 
-        public static Dictionary<GNodeRoleEnum, GNodeRole> GNRsByName { get; private set; }
+        public static Dictionary<GNodeRoleEnum, GNodeRole> GNRsByEnum { get; private set; }
+        public static Dictionary<String, GNodeRole> GNRsByName { get; private set; }
 
  
 
