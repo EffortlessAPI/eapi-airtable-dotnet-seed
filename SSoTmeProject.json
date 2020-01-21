@@ -77,7 +77,7 @@
       },
       "ProjectTranspilerId": "38069e8e-e468-468f-adb6-06cbfe211251",
       "Name": "SmqlToDotNetRabbitMQ",
-      "RelativePath": "/DotNet/GwPlatformLib/SassyMQ",
+      "RelativePath": "/DotNet/DotNetClassLibrary/SassyMQ",
       "CommandLine": "sassymq/smql-to-csharp-rabbitmq -i ../../../SassyMQ/Lexicon.smql -i ../../../ODXML/DataSchema.odxml -p smq-namespace=EffortlessApi.SassyMQ.Lib"
     },
     {
@@ -88,8 +88,8 @@
       },
       "ProjectTranspilerId": "05446ed8-0087-433d-a28b-948e30bbc8da",
       "Name": "OdxmlToCSharpPOCOs",
-      "RelativePath": "/DotNet/GwPlatformLib/DataClasses",
-      "CommandLine": "odxml42/odxml-to-csharp-pocos -i ../../../ODXML/DataSchema.odxml"
+      "RelativePath": "/DotNet/DotNetClassLibrary/DataClasses",
+      "CommandLine": "odxml42/odxml-to-csharp-pocos -i ../../../ODXML/DataSchema.odxml -p airtable=true"
     },
     {
       "MatchedTranspiler": {

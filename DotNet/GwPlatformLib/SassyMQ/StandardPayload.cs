@@ -46,6 +46,9 @@ namespace EffortlessApi.SassyMQ.Lib
         private bool ReplyRecieved { get; set; }
         
         public DateTime OnlineSince { get; set; }
+        public string EmailAddress { get; set; }
+        public string DemoPassword { get; set; }
+
         public void SetActor(SMQActorBase actor) 
         {
             this.__Actor = actor;

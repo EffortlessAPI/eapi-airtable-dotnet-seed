@@ -9,7 +9,7 @@ using System.ComponentModel;
 using GwPlatformDotNet.Lib.Enums;
 
 
-namespace GwPlatformDotNet.Lib.DataClasses
+namespace GwPlatform.Lib.DataClasses
 {
     [Serializable]
     public partial class GNodeRole

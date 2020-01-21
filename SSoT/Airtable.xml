@@ -3033,9 +3033,9 @@ The sum of the power (and current) withdrawn for the TerminalSSNode children of 
       <EffortlessAPILexiconSpeakerNIC>reczbQ4WrChlnoo3l</EffortlessAPILexiconSpeakerNIC>
       <EffortlessAPILexiconSpeakerNIC>recgDPFuaC0LCIuAW</EffortlessAPILexiconSpeakerNIC>
       <HasPowerLevel>true</HasPowerLevel>
+      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
       <Name>Ctn</Name>
       <CoreLexiconNIC>recpUFFrFe3e92x82</CoreLexiconNIC>
-      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recHJhmyHsUhpf7BP</GNodeRoleId>
@@ -3064,8 +3064,8 @@ The Atomicity of an AtomicTNode means that there are no AtomicTNode children in 
       <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
       <ColorHex>#d0f2d2</ColorHex>
       <Definition>Coordinates contracts for energy services. Typically this will be with an AtomicTNode or an AggregatedTNode.</Definition>
-      <Name>ContractCoordinator</Name>
       <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
+      <Name>ContractCoordinator</Name>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recIOvk9Z6ufqr0pV</GNodeRoleId>
@@ -3235,9 +3235,9 @@ In an entirely simulated world, we may choose to define the `real ElectricalQuan
       <EffortlessAPILexiconSpeakerNIC>recVSlK7cVn36s9CS</EffortlessAPILexiconSpeakerNIC>
       <EffortlessAPILexiconSpeakerNIC>recGPO4CP7FJXmq91</EffortlessAPILexiconSpeakerNIC>
       <EffortlessAPILexiconSpeakerNIC>reckALZS3SfDVpb98</EffortlessAPILexiconSpeakerNIC>
+      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
       <Name>NetworkModeler</Name>
       <CoreLexiconNIC>recGy6SR7us0cnjKh</CoreLexiconNIC>
-      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rechJpsEs37dyehKh</GNodeRoleId>
@@ -3268,8 +3268,8 @@ Combined with the ConductorTopology nodes, the InterconnectionComponent nodes le
       <EffortlessAPIListenerNIC>recCG5srZAZ42u8yZ</EffortlessAPIListenerNIC>
       <Definition>Components - and particular electrical components - as well as Component Attribute Classes and ComponentTypes</Definition>
       <EffortlessAPILexiconSpeakerNIC>recnT4N4GzZLmMMQZ</EffortlessAPILexiconSpeakerNIC>
-      <Name>ComponentRegistry</Name>
       <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
+      <Name>ComponentRegistry</Name>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recod0ttcJqF2WUsO</GNodeRoleId>

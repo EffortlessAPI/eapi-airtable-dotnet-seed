@@ -43,8 +43,8 @@ namespace GwPlatform.Lib.DataClasses
         [RemoteIsCollection]
         public String[] StrategiesNIC { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "ElectricallyConnectsAndDisconnects")]
-        public String ElectricallyConnectsAndDisconnects { get; set; }
+        // [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "ElectricallyConnectsAndDisconnects")]
+        // public String ElectricallyConnectsAndDisconnects { get; set; }
     
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasInterconnectionComponentDerived")]
         public Boolean HasInterconnectionComponentDerived { get; set; }
@@ -52,8 +52,8 @@ namespace GwPlatform.Lib.DataClasses
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasPowerLevel")]
         public Boolean HasPowerLevel { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasVoltage")]
-        public String HasVoltage { get; set; }
+        // [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasVoltage")]
+        // public String HasVoltage { get; set; }
     
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryRoleForTheseGNodesNIC")]                    
         [RemoteIsCollection]
@@ -63,8 +63,8 @@ namespace GwPlatform.Lib.DataClasses
         [RemoteIsCollection]
         public String[] CoreLexiconNIC { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasAgent")]
-        public String HasAgent { get; set; }
+        // [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasAgent")]
+        // public String HasAgent { get; set; }
     
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "ColorHex")]
         public String ColorHex { get; set; }

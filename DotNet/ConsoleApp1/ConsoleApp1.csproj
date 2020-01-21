@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DotNetClassLibrary\DotNetClassLibrary.csproj" />
+    <ProjectReference Include="..\GwPlatformLib\GwPlatformLib.csproj" />
   </ItemGroup>
 
 </Project>

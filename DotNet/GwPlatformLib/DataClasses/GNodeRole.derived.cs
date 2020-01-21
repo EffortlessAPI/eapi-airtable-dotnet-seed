@@ -6,7 +6,7 @@ using System.Linq;
 using CoreLibrary.Extensions;
 using GwPlatformDotNet.Lib.Enums;
 
-namespace GwPlatformDotNet.Lib.DataClasses
+namespace GwPlatform.Lib.DataClasses
 {                            
     public partial class GNodeRole
     {

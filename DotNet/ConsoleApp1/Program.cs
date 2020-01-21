@@ -1,4 +1,5 @@
 ﻿using EffortlessApi.SassyMQ.Lib;
+using GwPlatform.Lib.DataClasses;
 using Newtonsoft.Json;
 using System;
 using System.Threading;
@@ -10,7 +11,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var amqps = "amqps://smqPublic:smqPublic@effortlessapi-rmq.ssot.me/YOUR-PROJECT-URL";
+            var amqps = "amqps://smqPublic:smqPublic@effortlessapi-rmq.ssot.me/jmillar-gw-platform";
             var guest = new SMQGuest(amqps);
             var payload = guest.CreatePayload();
             payload.EmailAddress = "test@test.com";
@@ -22,9 +23,9 @@ namespace ConsoleApp1
                 admin.AccessToken = reply.AccessToken;
                 payload = admin.CreatePayload();
 
-                admin.GetTABLEXYZ(payload, (nsReply, nsBdea) =>
+                admin.GetGNodes(payload, (nsReply, nsBdea) =>
                 {
-                    Console.WriteLine(JsonConvert.SerializeObject(nsReply.TABLEXYZs, Formatting.Indented));
+                    Console.WriteLine(JsonConvert.SerializeObject(nsReply.GNodes, Formatting.Indented));
                     waiting = false;
                 }, (error, ebdea) =>
                 {
