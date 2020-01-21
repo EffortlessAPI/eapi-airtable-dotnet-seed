@@ -138,8 +138,8 @@
       <IrradianceMeasurementId>recGedu0Lq5ncde0w</IrradianceMeasurementId>
       <createdTime>2019-08-21T15:31:16Z</createdTime>
       <TimeStampUnixMS>1566401689830</TimeStampUnixMS>
-      <Location>Varennes</Location>
       <IrradianceHorizontalWPerM2>35</IrradianceHorizontalWPerM2>
+      <Location>Varennes</Location>
       <Name>Va-2019-08-21T15:34:49.830Z</Name>
       <LocationShorthand>Va</LocationShorthand>
       <HumanReadableTimeUTC>2019-08-21T15:34:49.83Z</HumanReadableTimeUTC>
@@ -161,35 +161,35 @@
     <ComponentType>
       <ComponentTypeId>rec9kG2cNDsGuE98W</ComponentTypeId>
       <createdTime>2019-12-11T22:06:24Z</createdTime>
-      <ExpectedStartupSeconds>300</ExpectedStartupSeconds>
       <Name>OtherGenerator</Name>
-      <ComponentCategoryName>Generator</ComponentCategoryName>
+      <ExpectedStartupSeconds>300</ExpectedStartupSeconds>
       <ExpectedShutdownSeconds>300</ExpectedShutdownSeconds>
+      <ComponentCategoryName>Generator</ComponentCategoryName>
     </ComponentType>
     <ComponentType>
       <ComponentTypeId>recBThSLbgXElOzLc</ComponentTypeId>
       <createdTime>2019-06-13T01:45:56Z</createdTime>
-      <ExpectedStartupSeconds>300</ExpectedStartupSeconds>
       <Name>Hydro</Name>
-      <ComponentCategoryName>Generator</ComponentCategoryName>
+      <ExpectedStartupSeconds>300</ExpectedStartupSeconds>
       <ExpectedShutdownSeconds>300</ExpectedShutdownSeconds>
+      <ComponentCategoryName>Generator</ComponentCategoryName>
     </ComponentType>
     <ComponentType>
       <ComponentTypeId>recJYvGxEGsErZ8dk</ComponentTypeId>
       <createdTime>2019-06-20T23:29:51Z</createdTime>
-      <ExpectedStartupSeconds>0.05</ExpectedStartupSeconds>
       <Name>StorageHeater</Name>
+      <ExpectedStartupSeconds>0.05</ExpectedStartupSeconds>
+      <ExpectedShutdownSeconds>0.05</ExpectedShutdownSeconds>
       <ComponentCategoryName>Load</ComponentCategoryName>
       <IsResistiveLoad>true</IsResistiveLoad>
-      <ExpectedShutdownSeconds>0.05</ExpectedShutdownSeconds>
     </ComponentType>
     <ComponentType>
       <ComponentTypeId>recKmW7zriBpZiQvc</ComponentTypeId>
       <createdTime>2019-06-13T01:45:44Z</createdTime>
-      <ExpectedStartupSeconds>45</ExpectedStartupSeconds>
       <Name>Diesel</Name>
-      <ComponentCategoryName>Generator</ComponentCategoryName>
+      <ExpectedStartupSeconds>45</ExpectedStartupSeconds>
       <ExpectedShutdownSeconds>15</ExpectedShutdownSeconds>
+      <ComponentCategoryName>Generator</ComponentCategoryName>
     </ComponentType>
     <ComponentType>
       <ComponentTypeId>recLBH2vqgzTDSRDs</ComponentTypeId>
@@ -200,10 +200,10 @@
     <ComponentType>
       <ComponentTypeId>recPplH5J0bEJ3Bbx</ComponentTypeId>
       <createdTime>2019-06-21T14:46:29Z</createdTime>
-      <ExpectedStartupSeconds>5</ExpectedStartupSeconds>
       <Name>VariableSpeedMotor</Name>
-      <ComponentCategoryName>Load</ComponentCategoryName>
+      <ExpectedStartupSeconds>5</ExpectedStartupSeconds>
       <ExpectedShutdownSeconds>5</ExpectedShutdownSeconds>
+      <ComponentCategoryName>Load</ComponentCategoryName>
     </ComponentType>
     <ComponentType>
       <ComponentTypeId>recSNDuaKSX1z1UOq</ComponentTypeId>
@@ -220,10 +220,10 @@
     <ComponentType>
       <ComponentTypeId>recUvCoWJGo0cG7dq</ComponentTypeId>
       <createdTime>2019-06-13T01:45:44Z</createdTime>
-      <ExpectedStartupSeconds>2.5</ExpectedStartupSeconds>
       <Name>Wind</Name>
-      <ComponentCategoryName>Generator</ComponentCategoryName>
+      <ExpectedStartupSeconds>2.5</ExpectedStartupSeconds>
       <ExpectedShutdownSeconds>2.5</ExpectedShutdownSeconds>
+      <ComponentCategoryName>Generator</ComponentCategoryName>
     </ComponentType>
     <ComponentType>
       <ComponentTypeId>recXSKyzwQSRpjfN9</ComponentTypeId>
@@ -234,18 +234,18 @@
     <ComponentType>
       <ComponentTypeId>recaaXYowikUADVVA</ComponentTypeId>
       <createdTime>2019-12-11T22:07:01Z</createdTime>
-      <ExpectedStartupSeconds>2</ExpectedStartupSeconds>
       <Name>OtherBattery</Name>
-      <ComponentCategoryName>Battery</ComponentCategoryName>
+      <ExpectedStartupSeconds>2</ExpectedStartupSeconds>
       <ExpectedShutdownSeconds>2</ExpectedShutdownSeconds>
+      <ComponentCategoryName>Battery</ComponentCategoryName>
     </ComponentType>
     <ComponentType>
       <ComponentTypeId>recf3J2FeMo0TvTXx</ComponentTypeId>
       <createdTime>2019-06-13T01:46:03Z</createdTime>
-      <ExpectedStartupSeconds>10000</ExpectedStartupSeconds>
       <Name>OtherLoad</Name>
-      <ComponentCategoryName>Load</ComponentCategoryName>
+      <ExpectedStartupSeconds>10000</ExpectedStartupSeconds>
       <ExpectedShutdownSeconds>10000</ExpectedShutdownSeconds>
+      <ComponentCategoryName>Load</ComponentCategoryName>
     </ComponentType>
     <ComponentType>
       <ComponentTypeId>recjQ2FadXGmWUC44</ComponentTypeId>
@@ -262,10 +262,10 @@
     <ComponentType>
       <ComponentTypeId>reczReWMnJ8s3bWnQ</ComponentTypeId>
       <createdTime>2019-06-13T01:45:44Z</createdTime>
-      <ExpectedStartupSeconds>7</ExpectedStartupSeconds>
       <Name>Solar</Name>
-      <ComponentCategoryName>Generator</ComponentCategoryName>
+      <ExpectedStartupSeconds>7</ExpectedStartupSeconds>
       <ExpectedShutdownSeconds>0</ExpectedShutdownSeconds>
+      <ComponentCategoryName>Generator</ComponentCategoryName>
     </ComponentType>
   </ComponentTypes>
   <SupervisorContainers>
@@ -309,11 +309,11 @@
     <MessageCategories>
       <MessageCategoriesId>rec0mooombOszscJy</MessageCategoriesId>
       <createdTime>2019-08-26T03:46:58Z</createdTime>
-      <ConversationCategory>SCADA</ConversationCategory>
       <FromRole>recHJhmyHsUhpf7BP</FromRole>
       <Message>AtomicTNodeEtqMeasurement</Message>
-      <MessageProtocols>recGlXB7l9DkTyWhM</MessageProtocols>
       <ToRole>recQEmZLyTIbXWrVd</ToRole>
+      <ConversationCategory>SCADA</ConversationCategory>
+      <MessageProtocols>recGlXB7l9DkTyWhM</MessageProtocols>
       <Name>AtomicTNode.AtomicTNodeEtqMeasurement.GNode</Name>
       <From>AtomicTNode</From>
       <To>GNode</To>
@@ -341,13 +341,13 @@
     <MessageCategories>
       <MessageCategoriesId>rec5x7Mqmm7KfqBNZ</MessageCategoriesId>
       <createdTime>2019-08-07T16:11:02Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>recRAOi9fvGITA4Q0</FromRole>
       <Message>TimeStep</Message>
+      <ToRole>recQEmZLyTIbXWrVd</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
       <MessageProtocols>rech8AXsJsPdSIpYU</MessageProtocols>
       <MessageProtocols>recERzVruyAkCDCTy</MessageProtocols>
       <MessageProtocols>recFEqdYWH5hQKqHU</MessageProtocols>
-      <ToRole>recQEmZLyTIbXWrVd</ToRole>
       <Name>TimeCoordinator.TimeStep.GNode</Name>
       <From>TimeCoordinator</From>
       <To>GNode</To>
@@ -355,9 +355,9 @@
     <MessageCategories>
       <MessageCategoriesId>rec7MMGmHT2DMiXzr</MessageCategoriesId>
       <createdTime>2019-08-07T15:50:12Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <Message>TaSetpointRequest</Message>
       <ToRole>recIqmLqTqvTyRncR</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
       <Name>.TaSetpointRequest.TerminalAsset</Name>
       <To>TerminalAsset</To>
     </MessageCategories>
@@ -382,28 +382,28 @@
     <MessageCategories>
       <MessageCategoriesId>recEysplQavaTSpAr</MessageCategoriesId>
       <createdTime>2019-08-25T23:58:20Z</createdTime>
-      <ConversationCategory>Maintenance</ConversationCategory>
       <Message>DoThis</Message>
       <ToRole>recHJhmyHsUhpf7BP</ToRole>
+      <ConversationCategory>Maintenance</ConversationCategory>
       <Name>.DoThis.AtomicTNode</Name>
       <To>AtomicTNode</To>
     </MessageCategories>
     <MessageCategories>
       <MessageCategoriesId>recFPxihszHzSGKQR</MessageCategoriesId>
       <createdTime>2019-08-13T16:43:16Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>recIqmLqTqvTyRncR</FromRole>
       <Message>TaConnectionStatusReport</Message>
+      <ConversationCategory>Simulation</ConversationCategory>
       <Name>TerminalAsset.TaConnectionStatusReport.</Name>
       <From>TerminalAsset</From>
     </MessageCategories>
     <MessageCategories>
       <MessageCategoriesId>recG8p9A6rhsxL9Dv</MessageCategoriesId>
       <createdTime>2019-08-26T03:47:50Z</createdTime>
-      <ConversationCategory>SCADA</ConversationCategory>
       <FromRole>recHJhmyHsUhpf7BP</FromRole>
       <Message>AtnSetpointRequest</Message>
       <ToRole>recIqmLqTqvTyRncR</ToRole>
+      <ConversationCategory>SCADA</ConversationCategory>
       <Name>AtomicTNode.AtnSetpointRequest.TerminalAsset</Name>
       <From>AtomicTNode</From>
       <To>TerminalAsset</To>
@@ -411,11 +411,11 @@
     <MessageCategories>
       <MessageCategoriesId>recGPO4CP7FJXmq91</MessageCategoriesId>
       <createdTime>2019-08-13T16:31:15Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>recgvGnsFTxPMSM8G</FromRole>
       <Message>NewTimeStepRequest</Message>
-      <MessageProtocols>recPZidfedAkiYZos</MessageProtocols>
       <ToRole>recRAOi9fvGITA4Q0</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
+      <MessageProtocols>recPZidfedAkiYZos</MessageProtocols>
       <Name>NetworkModeler.NewTimeStepRequest.TimeCoordinator</Name>
       <From>NetworkModeler</From>
       <To>TimeCoordinator</To>
@@ -423,18 +423,18 @@
     <MessageCategories>
       <MessageCategoriesId>recQ3oPcbrj7huB3J</MessageCategoriesId>
       <createdTime>2019-07-03T15:42:49Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <Message>CtnElectricalConnectionRequest</Message>
       <ToRole>rec6UPMjMnhPtnF7H</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
       <Name>.CtnElectricalConnectionRequest.Ctn</Name>
       <To>Ctn</To>
     </MessageCategories>
     <MessageCategories>
       <MessageCategoriesId>recTfgDR2PEOJNVXk</MessageCategoriesId>
       <createdTime>2019-07-03T15:42:49Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <Message>TaElectricalConnectionRequest</Message>
       <ToRole>recIqmLqTqvTyRncR</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
       <Name>.TaElectricalConnectionRequest.TerminalAsset</Name>
       <To>TerminalAsset</To>
     </MessageCategories>
@@ -449,11 +449,11 @@
     <MessageCategories>
       <MessageCategoriesId>recVSlK7cVn36s9CS</MessageCategoriesId>
       <createdTime>2019-08-13T16:27:42Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>recgvGnsFTxPMSM8G</FromRole>
       <Message>ElectricallyDisconnect</Message>
-      <MessageProtocols>recWuCQzxhfFeyAnD</MessageProtocols>
       <ToRole>recIqmLqTqvTyRncR</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
+      <MessageProtocols>recWuCQzxhfFeyAnD</MessageProtocols>
       <Name>NetworkModeler.ElectricallyDisconnect.TerminalAsset</Name>
       <From>NetworkModeler</From>
       <To>TerminalAsset</To>
@@ -471,8 +471,8 @@
     <MessageCategories>
       <MessageCategoriesId>recYkginYTXyT5IFC</MessageCategoriesId>
       <createdTime>2019-08-16T02:56:39Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <Message>WorldInstanceDesignRequest</Message>
+      <ConversationCategory>Simulation</ConversationCategory>
       <Name>.WorldInstanceDesignRequest.</Name>
     </MessageCategories>
     <MessageCategories>
@@ -488,11 +488,11 @@
     <MessageCategories>
       <MessageCategoriesId>recdWSUBFkT9t7M8B</MessageCategoriesId>
       <createdTime>2019-08-07T16:18:19Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>recIqmLqTqvTyRncR</FromRole>
       <Message>TimeStepEtqInput</Message>
-      <MessageProtocols>recXnK8ho3qyWYX21</MessageProtocols>
       <ToRole>recgvGnsFTxPMSM8G</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
+      <MessageProtocols>recXnK8ho3qyWYX21</MessageProtocols>
       <Name>TerminalAsset.TimeStepEtqInput.NetworkModeler</Name>
       <From>TerminalAsset</From>
       <To>NetworkModeler</To>
@@ -510,10 +510,10 @@
     <MessageCategories>
       <MessageCategoriesId>recfZctcYPodOzY3q</MessageCategoriesId>
       <createdTime>2019-08-26T03:44:45Z</createdTime>
-      <ConversationCategory>SCADA</ConversationCategory>
       <FromRole>recIqmLqTqvTyRncR</FromRole>
       <Message>EtqMeasurement</Message>
       <ToRole>recHJhmyHsUhpf7BP</ToRole>
+      <ConversationCategory>SCADA</ConversationCategory>
       <Name>TerminalAsset.EtqMeasurement.AtomicTNode</Name>
       <From>TerminalAsset</From>
       <To>AtomicTNode</To>
@@ -521,11 +521,11 @@
     <MessageCategories>
       <MessageCategoriesId>recfeXesSjJnD9Fkz</MessageCategoriesId>
       <createdTime>2019-08-13T16:27:02Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>recgvGnsFTxPMSM8G</FromRole>
       <Message>TimeStepEqEstimate</Message>
-      <MessageProtocols>recL9jFR0vcbMGFgn</MessageProtocols>
       <ToRole>rec6UPMjMnhPtnF7H</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
+      <MessageProtocols>recL9jFR0vcbMGFgn</MessageProtocols>
       <Name>NetworkModeler.TimeStepEqEstimate.Ctn</Name>
       <From>NetworkModeler</From>
       <To>Ctn</To>
@@ -533,9 +533,9 @@
     <MessageCategories>
       <MessageCategoriesId>recgDPFuaC0LCIuAW</MessageCategoriesId>
       <createdTime>2019-08-13T16:34:32Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>rec6UPMjMnhPtnF7H</FromRole>
       <Message>CtnConnectionStatusReport</Message>
+      <ConversationCategory>Simulation</ConversationCategory>
       <Name>Ctn.CtnConnectionStatusReport.</Name>
       <From>Ctn</From>
     </MessageCategories>
@@ -552,10 +552,10 @@
     <MessageCategories>
       <MessageCategoriesId>recjOaOJWrIZn4GMt</MessageCategoriesId>
       <createdTime>2019-08-26T04:31:39Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>recHJhmyHsUhpf7BP</FromRole>
       <Message>TaDoThis</Message>
       <ToRole>recIqmLqTqvTyRncR</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
       <Name>AtomicTNode.TaDoThis.TerminalAsset</Name>
       <From>AtomicTNode</From>
       <To>TerminalAsset</To>
@@ -563,11 +563,11 @@
     <MessageCategories>
       <MessageCategoriesId>reckALZS3SfDVpb98</MessageCategoriesId>
       <createdTime>2019-08-13T16:33:48Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>recgvGnsFTxPMSM8G</FromRole>
       <Message>ChangeOperatingMode</Message>
-      <MessageProtocols>recdPuxj0QzztLtmv</MessageProtocols>
       <ToRole>recIqmLqTqvTyRncR</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
+      <MessageProtocols>recdPuxj0QzztLtmv</MessageProtocols>
       <Name>NetworkModeler.ChangeOperatingMode.TerminalAsset</Name>
       <From>NetworkModeler</From>
       <To>TerminalAsset</To>
@@ -613,11 +613,11 @@
     <MessageCategories>
       <MessageCategoriesId>recoS5I3MirhGUtmr</MessageCategoriesId>
       <createdTime>2019-08-13T16:23:11Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>recgvGnsFTxPMSM8G</FromRole>
       <Message>TimeStepEtqEstimate</Message>
-      <MessageProtocols>recAzpcjrnODjaomA</MessageProtocols>
       <ToRole>recIqmLqTqvTyRncR</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
+      <MessageProtocols>recAzpcjrnODjaomA</MessageProtocols>
       <Name>NetworkModeler.TimeStepEtqEstimate.TerminalAsset</Name>
       <From>NetworkModeler</From>
       <To>TerminalAsset</To>
@@ -635,11 +635,11 @@
     <MessageCategories>
       <MessageCategoriesId>reczbQ4WrChlnoo3l</MessageCategoriesId>
       <createdTime>2019-08-13T16:22:22Z</createdTime>
-      <ConversationCategory>Simulation</ConversationCategory>
       <FromRole>rec6UPMjMnhPtnF7H</FromRole>
       <Message>TimeStepEqInput</Message>
-      <MessageProtocols>recKiJyxylzyd2Fop</MessageProtocols>
       <ToRole>recgvGnsFTxPMSM8G</ToRole>
+      <ConversationCategory>Simulation</ConversationCategory>
+      <MessageProtocols>recKiJyxylzyd2Fop</MessageProtocols>
       <Name>Ctn.TimeStepEqInput.NetworkModeler</Name>
       <From>Ctn</From>
       <To>NetworkModeler</To>
@@ -657,14 +657,14 @@
     <ParameterType>
       <ParameterTypeId>recGLbA5U899FdfWJ</ParameterTypeId>
       <createdTime>2019-12-04T16:44:27Z</createdTime>
-      <Description>Not rapidly changing</Description>
       <Name>RarelyChanging</Name>
+      <Description>Not rapidly changing</Description>
     </ParameterType>
     <ParameterType>
       <ParameterTypeId>reckXClq9bLMYv4vV</ParameterTypeId>
       <createdTime>2019-12-04T16:44:27Z</createdTime>
-      <Description>Be prepared for a change every TimeStep in simulations, or every second in reality.</Description>
       <Name>RapidlyChanging</Name>
+      <Description>Be prepared for a change every TimeStep in simulations, or every second in reality.</Description>
     </ParameterType>
   </ParameterTypes>
   <GNodeStrategies>
@@ -672,7 +672,6 @@
       <GNodeStrategyId>rec3Arz4M2hSsDj4q</GNodeStrategyId>
       <createdTime>2019-12-07T20:55:39Z</createdTime>
       <Alias>TA.Load.Beet.Rev1</Alias>
-      <ShortDescription>&lt;![CDATA[Has a setpoint which it ramps up &amp; down to at a standard symmetric ramp rate.]]&gt;</ShortDescription>
       <Description>Parameters:
 
    GNodeInstance
@@ -733,19 +732,19 @@ On receiving NetworkModeler.ElectricallyDisconnect.TerminalAsset:
 
 On receiving Admin.SetpointRequest.TerminalAsset:
   - It changes its PowerSetpointW</Description>
-      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Simple DC Adjustable Load Simulation (Rev 1)</DisplayName>
       <GNodeRole>recIqmLqTqvTyRncR</GNodeRole>
+      <DisplayName>Simple DC Adjustable Load Simulation (Rev 1)</DisplayName>
+      <ShortDescription>&lt;![CDATA[Has a setpoint which it ramps up &amp; down to at a standard symmetric ramp rate.]]&gt;</ShortDescription>
+      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>TerminalAsset</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>rec3EczddpCyPiwSf</GNodeStrategyId>
       <createdTime>2019-08-13T13:45:16Z</createdTime>
       <Alias>Microgrid.Beet.Rev1</Alias>
-      <ShortDescription>Can connect and disconnect via admin command, gets updates from DC hack Network Model</ShortDescription>
       <Description>Parameters used:
 CanIslandSafelyPowerBufferW, default 5000W
 
@@ -784,20 +783,20 @@ ON RECEIVING A  ConnectionRequest from admin:
  - If they match (i.e. PleaseConnect and IsConnected is true) it sends back a ConnectionStatusReport to admin saying its already in the requested state. Otherwise:
  - If the ConnectionRequest is PleaseConnect, sets IsConnected to true and sends back a ConnectionStatusReport to admin announcing.
    - if the ConnectionRequest is PleaseDisconnect, it checks if CanIslandSafely is true. If not, it sends back a ConnectionStatusReport with a note that it can't disconnect unless the abs(ActivePowerW) is less than CanIslandSafelyPowerBufferW. If it CanIslandSafely, then it sets IsConnected to false, ActivePowerW to 0 and sends a note about this in its ConnectionStatusReport.</Description>
-      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <ColorHEX>#f7e1e3</ColorHEX>
-      <DisplayName>Simple DC Top Microgrid CTN Simulation (Rev 1)</DisplayName>
       <GNodeRole>rec6UPMjMnhPtnF7H</GNodeRole>
+      <DisplayName>Simple DC Top Microgrid CTN Simulation (Rev 1)</DisplayName>
+      <ShortDescription>Can connect and disconnect via admin command, gets updates from DC hack Network Model</ShortDescription>
+      <ColorHEX>#f7e1e3</ColorHEX>
+      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>Ctn</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>rec4wBagVJAx7BMvI</GNodeStrategyId>
       <createdTime>2019-08-26T00:03:43Z</createdTime>
       <Alias>TA.SolarDial.Beet.Rev1</Alias>
-      <ShortDescription>Takes Irradiance data from a csv, interpolates, and has a startup mode where its inverter efficiency ramps up somewhat slowly. </ShortDescription>
       <Description>&lt;![CDATA[Parameters:
 
 ComponentAttributeClass:
@@ -894,47 +893,47 @@ On receiving NetworkModeler.ElectricallyDisconnect.TerminalAsset:
 
 On receiving Admin.SetpointRequest.TerminalAsset:
   - It changes its PowerSetpointW]]&gt;</Description>
-      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Simple DC Power SolarDial PV Simulation (Rev 1)</DisplayName>
       <GNodeRole>recIqmLqTqvTyRncR</GNodeRole>
+      <DisplayName>Simple DC Power SolarDial PV Simulation (Rev 1)</DisplayName>
+      <ShortDescription>Takes Irradiance data from a csv, interpolates, and has a startup mode where its inverter efficiency ramps up somewhat slowly. </ShortDescription>
+      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>TerminalAsset</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recA4LEYM8WwhaMNQ</GNodeStrategyId>
       <createdTime>2019-08-24T16:06:12Z</createdTime>
       <Alias>NM.Kickoff.Rev1</Alias>
-      <ShortDescription>The network modeler as it ran with EJs first demo</ShortDescription>
       <Description>ADD</Description>
+      <GNodeRole>recgvGnsFTxPMSM8G</GNodeRole>
+      <DisplayName>First Pass Sketch of Network Modeler by EJ</DisplayName>
+      <ShortDescription>The network modeler as it ran with EJs first demo</ShortDescription>
       <LifeCycleStateDerived>Deprecated</LifeCycleStateDerived>
       <ReplacedByStrategyId>NetworkModeler.Beet.Rev2</ReplacedByStrategyId>
-      <DotnetSupervisorLifeCycleStateName>Deprecated</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>First Pass Sketch of Network Modeler by EJ</DisplayName>
-      <GNodeRole>recgvGnsFTxPMSM8G</GNodeRole>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Deprecated</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>NetworkModeler</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recFJ78S2yTf1Cbst</GNodeStrategyId>
       <createdTime>2019-07-25T18:48:46Z</createdTime>
       <Alias>WC.MVP.v0.1</Alias>
+      <GNodeRole>recZp9Gm4Ows71NSb</GNodeRole>
+      <DisplayName>World Coordinator for Non-Distributed First Simulation</DisplayName>
       <ShortDescription>World Coordinator for the first dotnet simulation. Did not have a working method of allocating supervisory capabilities to code running outside of its memory space.</ShortDescription>
       <LifeCycleStateDerived>Available</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>World Coordinator for Non-Distributed First Simulation</DisplayName>
-      <GNodeRole>recZp9Gm4Ows71NSb</GNodeRole>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>WorldCoordinator</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recOhHQipyJJJUxub</GNodeStrategyId>
       <createdTime>2019-08-13T13:24:23Z</createdTime>
       <Alias>NetworkModeler.Beet.Rev1</Alias>
-      <ShortDescription>ADD</ShortDescription>
       <Description>The network modeler assumes the network is DC instead of AC. The only electrical quantities that it pays attention to are IsConnected and ActivePowerW.  
 
 It listens to:
@@ -970,34 +969,34 @@ If slack bus is the diesel conductor topology node:
   - the ActivePowerW estimate for the diesel is set to (-1)*Sum(ActivePowerW estimate for terminal assets OTHER than diesel ta)
 
 It ends the cycle by sending out ETQEstimates to all the terminal assets as well as an EQEstimate to the fish farm Conductor Topology Node, and then sending out a request for a new TimeSlice to world.</Description>
+      <GNodeRole>recgvGnsFTxPMSM8G</GNodeRole>
+      <DisplayName>Simple DC Network Modeler (Rev 1)</DisplayName>
+      <ShortDescription>ADD</ShortDescription>
+      <ColorHEX>#bd0b1a</ColorHEX>
       <LifeCycleStateDerived>Deprecated</LifeCycleStateDerived>
       <ReplacedByStrategyId>NetworkModeler.Beet.Rev2</ReplacedByStrategyId>
-      <DotnetSupervisorLifeCycleStateName>Deprecated</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <ColorHEX>#bd0b1a</ColorHEX>
-      <DisplayName>Simple DC Network Modeler (Rev 1)</DisplayName>
-      <GNodeRole>recgvGnsFTxPMSM8G</GNodeRole>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Deprecated</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>NetworkModeler</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recPXH6xiPkK3JanJ</GNodeStrategyId>
       <createdTime>2019-12-06T22:39:59Z</createdTime>
       <Alias>WC.Dotnet.v0.1</Alias>
+      <GNodeRole>recZp9Gm4Ows71NSb</GNodeRole>
+      <DisplayName>Dotnet World Coordinator v1.0</DisplayName>
       <ShortDescription>A dotnet</ShortDescription>
       <LifeCycleStateDerived>Pending</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>Pending</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Dotnet World Coordinator v1.0</DisplayName>
-      <GNodeRole>recZp9Gm4Ows71NSb</GNodeRole>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Pending</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>WorldCoordinator</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recRj8AkS5XoyLiiz</GNodeStrategyId>
       <createdTime>2019-08-13T14:55:08Z</createdTime>
       <Alias>Solar.Beet.Rev1</Alias>
-      <ShortDescription>A first solar strategy designed for EJs First Demo, using asynchronous irradiance data. Deprecated as of Sept 16 2019. </ShortDescription>
       <Description>Parameters used:
 GNode.ComponentAttributeClass.RatedPowerInjectedVA
 GNode.ComponentAttributeClass.SolarFarmConversionFactorM2
@@ -1065,33 +1064,33 @@ Update internal variable WorldTimeUTC:
 	  SolarFarmConversationFactorM2 = RatedPowerInjectedVA/SolarFarmMaxIrradianceWPerM2 
 
 Sends  ActivePowerW and IsConnected (along with appropriate node TimeSlice info) to the Network Modeler in a TimeSlice ETQ Input message</Description>
+      <GNodeRole>recIqmLqTqvTyRncR</GNodeRole>
+      <DisplayName>Simple DC Power Flow PV Simulation (Rev 1)</DisplayName>
+      <ShortDescription>A first solar strategy designed for EJs First Demo, using asynchronous irradiance data. Deprecated as of Sept 16 2019. </ShortDescription>
+      <ColorHEX>#ed3241</ColorHEX>
       <LifeCycleStateDerived>Deprecated</LifeCycleStateDerived>
       <ReplacedByStrategyId>TA.SolarDial.Beet.Rev1</ReplacedByStrategyId>
-      <DotnetSupervisorLifeCycleStateName>Deprecated</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <ColorHEX>#ed3241</ColorHEX>
-      <DisplayName>Simple DC Power Flow PV Simulation (Rev 1)</DisplayName>
-      <GNodeRole>recIqmLqTqvTyRncR</GNodeRole>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Deprecated</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>TerminalAsset</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recSffOrlJYsi6eTe</GNodeStrategyId>
       <createdTime>2019-12-07T00:28:11Z</createdTime>
       <Alias>TC.Global.v0.1</Alias>
-      <LifeCycleStateDerived>GettingFixed</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>GettingFixed</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Global Time Coordinator (v0.1)</DisplayName>
       <GNodeRole>recRAOi9fvGITA4Q0</GNodeRole>
+      <DisplayName>Global Time Coordinator (v0.1)</DisplayName>
+      <LifeCycleStateDerived>GettingFixed</LifeCycleStateDerived>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>GettingFixed</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>TimeCoordinator</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recTNnQLKuSVCpPwo</GNodeStrategyId>
       <createdTime>2019-08-26T21:07:56Z</createdTime>
       <Alias>NetworkModeler.Beet.Rev2</Alias>
-      <ShortDescription>ADD</ShortDescription>
       <Description>The network modeler assumes the network is DC instead of AC. The only electrical quantities that it pays attention to are IsConnected and ActivePowerW.  
 
 It listens to:
@@ -1134,25 +1133,26 @@ If slack bus is the diesel conductor topology node:
   - the ActivePowerW estimate for the diesel is set to (-1)*Sum(ActivePowerW estimate for terminal assets OTHER than diesel ta)
 
 It ends the cycle by sending out ETQEstimates to all the teminal assets as well as an EQEstimate to the fish farm Conductor Topology Node, and then sending out a request for a new TimeSlice to world.</Description>
-      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <ColorHEX>#bd0b1a</ColorHEX>
-      <DisplayName>Simple DC Network Modeler (Rev 2)</DisplayName>
       <GNodeRole>recgvGnsFTxPMSM8G</GNodeRole>
+      <DisplayName>Simple DC Network Modeler (Rev 2)</DisplayName>
+      <ShortDescription>ADD</ShortDescription>
+      <ColorHEX>#bd0b1a</ColorHEX>
+      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>NetworkModeler</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recU1MKPY17bumD9t</GNodeStrategyId>
       <createdTime>2019-11-20T17:05:55Z</createdTime>
       <Alias>Super.Oct2py.v0.1</Alias>
-      <LifeCycleStateDerived>Pending</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>DoesNotExist</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>Pending</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Python/Octave Supervisor (gw-platform-oct2py repo)</DisplayName>
       <GNodeRole>rec5fLkCIJJYyyQC1</GNodeRole>
+      <DisplayName>Python/Octave Supervisor (gw-platform-oct2py repo)</DisplayName>
+      <LifeCycleStateDerived>Pending</LifeCycleStateDerived>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>Pending</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>DoesNotExist</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>Supervisor</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
@@ -1163,34 +1163,33 @@ It ends the cycle by sending out ETQEstimates to all the teminal assets as well 
 
 "MPAlias": "sim.admin.solarfollowinghack.ta.rev1",
 "GNodeAlias": "sw1.ne.bf1.ff.tank1.bigpump.ta"</Description>
-      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Simple DC "solar following" Load Simulation</DisplayName>
       <GNodeRole>recIqmLqTqvTyRncR</GNodeRole>
+      <DisplayName>Simple DC "solar following" Load Simulation</DisplayName>
+      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>TerminalAsset</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recX7hjBmW6JV5N1t</GNodeStrategyId>
       <createdTime>2019-08-23T13:26:39Z</createdTime>
       <Alias>Solar.Beet.Rev2</Alias>
-      <ShortDescription>A first solar strategy designed for EJs First Demo, using asynchronous irradiance data. The irradiance value at a time slice is interpolated from the two closest values from the input data.</ShortDescription>
       <Description>ADD</Description>
+      <GNodeRole>recIqmLqTqvTyRncR</GNodeRole>
+      <DisplayName>Simple DC Power Flow PV Simulation (Rev 2)</DisplayName>
+      <ShortDescription>A first solar strategy designed for EJs First Demo, using asynchronous irradiance data. The irradiance value at a time slice is interpolated from the two closest values from the input data.</ShortDescription>
       <LifeCycleStateDerived>Deprecated</LifeCycleStateDerived>
       <ReplacedByStrategyId>TA.SolarDial.Beet.Rev1</ReplacedByStrategyId>
-      <DotnetSupervisorLifeCycleStateName>Deprecated</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Simple DC Power Flow PV Simulation (Rev 2)</DisplayName>
-      <GNodeRole>recIqmLqTqvTyRncR</GNodeRole>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Deprecated</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>TerminalAsset</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>reccOpjAZcdo2Twg0</GNodeStrategyId>
       <createdTime>2019-08-13T16:19:30Z</createdTime>
       <Alias>Diesel.Beet.Rev1</Alias>
-      <ShortDescription>First Diesel Strategy for the Sept 2019 NAF Demo. Uses the SimpleDC PhysicsParadigm (i.e. the physics model is that the only quantity to track is ActivePower, and it is not alternating.). ADD MORE.</ShortDescription>
       <Description>&lt;![CDATA[Parameters used:
 ComponentAttributeClass.MaxRampRateUpFractionPerSecond . (default 0.04)
 ComponentAttributeClass.MaxRampRateDownFractionPerSecond (default 0.08)
@@ -1275,44 +1274,44 @@ IN ISLANDED MODE:
 it only sends IsElectricallyConnected (Boolean) and OperatingMode (Enum) in its ETQInput.  
 
 It attempts to balance the power on the grid. This means it attempts to set its ActivePowerW to the  the ETQEstimate - with the caveat that a) it has to respect its upward and downward ramp limits]]&gt;</Description>
-      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <ColorHEX>#631219</ColorHEX>
-      <DisplayName>Simple DC Diesel Simulation (Rev 1)</DisplayName>
       <GNodeRole>recIqmLqTqvTyRncR</GNodeRole>
+      <DisplayName>Simple DC Diesel Simulation (Rev 1)</DisplayName>
+      <ShortDescription>First Diesel Strategy for the Sept 2019 NAF Demo. Uses the SimpleDC PhysicsParadigm (i.e. the physics model is that the only quantity to track is ActivePower, and it is not alternating.). ADD MORE.</ShortDescription>
+      <ColorHEX>#631219</ColorHEX>
+      <LifeCycleStateDerived>Available</LifeCycleStateDerived>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Available</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>TerminalAsset</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recfWXer5QST8BMsU</GNodeStrategyId>
       <createdTime>2019-12-07T20:10:34Z</createdTime>
       <Alias>WC.Scala.v0.1</Alias>
-      <DotnetSupervisorLifeCycleStateName>DoesNotExist</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Scala World Coordinator v0.1</DisplayName>
       <GNodeRole>recZp9Gm4Ows71NSb</GNodeRole>
+      <DisplayName>Scala World Coordinator v0.1</DisplayName>
       <ScalaSupervisorLifeCycleStateName>Pending</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>DoesNotExist</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>WorldCoordinator</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>reckrrRE7GDFwIoT6</GNodeStrategyId>
       <createdTime>2019-12-06T22:37:49Z</createdTime>
       <Alias>WC.Oct2py.v0.1</Alias>
+      <GNodeRole>recZp9Gm4Ows71NSb</GNodeRole>
+      <DisplayName>Python World Coordinator v0.1</DisplayName>
       <ShortDescription>First World Coordinator that has the ability to communicate with other Supervisors.</ShortDescription>
       <LifeCycleStateDerived>Pending</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>DoesNotExist</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>Pending</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Python World Coordinator v0.1</DisplayName>
-      <GNodeRole>recZp9Gm4Ows71NSb</GNodeRole>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>Pending</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>DoesNotExist</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>WorldCoordinator</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>reclNmVyDgRcIRKs0</GNodeStrategyId>
       <createdTime>2019-08-13T13:51:17Z</createdTime>
       <Alias>Flat50.Beet.Rev1</Alias>
-      <ShortDescription>Runs at 50% of Rated Power  (RatedPowerWithdrawnVA of its GNode,) when connected. Responsible for its own power. No ramping up or down. Does not listen to setpoint commands.  The GNode.ComponentCategoryName must be Load.</ShortDescription>
       <Description>Parameters used:
 GNode.RatedPowerInjectedW
 GNode.RatedPowerWithdrawnW
@@ -1348,53 +1347,54 @@ WHEN IT GETS A NEW TIMESLICE
   it sends an TimeSlice ETQ Input message to the Network Modeler with ActivePowerW and IsConnected
 
 </Description>
+      <GNodeRole>recIqmLqTqvTyRncR</GNodeRole>
+      <DisplayName>Simple DC 50 % Load Simulation (Rev 1)</DisplayName>
+      <ShortDescription>Runs at 50% of Rated Power  (RatedPowerWithdrawnVA of its GNode,) when connected. Responsible for its own power. No ramping up or down. Does not listen to setpoint commands.  The GNode.ComponentCategoryName must be Load.</ShortDescription>
+      <ColorHEX>#ff081c</ColorHEX>
       <LifeCycleStateDerived>Deprecated</LifeCycleStateDerived>
       <ReplacedByStrategyId>TA.Load.Beet.Rev1</ReplacedByStrategyId>
-      <DotnetSupervisorLifeCycleStateName>Deprecated</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <ColorHEX>#ff081c</ColorHEX>
-      <DisplayName>Simple DC 50 % Load Simulation (Rev 1)</DisplayName>
-      <GNodeRole>recIqmLqTqvTyRncR</GNodeRole>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Deprecated</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>TerminalAsset</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recm34ju9cLZltLWX</GNodeStrategyId>
       <createdTime>2019-11-20T17:06:38Z</createdTime>
       <Alias>Super.Dotnet.v0.1</Alias>
-      <LifeCycleStateDerived>Pending</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>Pending</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Dotnet Supervisor (gw-platform-dotnet repo)</DisplayName>
       <GNodeRole>rec5fLkCIJJYyyQC1</GNodeRole>
+      <DisplayName>Dotnet Supervisor (gw-platform-dotnet repo)</DisplayName>
+      <LifeCycleStateDerived>Pending</LifeCycleStateDerived>
       <ScalaSupervisorLifeCycleStateName>DoesNotExist</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>Pending</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>Supervisor</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recp8qW8l2LjxQmiA</GNodeStrategyId>
       <createdTime>2019-07-12T15:37:02Z</createdTime>
       <Alias>NM.DynPhasor.v0.1</Alias>
-      <ShortDescription>ADD</ShortDescription>
       <Description>A Network Modeler implementing the GWDynamicPhasor physics paradigm. This involves parsing the original octave code provided by Chris. ADD MORE.</Description>
-      <LifeCycleStateDerived>Pending</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>DoesNotExist</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>Pending</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Dynamic Phasor Network Modeler (v0.1)</DisplayName>
       <GNodeRole>recgvGnsFTxPMSM8G</GNodeRole>
+      <DisplayName>Dynamic Phasor Network Modeler (v0.1)</DisplayName>
+      <ShortDescription>ADD</ShortDescription>
+      <LifeCycleStateDerived>Pending</LifeCycleStateDerived>
       <ScalaSupervisorLifeCycleStateName>Pending</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>Pending</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>DoesNotExist</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>NetworkModeler</GNodeRoleName>
     </GNodeStrategy>
     <GNodeStrategy>
       <GNodeStrategyId>recwTIvZoj3Q8HW2B</GNodeStrategyId>
       <createdTime>2019-12-06T15:30:07Z</createdTime>
       <Alias>Super.Scala.v0.1</Alias>
+      <GNodeRole>rec5fLkCIJJYyyQC1</GNodeRole>
+      <DisplayName>Scala Supervisor (gw-platform-scala)</DisplayName>
       <ShortDescription>MVP Supervisory strategy meant for a GNode with Role Supervisor - let's use the example `sw1.scalasuper.` This strategy receives a message with a list  of GNode Instances (each GNode Instance - or GNI - specifies a GNode and a strategy) along with relevant initialization data. For each of the GNode Instances that HaveAgents and where `sw1.scalasuper` is listed as their Supervisor, it starts an agent implementing the strategy for the GNI on behalf of the GNode of the GNI.  It also provides that strategy with its relevant initialization data. </ShortDescription>
       <LifeCycleStateDerived>Pending</LifeCycleStateDerived>
-      <DotnetSupervisorLifeCycleStateName>DoesNotExist</DotnetSupervisorLifeCycleStateName>
-      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
-      <DisplayName>Scala Supervisor (gw-platform-scala)</DisplayName>
-      <GNodeRole>rec5fLkCIJJYyyQC1</GNodeRole>
       <ScalaSupervisorLifeCycleStateName>Pending</ScalaSupervisorLifeCycleStateName>
+      <Oct2pySupervisorLifeCycleStateName>DoesNotExist</Oct2pySupervisorLifeCycleStateName>
+      <DotnetSupervisorLifeCycleStateName>DoesNotExist</DotnetSupervisorLifeCycleStateName>
       <GNodeRoleName>Supervisor</GNodeRoleName>
     </GNodeStrategy>
   </GNodeStrategies>
@@ -1402,23 +1402,23 @@ WHEN IT GETS A NEW TIMESLICE
     <GlobalAxioms>
       <GlobalAxiomsId>rec3uhBQ4GptOwtu9</GlobalAxiomsId>
       <createdTime>2020-01-16T18:51:22Z</createdTime>
+      <Name>FromGniIsLive</Name>
       <Description>Check with the World Coordinator that the FromGNodeInstance.GNodeInstanceState is Live </Description>
       <MessageProtocolFields3>recE4JYC9M2UeDNSK</MessageProtocolFields3>
-      <Name>FromGniIsLive</Name>
     </GlobalAxioms>
     <GlobalAxioms>
       <GlobalAxiomsId>recTATHrnLcF2FKMi</GlobalAxiomsId>
       <createdTime>2020-01-16T18:51:22Z</createdTime>
-      <MessageProtocolFields2>recE4JYC9M2UeDNSK</MessageProtocolFields2>
-      <Description>Check with the World Coordinator that the FromGNodeInstance - as specified by its GNodeInstanceId - satisfies FromGNodeInstance.GrcGNode.GNode.Alias = FromGNodeAlias. If it does not, then update the GNodeInstance.GrcGNode.GNode's Alias</Description>
       <Name>FromGniMatchesGNodeAlias</Name>
+      <Description>Check with the World Coordinator that the FromGNodeInstance - as specified by its GNodeInstanceId - satisfies FromGNodeInstance.GrcGNode.GNode.Alias = FromGNodeAlias. If it does not, then update the GNodeInstance.GrcGNode.GNode's Alias</Description>
+      <MessageProtocolFields2>recE4JYC9M2UeDNSK</MessageProtocolFields2>
     </GlobalAxioms>
     <GlobalAxioms>
       <GlobalAxiomsId>rectnxzXZpJrX1Tb7</GlobalAxiomsId>
       <createdTime>2020-01-16T18:51:22Z</createdTime>
+      <Name>FromGniIdentifiesWorldInstanceGlobal</Name>
       <Description>Check with World Coordinator Registry  that FromGNodeInstance.SupervisorContainer.WorldInstance.Name equals Message.WorldInstanceName  (where FromGNodeInstance is the GNodeInstance identified by FromGNodeInstanceId)
 </Description>
-      <Name>FromGniIdentifiesWorldInstanceGlobal</Name>
       <MessageProtocolFields>recE4JYC9M2UeDNSK</MessageProtocolFields>
     </GlobalAxioms>
   </GlobalAxiomss>
@@ -1595,8 +1595,8 @@ A TerminalSSNodes has Electrical Quantities (current, voltage, etc.).
     <CoreLexiconTerm>
       <CoreLexiconTermId>recFugfy4e3wFTAfU</CoreLexiconTermId>
       <createdTime>2019-12-11T16:00:28Z</createdTime>
-      <AdHocDefinition>The unique minimal transitive irreflexive order on GNodes that is inherited by the Parent function. I.e. A &lt; B iff A is a descendant of of B</AdHocDefinition>
       <Shorthand>A &lt;_G B</Shorthand>
+      <AdHocDefinition>The unique minimal transitive irreflexive order on GNodes that is inherited by the Parent function. I.e. A &lt; B iff A is a descendant of of B</AdHocDefinition>
       <AdhocName>GNodeLessThan(A,B)</AdhocName>
       <Name>GNodeLessThan(A,B)</Name>
       <SourceTable>CoreLexiconTerms</SourceTable>
@@ -1630,8 +1630,8 @@ In an entirely simulated world, we may choose to define the `real ElectricalQuan
     <CoreLexiconTerm>
       <CoreLexiconTermId>recJijbhL2A8Swc22</CoreLexiconTermId>
       <createdTime>2019-12-11T16:00:28Z</createdTime>
-      <FromPhysicsParadigms>reccaaMvJPziSr6An</FromPhysicsParadigms>
       <FromGNodeRoles>recZp9Gm4Ows71NSb</FromGNodeRoles>
+      <FromPhysicsParadigms>reccaaMvJPziSr6An</FromPhysicsParadigms>
       <Name>WorldCoordinator</Name>
       <SourceTable>GNodeRoles</SourceTable>
       <Defn>&lt;![CDATA[A World Coordinator is associated to a unique world instance, and has ultimate responsibility for the appropriate functioning of its World Instance.  It maintains a user interface allowing Admin to make various changes - for example changing a terminal asset strategy so it runs in scala instead of python, or adding a GridRunClass that adds a whole new set of instantiated GNodes.  This starts with spinning up a container for each of its Supervisors, providing these Supervisors with appropriate creation &amp; change information regarding the World instantiated GNodes, their Components, and their Strategies. Critically the World Coordinator also allocates responsibility for GNodeInstances - its Supervisors create a disjoint cover of all GNodeInstances that HaveAgents. The WorldCoordinator can also be a Supervisor. The World Coordinator is created and initialized by the WorldInstanceRegistry (WIR). Note that the WIR also creates a world-specific message broker (i.e. the only messages running on this broker are between agents within this specific World Instance) for the WorldCoordinator.]]&gt;</Defn>
@@ -1745,8 +1745,8 @@ In an entirely simulated world, we may choose to define the `real ElectricalQuan
     <CoreLexiconTerm>
       <CoreLexiconTermId>recSyNlNLsqaknaCK</CoreLexiconTermId>
       <createdTime>2019-12-11T16:00:28Z</createdTime>
-      <AdHocDefinition>The name we give to physical data and derived physical data pertaining to electrical measurements. The foundational measured data depends on the PhysicsParadigm. For the SimpleDC PhysicsParadigm there is only one  Eq, which is ActivePowerW. The distinction between an ElectricalQuantity and an ElectricalTerminalQuantity is that Terminal refers to a measurement at a TerminalAsset pertaining to the electricity flowing to or from the network and ground through that TerminalAsset.</AdHocDefinition>
       <Shorthand>Eq</Shorthand>
+      <AdHocDefinition>The name we give to physical data and derived physical data pertaining to electrical measurements. The foundational measured data depends on the PhysicsParadigm. For the SimpleDC PhysicsParadigm there is only one  Eq, which is ActivePowerW. The distinction between an ElectricalQuantity and an ElectricalTerminalQuantity is that Terminal refers to a measurement at a TerminalAsset pertaining to the electricity flowing to or from the network and ground through that TerminalAsset.</AdHocDefinition>
       <AdhocName>ElectricalQuantity</AdhocName>
       <Name>ElectricalQuantity</Name>
       <SourceTable>CoreLexiconTerms</SourceTable>
@@ -1798,10 +1798,10 @@ The TerminalAsset is also an InterconnectionComponent, where the FromNode is eit
     <CoreLexiconTerm>
       <CoreLexiconTermId>recUlPcaiaicXZeXd</CoreLexiconTermId>
       <createdTime>2019-12-11T16:00:28Z</createdTime>
-      <AdHocDefinition>Reactive power is the imaginary (or complex) power in a capacitive or inductive load. Reactive power represents an energy exchange between the power source and the reactive loads where no net power is gained or lost. The net average reactive power is zero. Reactive power is stored in and discharged by inductive motors, transformers, solenoids and capacitors.</AdHocDefinition>
       <Shorthand>Q</Shorthand>
-      <AdhocName>ReactivePower</AdhocName>
       <FromElectricalQuantities>recryXWvLzTBT5iwO</FromElectricalQuantities>
+      <AdHocDefinition>Reactive power is the imaginary (or complex) power in a capacitive or inductive load. Reactive power represents an energy exchange between the power source and the reactive loads where no net power is gained or lost. The net average reactive power is zero. Reactive power is stored in and discharged by inductive motors, transformers, solenoids and capacitors.</AdHocDefinition>
+      <AdhocName>ReactivePower</AdhocName>
       <Name>ReactivePower</Name>
       <SourceTable>CoreLexiconTerms</SourceTable>
       <Defn>Reactive power is the imaginary (or complex) power in a capacitive or inductive load. Reactive power represents an energy exchange between the power source and the reactive loads where no net power is gained or lost. The net average reactive power is zero. Reactive power is stored in and discharged by inductive motors, transformers, solenoids and capacitors.</Defn>
@@ -1819,8 +1819,8 @@ The TerminalAsset is also an InterconnectionComponent, where the FromNode is eit
     <CoreLexiconTerm>
       <CoreLexiconTermId>recVcZkQyuGy4r08t</CoreLexiconTermId>
       <createdTime>2019-12-11T16:00:28Z</createdTime>
-      <AdHocDefinition>The name we give to physical data and derived physical data pertaining to TERMINAL electrical measurements. The foundational measured data depends on the PhysicsParadigm. For the SimpleDC PhysicsParadigm there is only one  Eq, which is ActivePowerW. The distinction between an ElectricalQuantity and an ElectricalTerminalQuantity is that Terminal refers to a measurement at a TerminalAsset pertaining to the electricity flowing to or from the network and ground through that TerminalAsset.</AdHocDefinition>
       <Shorthand>Etq</Shorthand>
+      <AdHocDefinition>The name we give to physical data and derived physical data pertaining to TERMINAL electrical measurements. The foundational measured data depends on the PhysicsParadigm. For the SimpleDC PhysicsParadigm there is only one  Eq, which is ActivePowerW. The distinction between an ElectricalQuantity and an ElectricalTerminalQuantity is that Terminal refers to a measurement at a TerminalAsset pertaining to the electricity flowing to or from the network and ground through that TerminalAsset.</AdHocDefinition>
       <AdhocName>ElectricalTerminalQuantity</AdhocName>
       <Name>ElectricalTerminalQuantity</Name>
       <SourceTable>CoreLexiconTerms</SourceTable>
@@ -1896,8 +1896,8 @@ All GNodes have a unique identifier which is immutable, and a GNodeAlias which c
     <CoreLexiconTerm>
       <CoreLexiconTermId>recZnWqRedEdklSWG</CoreLexiconTermId>
       <createdTime>2019-12-11T16:00:28Z</createdTime>
-      <AdHocDefinition>A synonym for ActivePower</AdHocDefinition>
       <Shorthand>P</Shorthand>
+      <AdHocDefinition>A synonym for ActivePower</AdHocDefinition>
       <AdhocName>RealPower</AdhocName>
       <Name>RealPower</Name>
       <SourceTable>CoreLexiconTerms</SourceTable>
@@ -1963,9 +1963,9 @@ energy contracts.</PhysicsParadigmDefn>
     <CoreLexiconTerm>
       <CoreLexiconTermId>rechGZhzst91UWWv6</CoreLexiconTermId>
       <createdTime>2019-12-11T16:00:28Z</createdTime>
+      <Shorthand>Parent(A) = B</Shorthand>
       <AdHocDefinition>For all GNodes, either Parent(GNode) is null (which means that GNode defines a disconnected tree in the GNode structure) or another GNode. Multiple GNodes can share the same Parent, which is what gives the tree structure.
 </AdHocDefinition>
-      <Shorthand>Parent(A) = B</Shorthand>
       <AdhocName>GNode Parent</AdhocName>
       <Name>GNode Parent</Name>
       <SourceTable>CoreLexiconTerms</SourceTable>
@@ -2294,44 +2294,44 @@ This term is often used, somewhat loosely, in Power System Engineering to descri
       <TaOperatingModeSimpleDcId>rech0NnbkIXhRwudV</TaOperatingModeSimpleDcId>
       <createdTime>2019-12-12T17:02:36Z</createdTime>
       <Name>GridConnected</Name>
-      <CoreLexiconTerms>recPxqzK5Ysu92Tyh</CoreLexiconTerms>
       <Definition>The DieselOperatingMode where the Diesel follows SetpointW with its ActivePowerW, where SetpointW is provided by the PlantOperatorInterface. This is the OperatingMode that you would expect the diesel to be in when the microgrid is ElectricallyConnected to the larger grid.
 </Definition>
+      <CoreLexiconTerms>recPxqzK5Ysu92Tyh</CoreLexiconTerms>
     </TaOperatingModeSimpleDc>
     <TaOperatingModeSimpleDc>
       <TaOperatingModeSimpleDcId>rectZ9BCLwCU1gflf</TaOperatingModeSimpleDcId>
       <createdTime>2019-12-12T17:02:36Z</createdTime>
       <Name>Islanded</Name>
-      <CoreLexiconTerms>recygwMinG3bN8Gl1</CoreLexiconTerms>
       <Definition>A DieselOperatingMode (in the simpleDC physics paradigm) where the Diesel is responsible for balancing the sum of the ActivePowerW of all the other power sources and sinks in its microgrid. Note that this operating mode implicitly assumes the diesel terminal asset is able to tell what microgrid it belongs to. This is done with the crude mechanism of assigning a network modeler to the diesel generator, and allowing that gnode to tell the diesel to switch into Islanded mode.  This assignment mechanism occurs via the associated GridRunClass.
  When in islanded mode, it sets its ActivePowerW to be the ETQEstimate PowerW sent to it by its network modeler.  
 
 This term is often used, somewhat loosely, in Power System Engineering to describe the operating state of a diesel generator which is responsible for balancing a microgrid.</Definition>
+      <CoreLexiconTerms>recygwMinG3bN8Gl1</CoreLexiconTerms>
     </TaOperatingModeSimpleDc>
   </TaOperatingModeSimpleDcs>
   <MessageFormatRequirementss>
     <MessageFormatRequirements>
       <MessageFormatRequirementsId>recKC7qqcjvU1GmW8</MessageFormatRequirementsId>
       <createdTime>2020-01-16T18:49:13Z</createdTime>
-      <Example>"dw1__1"</Example>
-      <Description>AlphanumericString + '__' + Integer</Description>
       <Name>WorldInstanceNameFormat</Name>
+      <Description>AlphanumericString + '__' + Integer</Description>
+      <Example>"dw1__1"</Example>
       <MessageProtocolFields>rec5g2OBdpcWJziN0</MessageProtocolFields>
     </MessageFormatRequirements>
     <MessageFormatRequirements>
       <MessageFormatRequirementsId>recUZrN9bGr7mHBWe</MessageFormatRequirementsId>
       <createdTime>2020-01-16T18:49:13Z</createdTime>
-      <Example>"dw1.ne.bf1.ff.bus1.pv.ta"</Example>
-      <Description>Alphanumeric words separated by periods, with most significant word to the left.  I.e. `dw1.ne` is the child of `dw1`. </Description>
       <Name>GNodeLrdAliasFormat</Name>
+      <Description>Alphanumeric words separated by periods, with most significant word to the left.  I.e. `dw1.ne` is the child of `dw1`. </Description>
+      <Example>"dw1.ne.bf1.ff.bus1.pv.ta"</Example>
       <MessageProtocolFields>recgkxXbqMKrvrbXd</MessageProtocolFields>
     </MessageFormatRequirements>
     <MessageFormatRequirements>
       <MessageFormatRequirementsId>recupg1xKa65dDUcx</MessageFormatRequirementsId>
       <createdTime>2020-01-16T18:49:13Z</createdTime>
-      <Example>"ac62c03c-1399-4df1-8d12-0083e072e113"</Example>
-      <Description>universally unique identifier, a 128-bit number, which is passed in json messages using the Canonical textual representation</Description>
       <Name>UuidCanonicalTextual</Name>
+      <Description>universally unique identifier, a 128-bit number, which is passed in json messages using the Canonical textual representation</Description>
+      <Example>"ac62c03c-1399-4df1-8d12-0083e072e113"</Example>
       <MessageProtocolFields>recE4JYC9M2UeDNSK</MessageProtocolFields>
     </MessageFormatRequirements>
   </MessageFormatRequirementss>
@@ -2361,16 +2361,16 @@ This term is often used, somewhat loosely, in Power System Engineering to descri
     <PhysicsParadigm>
       <PhysicsParadigmId>recGbLfguIT2Tg85S</PhysicsParadigmId>
       <createdTime>2019-12-11T16:07:23Z</createdTime>
+      <Name>SimpleDC</Name>
       <Definition>The PhysicsParadigm that assumes all power on the electric grid is Direct Current (DC), and that the only electrical quantity to measure is ActivePowerW. This paradigm does not reference voltage, current or phase angle. It is extremely limited in the context of modeling a microgrid but is often sufficient for running longer term (e.g. hour-long) electrical 
 energy contracts.</Definition>
-      <Name>SimpleDC</Name>
       <CoreLexicons>receh8tm219SDas88</CoreLexicons>
     </PhysicsParadigm>
     <PhysicsParadigm>
       <PhysicsParadigmId>reccaaMvJPziSr6An</PhysicsParadigmId>
       <createdTime>2019-12-11T16:07:23Z</createdTime>
-      <Definition>A model of physics that starts with the PhasorRepresentation of ElectricalQuantities and uses differential equations, turned into difference equations, to model the change of the core state variable (which include but are not limited to ElectricalQuantities) from TimeStep to TimeStep.  There are a number of different choices to be made within this context. </Definition>
       <Name>DynPhasor.GW.V1.0</Name>
+      <Definition>A model of physics that starts with the PhasorRepresentation of ElectricalQuantities and uses differential equations, turned into difference equations, to model the change of the core state variable (which include but are not limited to ElectricalQuantities) from TimeStep to TimeStep.  There are a number of different choices to be made within this context. </Definition>
       <CoreLexicons>recJijbhL2A8Swc22</CoreLexicons>
     </PhysicsParadigm>
     <PhysicsParadigm>
@@ -2381,15 +2381,13 @@ energy contracts.</Definition>
   </PhysicsParadigms>
   <GNodes>
     <GNode>
-      <GNodeId>recZx3zD9eKA04gLR</GNodeId>
-      <createdTime>2019-11-29T04:39:37Z</createdTime>
-      <PrimaryGNodeRoleId>recZp9Gm4Ows71NSb</PrimaryGNodeRoleId>
-      <HasAgentFuzzyLogicValueIdFromComponent>True</HasAgentFuzzyLogicValueIdFromComponent>
-      <Alias>sw1</Alias>
-      <DisplayName>Gridworks Platform Services</DisplayName>
-      <EmailAddressDerived>sw1@gridworks-consulting.com</EmailAddressDerived>
+      <GNodeId>recL5WagoOjYrt6u9</GNodeId>
+      <createdTime>2020-01-21T15:43:22Z</createdTime>
+      <Alias>dev</Alias>
+      <PrimaryGNodeRoleId>recB1iP5mNLqfMMoy</PrimaryGNodeRoleId>
+      <EmailAddressDerived>dev@gridworks-consulting.com</EmailAddressDerived>
       <CableOrWireRatedPowerFlowVADerived>0</CableOrWireRatedPowerFlowVADerived>
-      <PrimaryGNodeRole>WorldCoordinator</PrimaryGNodeRole>
+      <PrimaryGNodeRole>Admin</PrimaryGNodeRole>
     </GNode>
   </GNodes>
   <StrategyParams>
@@ -2488,8 +2486,8 @@ energy contracts.</Definition>
     <MessageProtocol>
       <MessageProtocolId>rec18i20F6o3fHERW</MessageProtocolId>
       <createdTime>2019-07-01T22:52:56Z</createdTime>
-      <Status>Pending</Status>
       <Alias>sim.r.ad.ta.econn.v0_2</Alias>
+      <Status>Pending</Status>
     </MessageProtocol>
     <MessageProtocol>
       <MessageProtocolId>rec9wkGylQgz6JALZ</MessageProtocolId>
@@ -2505,31 +2503,31 @@ energy contracts.</Definition>
     <MessageProtocol>
       <MessageProtocolId>recBpalSlunj8SWDM</MessageProtocolId>
       <createdTime>2020-01-16T18:30:39Z</createdTime>
-      <ImmutableDataClass>rectSKr96eBEhoIbu</ImmutableDataClass>
       <Alias>Sim.TimeStepV1_0</Alias>
       <IsImmutableDataClass>true</IsImmutableDataClass>
+      <ImmutableDataClass>rectSKr96eBEhoIbu</ImmutableDataClass>
     </MessageProtocol>
     <MessageProtocol>
       <MessageProtocolId>recERzVruyAkCDCTy</MessageProtocolId>
       <createdTime>2019-11-08T02:40:59Z</createdTime>
-      <Status>Deprecated</Status>
       <Alias>sim.r.wc.tickle.v0_2</Alias>
       <MessageCategory>rec5x7Mqmm7KfqBNZ</MessageCategory>
+      <Status>Deprecated</Status>
       <ConsiderReplacingWIth>recFEqdYWH5hQKqHU</ConsiderReplacingWIth>
     </MessageProtocol>
     <MessageProtocol>
       <MessageProtocolId>recFEqdYWH5hQKqHU</MessageProtocolId>
       <createdTime>2020-01-16T19:04:44Z</createdTime>
-      <SchemaLocationURL>https://bitbucket.org/electricityworks/gw-platform-common/src/master/MessageProtocol/MpSchema/sim.r.tc.timestep.v0_1.yml</SchemaLocationURL>
-      <ExampleUrl>https://bitbucket.org/electricityworks/gw-platform-common/src/master/MessageProtocol/Example/sim.r.tc.timestep.v0_1__example.json</ExampleUrl>
-      <Status>ActivelySupported</Status>
       <Alias>sim.r.tc.timestep.v0_1</Alias>
+      <MessageCategory>rec5x7Mqmm7KfqBNZ</MessageCategory>
+      <Status>ActivelySupported</Status>
+      <SchemaLocationURL>https://bitbucket.org/electricityworks/gw-platform-common/src/master/MessageProtocol/MpSchema/sim.r.tc.timestep.v0_1.yml</SchemaLocationURL>
       <MessageProtocolFieldsIgnore>receA1caWOxmrHIgT</MessageProtocolFieldsIgnore>
       <MessageProtocolFieldsIgnore>rec5g2OBdpcWJziN0</MessageProtocolFieldsIgnore>
       <MessageProtocolFieldsIgnore>recpBv87Vjx7ZAcvb</MessageProtocolFieldsIgnore>
       <MessageProtocolFieldsIgnore>recgkxXbqMKrvrbXd</MessageProtocolFieldsIgnore>
       <MessageProtocolFieldsIgnore>recE4JYC9M2UeDNSK</MessageProtocolFieldsIgnore>
-      <MessageCategory>rec5x7Mqmm7KfqBNZ</MessageCategory>
+      <ExampleUrl>https://bitbucket.org/electricityworks/gw-platform-common/src/master/MessageProtocol/Example/sim.r.tc.timestep.v0_1__example.json</ExampleUrl>
     </MessageProtocol>
     <MessageProtocol>
       <MessageProtocolId>recGlXB7l9DkTyWhM</MessageProtocolId>
@@ -2579,9 +2577,9 @@ energy contracts.</Definition>
     <MessageProtocol>
       <MessageProtocolId>recXnK8ho3qyWYX21</MessageProtocolId>
       <createdTime>2019-06-26T16:43:11Z</createdTime>
-      <Status>ActivelySupported</Status>
       <Alias>sim.r.ta.nm.etqinput.dc.v0_2</Alias>
       <MessageCategory>recdWSUBFkT9t7M8B</MessageCategory>
+      <Status>ActivelySupported</Status>
     </MessageProtocol>
     <MessageProtocol>
       <MessageProtocolId>recdPuxj0QzztLtmv</MessageProtocolId>
@@ -2592,9 +2590,9 @@ energy contracts.</Definition>
     <MessageProtocol>
       <MessageProtocolId>rech8AXsJsPdSIpYU</MessageProtocolId>
       <createdTime>2019-10-28T12:49:16Z</createdTime>
-      <Status>Deprecated</Status>
       <Alias>sim.r.wc.timestep.v0_2</Alias>
       <MessageCategory>rec5x7Mqmm7KfqBNZ</MessageCategory>
+      <Status>Deprecated</Status>
       <ConsiderReplacingWIth>recFEqdYWH5hQKqHU</ConsiderReplacingWIth>
     </MessageProtocol>
     <MessageProtocol>
@@ -2731,9 +2729,9 @@ energy contracts.</Definition>
       <AbstractEntityClassificationId>rectSKr96eBEhoIbu</AbstractEntityClassificationId>
       <createdTime>2020-01-16T18:27:15Z</createdTime>
       <EntityAlias>TimeStep</EntityAlias>
-      <MessageProtocol>recBpalSlunj8SWDM</MessageProtocol>
       <EntityType>ImmutableDataClass</EntityType>
       <HasMessageProtocol>true</HasMessageProtocol>
+      <MessageProtocol>recBpalSlunj8SWDM</MessageProtocol>
     </AbstractEntityClassification>
     <AbstractEntityClassification>
       <AbstractEntityClassificationId>recwTfwdcI8gM9LKy</AbstractEntityClassificationId>
@@ -2760,29 +2758,17 @@ energy contracts.</Definition>
       <FuzzyLogicId>rec3agpVctOGM3eyv</FuzzyLogicId>
       <createdTime>2020-01-20T18:56:31Z</createdTime>
       <Key>checked</Key>
-      <GNodeRoles>recZp9Gm4Ows71NSb</GNodeRoles>
-      <GNodeRoles>rec5fLkCIJJYyyQC1</GNodeRoles>
-      <GNodeRoles>rece0NnrQMWN5yidT</GNodeRoles>
-      <GNodeRoles>recQEmZLyTIbXWrVd</GNodeRoles>
-      <GNodeRoles>recod0ttcJqF2WUsO</GNodeRoles>
-      <GNodeRoles>rec5x4gpUn6EfwXPb</GNodeRoles>
     </FuzzyLogic>
     <FuzzyLogic>
       <FuzzyLogicId>rec7JPro5iL9ZNIka</FuzzyLogicId>
       <createdTime>2020-01-20T18:55:01Z</createdTime>
-      <GNodeRoles3>recIItvQ3JP4YA62l</GNodeRoles3>
-      <GNodeRoles3>recZp9Gm4Ows71NSb</GNodeRoles3>
-      <GNodeRoles3>recgvGnsFTxPMSM8G</GNodeRoles3>
-      <GNodeRoles3>rece0NnrQMWN5yidT</GNodeRoles3>
-      <GNodeRoles3>recod0ttcJqF2WUsO</GNodeRoles3>
-      <GNodeRoles3>rec5x4gpUn6EfwXPb</GNodeRoles3>
-      <GNodeRoles3>recnqlWF2ATSg2z36</GNodeRoles3>
       <Key>FALSE</Key>
       <Value>False</Value>
-      <GNodeRoles2>recHJhmyHsUhpf7BP</GNodeRoles2>
+      <GNodeRoles>recB1iP5mNLqfMMoy</GNodeRoles>
+      <GNodeRoles>rec25JT0vuxAN0oDH</GNodeRoles>
+      <GNodeRoles>recIOvk9Z6ufqr0pV</GNodeRoles>
       <GNodeRoles2>recIItvQ3JP4YA62l</GNodeRoles2>
       <GNodeRoles2>recZp9Gm4Ows71NSb</GNodeRoles2>
-      <GNodeRoles2>recbEfWZRaQttID71</GNodeRoles2>
       <GNodeRoles2>recgvGnsFTxPMSM8G</GNodeRoles2>
       <GNodeRoles2>rec25JT0vuxAN0oDH</GNodeRoles2>
       <GNodeRoles2>recIOvk9Z6ufqr0pV</GNodeRoles2>
@@ -2790,10 +2776,38 @@ energy contracts.</Definition>
       <GNodeRoles2>recod0ttcJqF2WUsO</GNodeRoles2>
       <GNodeRoles2>rec5x4gpUn6EfwXPb</GNodeRoles2>
       <GNodeRoles2>recnqlWF2ATSg2z36</GNodeRoles2>
+      <GNodeRoles2>recB1iP5mNLqfMMoy</GNodeRoles2>
+      <GNodeRoles2>recMbxucKKcuZhl3O</GNodeRoles2>
+      <GNodeRoles2>rec5fLkCIJJYyyQC1</GNodeRoles2>
+      <GNodeRoles2>recRAOi9fvGITA4Q0</GNodeRoles2>
+      <GNodeRoles2>recbEfWZRaQttID71</GNodeRoles2>
+      <GNodeRoles3>recIItvQ3JP4YA62l</GNodeRoles3>
+      <GNodeRoles3>recZp9Gm4Ows71NSb</GNodeRoles3>
+      <GNodeRoles3>recgvGnsFTxPMSM8G</GNodeRoles3>
+      <GNodeRoles3>rece0NnrQMWN5yidT</GNodeRoles3>
+      <GNodeRoles3>recod0ttcJqF2WUsO</GNodeRoles3>
+      <GNodeRoles3>rec5x4gpUn6EfwXPb</GNodeRoles3>
+      <GNodeRoles3>recnqlWF2ATSg2z36</GNodeRoles3>
+      <GNodeRoles3>recRAOi9fvGITA4Q0</GNodeRoles3>
+      <GNodeRoles3>rec5fLkCIJJYyyQC1</GNodeRoles3>
+      <GNodeRoles3>recMbxucKKcuZhl3O</GNodeRoles3>
+      <GNodeRoles3>recQEmZLyTIbXWrVd</GNodeRoles3>
+      <GNodeRoles3>recB1iP5mNLqfMMoy</GNodeRoles3>
     </FuzzyLogic>
     <FuzzyLogic>
       <FuzzyLogicId>rec8a49BAVbZpiDZc</FuzzyLogicId>
       <createdTime>2020-01-20T18:55:01Z</createdTime>
+      <Key>TRUE</Key>
+      <Value>True</Value>
+      <GNodeRoles>recnqlWF2ATSg2z36</GNodeRoles>
+      <GNodeRoles>recIItvQ3JP4YA62l</GNodeRoles>
+      <GNodeRoles>recod0ttcJqF2WUsO</GNodeRoles>
+      <GNodeRoles>recMbxucKKcuZhl3O</GNodeRoles>
+      <GNodeRoles>rece0NnrQMWN5yidT</GNodeRoles>
+      <GNodeRoles>rec5fLkCIJJYyyQC1</GNodeRoles>
+      <GNodeRoles>rec5x4gpUn6EfwXPb</GNodeRoles>
+      <GNodeRoles>recZp9Gm4Ows71NSb</GNodeRoles>
+      <GNodeRoles2>recIqmLqTqvTyRncR</GNodeRoles2>
       <GNodeRoles3>recHJhmyHsUhpf7BP</GNodeRoles3>
       <GNodeRoles3>recbEfWZRaQttID71</GNodeRoles3>
       <GNodeRoles3>rec6UPMjMnhPtnF7H</GNodeRoles3>
@@ -2801,32 +2815,33 @@ energy contracts.</Definition>
       <GNodeRoles3>recQt2QWPxouyedKY</GNodeRoles3>
       <GNodeRoles3>rec25JT0vuxAN0oDH</GNodeRoles3>
       <GNodeRoles3>recIOvk9Z6ufqr0pV</GNodeRoles3>
-      <Key>TRUE</Key>
-      <Value>True</Value>
-      <GNodeRoles2>recIqmLqTqvTyRncR</GNodeRoles2>
-      <GNodeRoles>recnqlWF2ATSg2z36</GNodeRoles>
-      <GNodeRoles>recIItvQ3JP4YA62l</GNodeRoles>
-      <GNodeRoles>recgvGnsFTxPMSM8G</GNodeRoles>
+      <GNodeRoles3>rechJpsEs37dyehKh</GNodeRoles3>
+      <GNodeRoles3>recrI72Mi4LQXveNZ</GNodeRoles3>
     </FuzzyLogic>
     <FuzzyLogic>
       <FuzzyLogicId>recHkD2aM3iCYsgU4</FuzzyLogicId>
       <createdTime>2020-01-20T18:55:01Z</createdTime>
-      <GNodeRoles3>rechJpsEs37dyehKh</GNodeRoles3>
-      <GNodeRoles3>recQydUsptO4Rit9A</GNodeRoles3>
-      <GNodeRoles3>recrI72Mi4LQXveNZ</GNodeRoles3>
-      <GNodeRoles3>rec5fLkCIJJYyyQC1</GNodeRoles3>
-      <GNodeRoles3>recQEmZLyTIbXWrVd</GNodeRoles3>
       <Key>MAYBE</Key>
       <Value>Maybe</Value>
+      <GNodeRoles>recIqmLqTqvTyRncR</GNodeRoles>
+      <GNodeRoles>rec6UPMjMnhPtnF7H</GNodeRoles>
+      <GNodeRoles>recrI72Mi4LQXveNZ</GNodeRoles>
+      <GNodeRoles>recQydUsptO4Rit9A</GNodeRoles>
+      <GNodeRoles>recHJhmyHsUhpf7BP</GNodeRoles>
+      <GNodeRoles>recQEmZLyTIbXWrVd</GNodeRoles>
+      <GNodeRoles>recQt2QWPxouyedKY</GNodeRoles>
+      <GNodeRoles>rechJpsEs37dyehKh</GNodeRoles>
+      <GNodeRoles>recgvGnsFTxPMSM8G</GNodeRoles>
+      <GNodeRoles>recbEfWZRaQttID71</GNodeRoles>
+      <GNodeRoles>recRAOi9fvGITA4Q0</GNodeRoles>
       <GNodeRoles2>rechJpsEs37dyehKh</GNodeRoles2>
       <GNodeRoles2>rec6UPMjMnhPtnF7H</GNodeRoles2>
       <GNodeRoles2>recQydUsptO4Rit9A</GNodeRoles2>
-      <GNodeRoles2>recQt2QWPxouyedKY</GNodeRoles2>
       <GNodeRoles2>recrI72Mi4LQXveNZ</GNodeRoles2>
-      <GNodeRoles2>rec5fLkCIJJYyyQC1</GNodeRoles2>
       <GNodeRoles2>recQEmZLyTIbXWrVd</GNodeRoles2>
-      <GNodeRoles>recIqmLqTqvTyRncR</GNodeRoles>
-      <GNodeRoles>rec6UPMjMnhPtnF7H</GNodeRoles>
+      <GNodeRoles2>recHJhmyHsUhpf7BP</GNodeRoles2>
+      <GNodeRoles2>recQt2QWPxouyedKY</GNodeRoles2>
+      <GNodeRoles3>recQydUsptO4Rit9A</GNodeRoles3>
     </FuzzyLogic>
     <FuzzyLogic>
       <FuzzyLogicId>recSOUncyN1lF6lBj</FuzzyLogicId>
@@ -2865,27 +2880,27 @@ energy contracts.</Definition>
     <MessageProtocolFields>
       <MessageProtocolFieldsId>rec5g2OBdpcWJziN0</MessageProtocolFieldsId>
       <createdTime>2020-01-16T18:14:55Z</createdTime>
-      <MessageProtocol>recFEqdYWH5hQKqHU</MessageProtocol>
       <Name>WorldInstanceName</Name>
+      <FieldCount>Required</FieldCount>
+      <MessageProtocol>recFEqdYWH5hQKqHU</MessageProtocol>
       <PrimitiveType>String</PrimitiveType>
       <IsPrimitive>true</IsPrimitive>
-      <FieldCount>Required</FieldCount>
       <FormatRequirementOne>recKC7qqcjvU1GmW8</FormatRequirementOne>
       <TypeDerived>String</TypeDerived>
     </MessageProtocolFields>
     <MessageProtocolFields>
       <MessageProtocolFieldsId>recE4JYC9M2UeDNSK</MessageProtocolFieldsId>
       <createdTime>2020-01-16T19:23:08Z</createdTime>
-      <MessageProtocol>recFEqdYWH5hQKqHU</MessageProtocol>
       <Name>FromGNodeInstanceId</Name>
-      <PrimitiveType>String</PrimitiveType>
-      <GlobalAxiomThree>rec3uhBQ4GptOwtu9</GlobalAxiomThree>
-      <Example>"0902e163-8f5e-4cd1-8d26-15dc04b0772c"</Example>
-      <GlobalAxiomTwo>recTATHrnLcF2FKMi</GlobalAxiomTwo>
-      <GlobalAxiomOne>rectnxzXZpJrX1Tb7</GlobalAxiomOne>
-      <IsPrimitive>true</IsPrimitive>
       <FieldCount>Required</FieldCount>
+      <MessageProtocol>recFEqdYWH5hQKqHU</MessageProtocol>
+      <PrimitiveType>String</PrimitiveType>
+      <IsPrimitive>true</IsPrimitive>
+      <Example>"0902e163-8f5e-4cd1-8d26-15dc04b0772c"</Example>
       <FormatRequirementOne>recupg1xKa65dDUcx</FormatRequirementOne>
+      <GlobalAxiomOne>rectnxzXZpJrX1Tb7</GlobalAxiomOne>
+      <GlobalAxiomTwo>recTATHrnLcF2FKMi</GlobalAxiomTwo>
+      <GlobalAxiomThree>rec3uhBQ4GptOwtu9</GlobalAxiomThree>
       <TypeDerived>String</TypeDerived>
     </MessageProtocolFields>
     <MessageProtocolFields>
@@ -2896,24 +2911,24 @@ energy contracts.</Definition>
     <MessageProtocolFields>
       <MessageProtocolFieldsId>receA1caWOxmrHIgT</MessageProtocolFieldsId>
       <createdTime>2020-01-16T18:14:55Z</createdTime>
-      <FixedValue>"sim.r.tc.timestep.v0_1"</FixedValue>
-      <MessageProtocol>recFEqdYWH5hQKqHU</MessageProtocol>
       <Name>MpAlias</Name>
+      <FieldCount>Required</FieldCount>
+      <MessageProtocol>recFEqdYWH5hQKqHU</MessageProtocol>
       <PrimitiveType>String</PrimitiveType>
       <IsPrimitive>true</IsPrimitive>
-      <FieldCount>Required</FieldCount>
+      <FixedValue>"sim.r.tc.timestep.v0_1"</FixedValue>
       <TypeDerived>String</TypeDerived>
     </MessageProtocolFields>
     <MessageProtocolFields>
       <MessageProtocolFieldsId>recgkxXbqMKrvrbXd</MessageProtocolFieldsId>
       <createdTime>2020-01-16T19:16:58Z</createdTime>
-      <LocalAxiomOne>recNaVqxqgDg20vCX</LocalAxiomOne>
-      <MessageProtocol>recFEqdYWH5hQKqHU</MessageProtocol>
       <Name>FromGNodeAlias</Name>
+      <FieldCount>Required</FieldCount>
+      <MessageProtocol>recFEqdYWH5hQKqHU</MessageProtocol>
       <PrimitiveType>String</PrimitiveType>
       <IsPrimitive>true</IsPrimitive>
-      <FieldCount>Required</FieldCount>
       <FormatRequirementOne>recUZrN9bGr7mHBWe</FormatRequirementOne>
+      <LocalAxiomOne>recNaVqxqgDg20vCX</LocalAxiomOne>
       <TypeDerived>String</TypeDerived>
     </MessageProtocolFields>
     <MessageProtocolFields>
@@ -2924,13 +2939,13 @@ energy contracts.</Definition>
     <MessageProtocolFields>
       <MessageProtocolFieldsId>recpBv87Vjx7ZAcvb</MessageProtocolFieldsId>
       <createdTime>2020-01-16T18:14:55Z</createdTime>
-      <FixedValue>false</FixedValue>
-      <MessageProtocol>recFEqdYWH5hQKqHU</MessageProtocol>
       <Name>WorldInstanceIsReal</Name>
-      <PrimitiveType>Boolean</PrimitiveType>
-      <Description>Any world with a time coordinator sending messages is a simulated world instance.</Description>
-      <IsPrimitive>true</IsPrimitive>
       <FieldCount>Required</FieldCount>
+      <MessageProtocol>recFEqdYWH5hQKqHU</MessageProtocol>
+      <PrimitiveType>Boolean</PrimitiveType>
+      <IsPrimitive>true</IsPrimitive>
+      <FixedValue>false</FixedValue>
+      <Description>Any world with a time coordinator sending messages is a simulated world instance.</Description>
       <TypeDerived>Boolean</TypeDerived>
     </MessageProtocolFields>
   </MessageProtocolFieldss>
@@ -2938,30 +2953,30 @@ energy contracts.</Definition>
     <GNodeStatus>
       <GNodeStatusId>rec0E53VMzYxtWy3E</GNodeStatusId>
       <createdTime>2019-06-22T22:20:48Z</createdTime>
-      <GNode>Unnamed record, Unnamed record</GNode>
-      <Definition>Under design, not yet available in production.</Definition>
       <Name>Pending</Name>
+      <Definition>Under design, not yet available in production.</Definition>
+      <GNode>Unnamed record, Unnamed record</GNode>
       <CoreLexiconTerms>recDAlpVYvu57gYEO</CoreLexiconTerms>
     </GNodeStatus>
     <GNodeStatus>
       <GNodeStatusId>recS6S8dfAPs8oGHz</GNodeStatusId>
       <createdTime>2019-06-14T19:11:10Z</createdTime>
-      <Definition>A designation which retires the GNode (i.e. its unique identifer) from having any GNodeEvents at any point in the future.</Definition>
       <Name>Permanently Deactivated</Name>
+      <Definition>A designation which retires the GNode (i.e. its unique identifer) from having any GNodeEvents at any point in the future.</Definition>
       <CoreLexiconTerms>recnKR8UFVVIdyqcs</CoreLexiconTerms>
     </GNodeStatus>
     <GNodeStatus>
       <GNodeStatusId>rectTSNvu9EKknRtV</GNodeStatusId>
       <createdTime>2019-06-14T19:11:10Z</createdTime>
-      <Definition>Required for a Node to generate or receive any Events. If a GNode is active its parent is active as well.</Definition>
       <Name>Active</Name>
+      <Definition>Required for a Node to generate or receive any Events. If a GNode is active its parent is active as well.</Definition>
       <CoreLexiconTerms>rec4FFtkHRfnxSDV1</CoreLexiconTerms>
     </GNodeStatus>
     <GNodeStatus>
       <GNodeStatusId>reczJiKxJMq9scjli</GNodeStatusId>
       <createdTime>2019-06-14T19:11:10Z</createdTime>
-      <Definition>Can only be applied to TNodes that are in a simulated universe.</Definition>
       <Name>SimTempDeactivated</Name>
+      <Definition>Can only be applied to TNodes that are in a simulated universe.</Definition>
       <CoreLexiconTerms>recCpuXHP1SVQ7Oz9</CoreLexiconTerms>
     </GNodeStatus>
   </GNodeStatuses>
@@ -2982,47 +2997,43 @@ energy contracts.</Definition>
     <GNodeRole>
       <GNodeRoleId>rec25JT0vuxAN0oDH</GNodeRoleId>
       <createdTime>2019-07-25T19:59:42Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
-      <Definition>This node represents electrical ground in the world. It is the `ToNode` for all TerminalAssets. That is, a TerminalAsset viewed as an ElectricalComponent has power flowing from its FromNode to its ToNode, and the ToNode is ground. </Definition>
-      <HasPowerLevel>true</HasPowerLevel>
       <Name>Ground</Name>
+      <Definition>This node represents electrical ground in the world. It is the `ToNode` for all TerminalAssets. That is, a TerminalAsset viewed as an ElectricalComponent has power flowing from its FromNode to its ToNode, and the ToNode is ground. </Definition>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasPowerLevel>true</HasPowerLevel>
+      <HasAgent>rec7JPro5iL9ZNIka</HasAgent>
+      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rec5fLkCIJJYyyQC1</GNodeRoleId>
       <createdTime>2019-07-24T17:20:45Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
+      <Name>Supervisor</Name>
+      <Definition>This is a GNode role for an actor/agent that is identified with a docker container and that starts up a set of agents, after getting sent initialization data either by the World Instance Registry (if it is a World Coordinator) or from a World Coordinator.  The agents managed by a supervisor will all use code from the same repository - although the same repository can be used for multiple Supervisors.</Definition>
+      <MessageCategoryNIC>rec4Dw8NKawCNmvfH</MessageCategoryNIC>
+      <EffortlessAPIListenerNIC>rechEajrpHRktMBrq</EffortlessAPIListenerNIC>
+      <EffortlessAPIListenerNIC>rec5QtviFZ6LUmRMm</EffortlessAPIListenerNIC>
       <StrategiesNIC>recU1MKPY17bumD9t</StrategiesNIC>
       <StrategiesNIC>recm34ju9cLZltLWX</StrategiesNIC>
       <StrategiesNIC>recwTIvZoj3Q8HW2B</StrategiesNIC>
-      <HasVoltage>recHkD2aM3iCYsgU4</HasVoltage>
-      <EffortlessAPIListenerNIC>rechEajrpHRktMBrq</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>rec5QtviFZ6LUmRMm</EffortlessAPIListenerNIC>
-      <Definition>This is a GNode role for an actor/agent that is identified with a docker container and that starts up a set of agents, after getting sent initialization data either by the World Instance Registry (if it is a World Coordinator) or from a World Coordinator.  The agents managed by a supervisor will all use code from the same repository - although the same repository can be used for multiple Supervisors.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>rec4Dw8NKawCNmvfH</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>Supervisor</Name>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
+      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rec5x4gpUn6EfwXPb</GNodeRoleId>
       <createdTime>2019-12-04T23:52:15Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
+      <Name>Wir</Name>
+      <Definition>WIR stands for the World Instance Registry -a service that maintains information about World Instances, including links to their WorldCoordinators. At the request of Admin, it will gather the initialization data  (GNodes, Components, GNode Strategies,  Grid Run Classes and GRCGNodes) for the world, validate consistency, and then instantiate a new World Instance by creating a container for its WorldCoordinator with this initializing data. It also creates a world-specific broker for the World Instance.    </Definition>
       <EffortlessAPIListenerNIC>recYpPprOf23bdtsp</EffortlessAPIListenerNIC>
       <EffortlessAPIListenerNIC>recqFiRdVU8RivqhB</EffortlessAPIListenerNIC>
-      <Definition>WIR stands for the World Instance Registry -a service that maintains information about World Instances, including links to their WorldCoordinators. At the request of Admin, it will gather the initialization data  (GNodes, Components, GNode Strategies,  Grid Run Classes and GRCGNodes) for the world, validate consistency, and then instantiate a new World Instance by creating a container for its WorldCoordinator with this initializing data. It also creates a world-specific broker for the World Instance.    </Definition>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>Wir</Name>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
+      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rec6UPMjMnhPtnF7H</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <StrategiesNIC>rec3EczddpCyPiwSf</StrategiesNIC>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
-      <EffortlessAPIListenerNIC>recQ3oPcbrj7huB3J</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recfeXesSjJnD9Fkz</EffortlessAPIListenerNIC>
-      <ColorHex>#2f576e</ColorHex>
+      <Name>Ctn</Name>
       <Definition>A ConductorTopologyNode (Ctn)  is a GNode that corresponds to an electrically equivalent copper junction on the electric grid. This means that electrical measurement quantities of current or power withdrawn, voltage, and phase angle are meaningful and well-defined for a  ConductTopologyNode. 
 
 "Topology Node" is a term used in the Common Information Model that is consistent with the above. This is why we use the word. However we add the "Conductor" for copper to help avoid any confusion with TNodes, where the T standards for Transactive.
@@ -3030,63 +3041,82 @@ energy contracts.</Definition>
 All TerminalSSNode children of a ConductorTopologyNode have a special relationship w the CopperToplogy Node: specifically, the assumption is that the TerminalSSNodes are within the 'zone of equivalent phasor/voltage.'
 
 The sum of the power (and current) withdrawn for the TerminalSSNode children of a TopologyNode equals the power (and current)  withdrawn for the TopologyNode.  This is true for any model of power - DC, phasor, instantaneous. The tree structure on TopologyNodes "follows the copper" - that is, in addition to the above requirement, the parent of a TopologyNode is also a TopologyNode, and electrical power can flow between the two. A TopologyNode therefore also has well defined "flow" electrical measurements associated to it - both current and power - which describe the flow on this edge. The reference direction is taken to be from the parent to the TopologyNode. That is, if there is power flowing from the parent to the TopologyNode it will be a positive measurement.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>reczbQ4WrChlnoo3l</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recgDPFuaC0LCIuAW</EffortlessAPILexiconSpeakerNIC>
+      <MessageCategoryNIC>reczbQ4WrChlnoo3l</MessageCategoryNIC>
+      <MessageCategoryNIC>recgDPFuaC0LCIuAW</MessageCategoryNIC>
+      <EffortlessAPIListenerNIC>recQ3oPcbrj7huB3J</EffortlessAPIListenerNIC>
+      <EffortlessAPIListenerNIC>recfeXesSjJnD9Fkz</EffortlessAPIListenerNIC>
+      <StrategiesNIC>rec3EczddpCyPiwSf</StrategiesNIC>
+      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
       <HasPowerLevel>true</HasPowerLevel>
       <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
-      <Name>Ctn</Name>
+      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
+      <ColorHex>#2f576e</ColorHex>
       <CoreLexiconNIC>recpUFFrFe3e92x82</CoreLexiconNIC>
+    </GNodeRole>
+    <GNodeRole>
+      <GNodeRoleId>recB1iP5mNLqfMMoy</GNodeRoleId>
+      <createdTime>2020-01-21T15:43:42Z</createdTime>
+      <Name>Admin</Name>
+      <Definition>GNodeRole of not being a GNode but having admin authority</Definition>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>rec7JPro5iL9ZNIka</HasAgent>
+      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
+      <ColorHex>#ede0f3</ColorHex>
+      <PrimaryRoleForTheseGNodesNIC>recL5WagoOjYrt6u9</PrimaryRoleForTheseGNodesNIC>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recHJhmyHsUhpf7BP</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
-      <EffortlessAPIListenerNIC>recfZctcYPodOzY3q</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recEysplQavaTSpAr</EffortlessAPIListenerNIC>
-      <ColorHex>#7b47d6</ColorHex>
+      <Name>AtomicTNode</Name>
       <Definition>An AtomicTNode - short for Atomic Transactive Node - is a TerminalSSNode that has the potential to transact in contracts on behalf of its associated ControllableAsset. At present there is only one Role for this - TerminalAsset. However, transformers for example may also be controllable and could be associated with AtomicTNodes.
 
 Note that "potential" is left as a matter of judgement for the operators of the system. For example, an air compressor with a lot of flexibility in terms of when it operates, but at present no communication capabilities, could have an AtomicTNode associated to it.  
 
 The Atomicity of an AtomicTNode means that there are no AtomicTNode children in the GNode tree below AtomicTNodes.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>rec0mooombOszscJy</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recG8p9A6rhsxL9Dv</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recjOaOJWrIZn4GMt</EffortlessAPILexiconSpeakerNIC>
+      <MessageCategoryNIC>rec0mooombOszscJy</MessageCategoryNIC>
+      <MessageCategoryNIC>recG8p9A6rhsxL9Dv</MessageCategoryNIC>
+      <MessageCategoryNIC>recjOaOJWrIZn4GMt</MessageCategoryNIC>
+      <EffortlessAPIListenerNIC>recfZctcYPodOzY3q</EffortlessAPIListenerNIC>
+      <EffortlessAPIListenerNIC>recEysplQavaTSpAr</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
       <HasPowerLevel>true</HasPowerLevel>
-      <Name>AtomicTNode</Name>
+      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
+      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
+      <ColorHex>#7b47d6</ColorHex>
       <CoreLexiconNIC>recrIcm7tXtsaaeJ7</CoreLexiconNIC>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recIItvQ3JP4YA62l</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
+      <Name>ContractCoordinator</Name>
+      <Definition>Coordinates contracts for energy services. Typically this will be with an AtomicTNode or an AggregatedTNode.</Definition>
       <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
       <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
       <ColorHex>#d0f2d2</ColorHex>
-      <Definition>Coordinates contracts for energy services. Typically this will be with an AtomicTNode or an AggregatedTNode.</Definition>
-      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
-      <Name>ContractCoordinator</Name>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recIOvk9Z6ufqr0pV</GNodeRoleId>
       <createdTime>2019-07-26T11:42:22Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
-      <Definition>We aren't using Neutral yet since we have not moved to a three-phase representation but it'll be here as a node when we do.</Definition>
       <Name>Neutral</Name>
+      <Definition>We aren't using Neutral yet since we have not moved to a three-phase representation but it'll be here as a node when we do.</Definition>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasPowerLevel>true</HasPowerLevel>
+      <HasAgent>rec7JPro5iL9ZNIka</HasAgent>
+      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recIqmLqTqvTyRncR</GNodeRoleId>
       <createdTime>2019-07-03T15:47:54Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec8a49BAVbZpiDZc</ElectricallyConnectsAndDisconnects>
-      <StrategiesNIC>reclNmVyDgRcIRKs0</StrategiesNIC>
-      <StrategiesNIC>recRj8AkS5XoyLiiz</StrategiesNIC>
-      <StrategiesNIC>reccOpjAZcdo2Twg0</StrategiesNIC>
-      <StrategiesNIC>recX7hjBmW6JV5N1t</StrategiesNIC>
-      <StrategiesNIC>rec4wBagVJAx7BMvI</StrategiesNIC>
-      <StrategiesNIC>recWDKXE4cLAcmdIt</StrategiesNIC>
-      <StrategiesNIC>rec3Arz4M2hSsDj4q</StrategiesNIC>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
+      <Name>TerminalAsset</Name>
+      <Definition>A GNode representing physical device capable of injecting or withdrawing electrical power, at the location of its parent. The parent must  be a TerminalSSNode.  Equivalently, the primary role of the parent must be either  AtomicTNode or TerminalSSNode 
+
+It may feel extraneous to have both a TerminalSSNode and a TerminalAsset. In most of the system, the TerminalSSNode will be representing the TerminalAsset - for example, we expect to say "oh this TerminalSSNode is a 3 kW storage heater."  The asset allows for us to have different contexts of "same" and "different." In particular if the 3 kW storage heater has to be replaced, and it is replaced by a storage heater of the same make and model, then in this instance the TerminalAsset is replaced (including its immutable serial number, for example) but the TerminalSsNode keeps its name and id.
+
+The TerminalAsset is also an InterconnectionComponent, where the FromNode is either its TerminalSsNode or AtomicTNode (note that when we introduce control devices this may expand) and the ToNode is Ground.</Definition>
+      <MessageCategoryNIC>recdWSUBFkT9t7M8B</MessageCategoryNIC>
+      <MessageCategoryNIC>recFPxihszHzSGKQR</MessageCategoryNIC>
+      <MessageCategoryNIC>recfZctcYPodOzY3q</MessageCategoryNIC>
       <EffortlessAPIListenerNIC>recTfgDR2PEOJNVXk</EffortlessAPIListenerNIC>
       <EffortlessAPIListenerNIC>recoS5I3MirhGUtmr</EffortlessAPIListenerNIC>
       <EffortlessAPIListenerNIC>recVSlK7cVn36s9CS</EffortlessAPIListenerNIC>
@@ -3094,105 +3124,111 @@ The Atomicity of an AtomicTNode means that there are no AtomicTNode children in 
       <EffortlessAPIListenerNIC>recG8p9A6rhsxL9Dv</EffortlessAPIListenerNIC>
       <EffortlessAPIListenerNIC>recjOaOJWrIZn4GMt</EffortlessAPIListenerNIC>
       <EffortlessAPIListenerNIC>rec7MMGmHT2DMiXzr</EffortlessAPIListenerNIC>
-      <ColorHex>#43b1cc</ColorHex>
-      <Definition>A GNode representing physical device capable of injecting or withdrawing electrical power, at the location of its parent. The parent must  be a TerminalSSNode.  Equivalently, the primary role of the parent must be either  AtomicTNode or TerminalSSNode 
-
-It may feel extraneous to have both a TerminalSSNode and a TerminalAsset. In most of the system, the TerminalSSNode will be representing the TerminalAsset - for example, we expect to say "oh this TerminalSSNode is a 3 kW storage heater."  The asset allows for us to have different contexts of "same" and "different." In particular if the 3 kW storage heater has to be replaced, and it is replaced by a storage heater of the same make and model, then in this instance the TerminalAsset is replaced (including its immutable serial number, for example) but the TerminalSsNode keeps its name and id.
-
-The TerminalAsset is also an InterconnectionComponent, where the FromNode is either its TerminalSsNode or AtomicTNode (note that when we introduce control devices this may expand) and the ToNode is Ground.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>recdWSUBFkT9t7M8B</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recFPxihszHzSGKQR</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recfZctcYPodOzY3q</EffortlessAPILexiconSpeakerNIC>
+      <StrategiesNIC>reclNmVyDgRcIRKs0</StrategiesNIC>
+      <StrategiesNIC>recRj8AkS5XoyLiiz</StrategiesNIC>
+      <StrategiesNIC>reccOpjAZcdo2Twg0</StrategiesNIC>
+      <StrategiesNIC>recX7hjBmW6JV5N1t</StrategiesNIC>
+      <StrategiesNIC>rec4wBagVJAx7BMvI</StrategiesNIC>
+      <StrategiesNIC>recWDKXE4cLAcmdIt</StrategiesNIC>
+      <StrategiesNIC>rec3Arz4M2hSsDj4q</StrategiesNIC>
+      <ElectricallyConnectsAndDisconnects>rec8a49BAVbZpiDZc</ElectricallyConnectsAndDisconnects>
       <HasPowerLevel>true</HasPowerLevel>
       <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
-      <Name>TerminalAsset</Name>
+      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
+      <ColorHex>#43b1cc</ColorHex>
       <CoreLexiconNIC>recUbAewFC2ZjEmnj</CoreLexiconNIC>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recMbxucKKcuZhl3O</GNodeRoleId>
       <createdTime>2019-12-05T00:02:14Z</createdTime>
+      <Name>Mpr</Name>
+      <Definition>Short for MessageProtocolRegistry.</Definition>
+      <MessageCategoryNIC>recmaGgkdAbneFxmY</MessageCategoryNIC>
       <EffortlessAPIListenerNIC>reczkeZjcrDU726j8</EffortlessAPIListenerNIC>
       <EffortlessAPIListenerNIC>recYAHuzndMvMKnQI</EffortlessAPIListenerNIC>
-      <Definition>Short for MessageProtocolRegistry.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>recmaGgkdAbneFxmY</EffortlessAPILexiconSpeakerNIC>
-      <Name>Mpr</Name>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
+      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recQEmZLyTIbXWrVd</GNodeRoleId>
       <createdTime>2019-08-01T00:59:24Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>recHkD2aM3iCYsgU4</HasVoltage>
+      <Name>GNode</Name>
+      <Definition>A GNode is a fundamental unit of abstraction in the Gridworks Lexicon and code. GNodes have a tree structure created by left to right reading of the alias, with "." as the separator. For example, a GNode with alias sw1.ne has a parent with alias of sw1. This tree structure is used both as a method of capturing known topological information about electric grids, and as an organizational principle for coding actions and functions.  
+
+</Definition>
+      <MessageCategoryNIC>recYAHuzndMvMKnQI</MessageCategoryNIC>
+      <MessageCategoryNIC>reclQdE6CGJSAnw67</MessageCategoryNIC>
+      <MessageCategoryNIC>rec5QtviFZ6LUmRMm</MessageCategoryNIC>
       <EffortlessAPIListenerNIC>rec5x7Mqmm7KfqBNZ</EffortlessAPIListenerNIC>
       <EffortlessAPIListenerNIC>rec0mooombOszscJy</EffortlessAPIListenerNIC>
       <EffortlessAPIListenerNIC>receLjgbbY11xFg3r</EffortlessAPIListenerNIC>
       <EffortlessAPIListenerNIC>recmaGgkdAbneFxmY</EffortlessAPIListenerNIC>
-      <Definition>A GNode is a fundamental unit of abstraction in the Gridworks Lexicon and code. GNodes have a tree structure created by left to right reading of the alias, with "." as the separator. For example, a GNode with alias sw1.ne has a parent with alias of sw1. This tree structure is used both as a method of capturing known topological information about electric grids, and as an organizational principle for coding actions and functions.  
-
-</Definition>
-      <EffortlessAPILexiconSpeakerNIC>recYAHuzndMvMKnQI</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>reclQdE6CGJSAnw67</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>rec5QtviFZ6LUmRMm</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>GNode</Name>
+      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
+      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
+      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recQt2QWPxouyedKY</GNodeRoleId>
       <createdTime>2019-07-11T14:40:41Z</createdTime>
+      <Name>GridRoot</Name>
+      <Definition>A ConductorTopology GNode (GridCoordinator) where its ConductorTopology descendants represent a locally coherent part of the grid. Specifically, if one wants to impose some consistency requirements on a set of GNode strategies (via creating a Grid Run Class), it is assumed that this will impact all instantiated GNodes at or below a particular GridRoot. It must be a ConductorTopologyNode.  It is the only kind of ConductorTopologyNode that does not necessarily have a parent ConductorTopologyNode (although it can).</Definition>
       <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
+      <HasPowerLevel>true</HasPowerLevel>
+      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
       <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
       <ColorHex>#70ccb0</ColorHex>
-      <Definition>A ConductorTopology GNode (GridCoordinator) where its ConductorTopology descendants represent a locally coherent part of the grid. Specifically, if one wants to impose some consistency requirements on a set of GNode strategies (via creating a Grid Run Class), it is assumed that this will impact all instantiated GNodes at or below a particular GridRoot. It must be a ConductorTopologyNode.  It is the only kind of ConductorTopologyNode that does not necessarily have a parent ConductorTopologyNode (although it can).</Definition>
-      <HasPowerLevel>true</HasPowerLevel>
-      <Name>GridRoot</Name>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recQydUsptO4Rit9A</GNodeRoleId>
       <createdTime>2019-07-01T22:57:29Z</createdTime>
+      <Name>AggregatedTNode</Name>
+      <Definition>An AggregatedTNode is an aggregation of AtomicTNodes that has the potential  of entering into contracts with a contract coordinator on behalf of its AtomicTNodes. We use the term synonymously with Microgrid.</Definition>
       <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
+      <HasPowerLevel>true</HasPowerLevel>
+      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
       <HasVoltage>recHkD2aM3iCYsgU4</HasVoltage>
       <ColorHex>#438a79</ColorHex>
-      <Definition>An AggregatedTNode is an aggregation of AtomicTNodes that has the potential  of entering into contracts with a contract coordinator on behalf of its AtomicTNodes. We use the term synonymously with Microgrid.</Definition>
-      <HasPowerLevel>true</HasPowerLevel>
-      <Name>AggregatedTNode</Name>
       <CoreLexiconNIC>reczKU5eR5ycC1pjj</CoreLexiconNIC>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recRAOi9fvGITA4Q0</GNodeRoleId>
       <createdTime>2019-08-31T11:41:04Z</createdTime>
-      <StrategiesNIC>recSffOrlJYsi6eTe</StrategiesNIC>
-      <EffortlessAPIListenerNIC>recGPO4CP7FJXmq91</EffortlessAPIListenerNIC>
-      <Definition>An entity responsible for issuing TimeSteps. A WorldCoordinator is always a TimeCoordinator. However, there may be additional time coordinators (for example sending higher resolution TimeSteps to a sub-grid of the larger WorldInstance).</Definition>
-      <EffortlessAPILexiconSpeakerNIC>rec5x7Mqmm7KfqBNZ</EffortlessAPILexiconSpeakerNIC>
       <Name>TimeCoordinator</Name>
+      <Definition>An entity responsible for issuing TimeSteps. A WorldCoordinator is always a TimeCoordinator. However, there may be additional time coordinators (for example sending higher resolution TimeSteps to a sub-grid of the larger WorldInstance).</Definition>
+      <MessageCategoryNIC>rec5x7Mqmm7KfqBNZ</MessageCategoryNIC>
+      <EffortlessAPIListenerNIC>recGPO4CP7FJXmq91</EffortlessAPIListenerNIC>
+      <StrategiesNIC>recSffOrlJYsi6eTe</StrategiesNIC>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
+      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
       <CoreLexiconNIC>recB1nR7a64D2OCBM</CoreLexiconNIC>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recZp9Gm4Ows71NSb</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <Name>WorldCoordinator</Name>
+      <Definition>&lt;![CDATA[A World Coordinator is associated to a unique world instance, and has ultimate responsibility for the appropriate functioning of its World Instance.  It maintains a user interface allowing Admin to make various changes - for example changing a terminal asset strategy so it runs in scala instead of python, or adding a GridRunClass that adds a whole new set of instantiated GNodes.  This starts with spinning up a container for each of its Supervisors, providing these Supervisors with appropriate creation &amp; change information regarding the World instantiated GNodes, their Components, and their Strategies. Critically the World Coordinator also allocates responsibility for GNodeInstances - its Supervisors create a disjoint cover of all GNodeInstances that HaveAgents. The WorldCoordinator can also be a Supervisor. The World Coordinator is created and initialized by the WorldInstanceRegistry (WIR). Note that the WIR also creates a world-specific message broker (i.e. the only messages running on this broker are between agents within this specific World Instance) for the WorldCoordinator.]]&gt;</Definition>
+      <MessageCategoryNIC>rechEajrpHRktMBrq</MessageCategoryNIC>
+      <MessageCategoryNIC>recU64rhLXVwCJZ2L</MessageCategoryNIC>
+      <MessageCategoryNIC>recYpPprOf23bdtsp</MessageCategoryNIC>
+      <MessageCategoryNIC>recqFiRdVU8RivqhB</MessageCategoryNIC>
+      <EffortlessAPIListenerNIC>rec4Dw8NKawCNmvfH</EffortlessAPIListenerNIC>
+      <EffortlessAPIListenerNIC>recluvGaKNi8jAu0i</EffortlessAPIListenerNIC>
       <StrategiesNIC>recFJ78S2yTf1Cbst</StrategiesNIC>
       <StrategiesNIC>reckrrRE7GDFwIoT6</StrategiesNIC>
       <StrategiesNIC>recPXH6xiPkK3JanJ</StrategiesNIC>
       <StrategiesNIC>recfWXer5QST8BMsU</StrategiesNIC>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
       <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
-      <PrimaryRoleForTheseGNodesNIC>recZx3zD9eKA04gLR</PrimaryRoleForTheseGNodesNIC>
-      <EffortlessAPIListenerNIC>rec4Dw8NKawCNmvfH</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recluvGaKNi8jAu0i</EffortlessAPIListenerNIC>
       <ColorHex>#e35d14</ColorHex>
-      <Definition>&lt;![CDATA[A World Coordinator is associated to a unique world instance, and has ultimate responsibility for the appropriate functioning of its World Instance.  It maintains a user interface allowing Admin to make various changes - for example changing a terminal asset strategy so it runs in scala instead of python, or adding a GridRunClass that adds a whole new set of instantiated GNodes.  This starts with spinning up a container for each of its Supervisors, providing these Supervisors with appropriate creation &amp; change information regarding the World instantiated GNodes, their Components, and their Strategies. Critically the World Coordinator also allocates responsibility for GNodeInstances - its Supervisors create a disjoint cover of all GNodeInstances that HaveAgents. The WorldCoordinator can also be a Supervisor. The World Coordinator is created and initialized by the WorldInstanceRegistry (WIR). Note that the WIR also creates a world-specific message broker (i.e. the only messages running on this broker are between agents within this specific World Instance) for the WorldCoordinator.]]&gt;</Definition>
-      <EffortlessAPILexiconSpeakerNIC>rechEajrpHRktMBrq</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recU64rhLXVwCJZ2L</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recYpPprOf23bdtsp</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recqFiRdVU8RivqhB</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>WorldCoordinator</Name>
       <CoreLexiconNIC>recJijbhL2A8Swc22</CoreLexiconNIC>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recbEfWZRaQttID71</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
+      <Name>TerminalSsNode</Name>
       <Definition>A TerminalSSNodes is an infinitesimally long InterconnectionComponent that connects its parent (a ConductorTopologyNode) to its unique child (a Terminal Asset). The FromNode of a TerminalSSNode is its parent ConductorTopologyNode and its ToNode is its TerminalAsset.
 
 NB: We may change 'child' to 'descendant' when we add metering and control devices as GNode parents of Terminal Assets.  
@@ -3200,50 +3236,51 @@ NB: We may change 'child' to 'descendant' when we add metering and control devic
 A TerminalSSNodes has Electrical Quantities (current, voltage, etc.). 
 
 </Definition>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
       <HasPowerLevel>true</HasPowerLevel>
-      <Name>TerminalSsNode</Name>
+      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
+      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
       <CoreLexiconNIC>recD3SFBSWdxVFsP4</CoreLexiconNIC>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rece0NnrQMWN5yidT</GNodeRoleId>
       <createdTime>2019-07-30T18:41:59Z</createdTime>
+      <Name>ServiceCoordinator</Name>
+      <Definition>Only one non-development node can be a ServiceCoordinator, and it must be a root node.  The children of the Service Coordinator are services that can be used by multiple world instances simultaneously. The first feature is that it has only one non-development world instance, and that instance is not simulated. The second is that its descendants are limited to a small set of "Code Service" GNodes - which in particular rules out any GNodes reflecting physical assets on the grid.  The third is that it and its descendants can communicate with other world instances. </Definition>
       <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
       <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
       <ColorHex>#053982</ColorHex>
-      <Definition>Only one non-development node can be a ServiceCoordinator, and it must be a root node.  The children of the Service Coordinator are services that can be used by multiple world instances simultaneously. The first feature is that it has only one non-development world instance, and that instance is not simulated. The second is that its descendants are limited to a small set of "Code Service" GNodes - which in particular rules out any GNodes reflecting physical assets on the grid.  The third is that it and its descendants can communicate with other world instances. </Definition>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>ServiceCoordinator</Name>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recgvGnsFTxPMSM8G</GNodeRoleId>
       <createdTime>2019-07-11T14:41:58Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <StrategiesNIC>recp8qW8l2LjxQmiA</StrategiesNIC>
-      <StrategiesNIC>recOhHQipyJJJUxub</StrategiesNIC>
-      <StrategiesNIC>recA4LEYM8WwhaMNQ</StrategiesNIC>
-      <StrategiesNIC>recTNnQLKuSVCpPwo</StrategiesNIC>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
-      <EffortlessAPIListenerNIC>recdWSUBFkT9t7M8B</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>reczbQ4WrChlnoo3l</EffortlessAPIListenerNIC>
-      <ColorHex>#bae6ff</ColorHex>
+      <Name>NetworkModeler</Name>
       <Definition>A NetworkModeler is a GNode responsible for global coordination of either simulated or estimated reality in its associated grid. It must be the child of a GridRoot. Its associated grid is all the descendants of its parent which are part of the grid (e.g. InterconnectionComponents, Ctns ), or interact physically with the grid (e.g. AtomicTNodes, MeteringDevices). 
 
 In an entirely simulated world, we may choose to define the `real ElectricalQuantities` as  the NetworkModeler estimates of the ElectricalQuantities associated to Ctns (Conductor Topology Nodes), InterconnectionComponents, TerminalAssets at each TimeStep. 
 </Definition>
-      <EffortlessAPILexiconSpeakerNIC>recoS5I3MirhGUtmr</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recfeXesSjJnD9Fkz</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recVSlK7cVn36s9CS</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recGPO4CP7FJXmq91</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>reckALZS3SfDVpb98</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
-      <Name>NetworkModeler</Name>
+      <MessageCategoryNIC>recoS5I3MirhGUtmr</MessageCategoryNIC>
+      <MessageCategoryNIC>recfeXesSjJnD9Fkz</MessageCategoryNIC>
+      <MessageCategoryNIC>recVSlK7cVn36s9CS</MessageCategoryNIC>
+      <MessageCategoryNIC>recGPO4CP7FJXmq91</MessageCategoryNIC>
+      <MessageCategoryNIC>reckALZS3SfDVpb98</MessageCategoryNIC>
+      <EffortlessAPIListenerNIC>recdWSUBFkT9t7M8B</EffortlessAPIListenerNIC>
+      <EffortlessAPIListenerNIC>reczbQ4WrChlnoo3l</EffortlessAPIListenerNIC>
+      <StrategiesNIC>recp8qW8l2LjxQmiA</StrategiesNIC>
+      <StrategiesNIC>recOhHQipyJJJUxub</StrategiesNIC>
+      <StrategiesNIC>recA4LEYM8WwhaMNQ</StrategiesNIC>
+      <StrategiesNIC>recTNnQLKuSVCpPwo</StrategiesNIC>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
+      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
+      <ColorHex>#bae6ff</ColorHex>
       <CoreLexiconNIC>recGy6SR7us0cnjKh</CoreLexiconNIC>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rechJpsEs37dyehKh</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>recHkD2aM3iCYsgU4</HasVoltage>
+      <Name>InterconnectionComponent</Name>
       <Definition>An InterconnectionComponent is a component with electrical characteristics that mean it has a non-trivial relationship between voltage and current. In addition, it has a FromNode and ToNode indicating where it connects on each side (and determining the direction of positive current flow).  
 
 
@@ -3256,58 +3293,71 @@ As a GNode Role, an InterconnectionComponent must be either a conducting wire (i
 Note that every ConductorTopologyNode also represents an InterconnectionComponent - the cable, wire or transformer between it and its parent node (which must also be a ConductorTopologyNode except in the special case of being a GridRoot  ... which may or may not have parents). 
 
 Combined with the ConductorTopology nodes, the InterconnectionComponent nodes let us complete the conducting graphs. The reference direction is captured by FromNode and ToNode.</Definition>
+      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
       <HasPowerLevel>true</HasPowerLevel>
-      <Name>InterconnectionComponent</Name>
+      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
+      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
       <CoreLexiconNIC>recnJPvjuxJwaLrcP</CoreLexiconNIC>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recnqlWF2ATSg2z36</GNodeRoleId>
       <createdTime>2019-12-04T23:57:56Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
-      <EffortlessAPIListenerNIC>recCG5srZAZ42u8yZ</EffortlessAPIListenerNIC>
-      <Definition>Components - and particular electrical components - as well as Component Attribute Classes and ComponentTypes</Definition>
-      <EffortlessAPILexiconSpeakerNIC>recnT4N4GzZLmMMQZ</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
       <Name>ComponentRegistry</Name>
+      <Definition>Components - and particular electrical components - as well as Component Attribute Classes and ComponentTypes</Definition>
+      <MessageCategoryNIC>recnT4N4GzZLmMMQZ</MessageCategoryNIC>
+      <EffortlessAPIListenerNIC>recCG5srZAZ42u8yZ</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
+      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recod0ttcJqF2WUsO</GNodeRoleId>
       <createdTime>2019-11-29T04:01:13Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
+      <Name>Gnr</Name>
+      <Definition>Short for GNodeRegistry, Gnr is a  Gridworks Platform Service (i.e., in the tree whose root is a Service Root) which is the authority for the durable data specific to GNodes. In particular it is the authority for mutable data, including the GNode Alias and their inherited tree structure.</Definition>
+      <MessageCategoryNIC>recDkW2OWVBvl1vtN</MessageCategoryNIC>
+      <MessageCategoryNIC>receLjgbbY11xFg3r</MessageCategoryNIC>
+      <MessageCategoryNIC>recCG5srZAZ42u8yZ</MessageCategoryNIC>
       <EffortlessAPIListenerNIC>recnT4N4GzZLmMMQZ</EffortlessAPIListenerNIC>
       <EffortlessAPIListenerNIC>reclQdE6CGJSAnw67</EffortlessAPIListenerNIC>
-      <Definition>Short for GNodeRegistry, Gnr is a  Gridworks Platform Service (i.e., in the tree whose root is a Service Root) which is the authority for the durable data specific to GNodes. In particular it is the authority for mutable data, including the GNode Alias and their inherited tree structure.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>recDkW2OWVBvl1vtN</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>receLjgbbY11xFg3r</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recCG5srZAZ42u8yZ</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>Gnr</Name>
+      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
+      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
+      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recrI72Mi4LQXveNZ</GNodeRoleId>
       <createdTime>2019-07-23T20:05:22Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>recHkD2aM3iCYsgU4</HasVoltage>
-      <Definition>We have not yet thought through exactly how we will model and implement SCADA, metering and control. It may be that we want to add GNodes which have the role ActuatingDevice. This is under development.</Definition>
-      <HasPowerLevel>true</HasPowerLevel>
       <Name>ActuatingDevice</Name>
+      <Definition>We have not yet thought through exactly how we will model and implement SCADA, metering and control. It may be that we want to add GNodes which have the role ActuatingDevice. This is under development.</Definition>
+      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
+      <HasPowerLevel>true</HasPowerLevel>
+      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
+      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
+      <ColorHex>#0e6f05 </ColorHex>
     </GNodeRole>
   </GNodeRoles>
   <LocalAxiomss>
     <LocalAxioms>
       <LocalAxiomsId>recNaVqxqgDg20vCX</LocalAxiomsId>
       <createdTime>2020-01-16T18:50:29Z</createdTime>
-      <Name>GNodeAliasMatchesWorldInstance</Name>
-      <MessageProtocolFields>recgkxXbqMKrvrbXd</MessageProtocolFields>
       <Description>Given a GNodeInstance gni with GNodeAlias gni.GrcGNode.GNode.Alias. The WorldInstanceName has format FirstWord + '__' + x, where x is an integer and FirstWord is the first (from the left) word in the GNodeAlias.
 </Description>
+      <MessageProtocolFields>recgkxXbqMKrvrbXd</MessageProtocolFields>
+      <AdHocName>GNodeAliasMatchesWorldInstance</AdHocName>
+      <Name>GNodeAliasMatchesWorldInstance</Name>
     </LocalAxioms>
     <LocalAxioms>
       <LocalAxiomsId>recjOWzryJqDSC1Uj</LocalAxiomsId>
-      <fields />
       <createdTime>2020-01-16T18:50:29Z</createdTime>
+      <Description>GNode inherits its RatedPowerInjectedVa from its PrimaryComponent</Description>
+      <FormalStatement>Component match {
+    case Some =&gt; GNode.Component.RatedPowerInjectedVa
+    case None =&gt; None
+}</FormalStatement>
+      <Table>GNode</Table>
+      <Attribute>RatedPowerInjectedVa</Attribute>
+      <IsAttributeDerivation>true</IsAttributeDerivation>
+      <Name>GNode__RatedPowerInjectedVa</Name>
     </LocalAxioms>
     <LocalAxioms>
       <LocalAxiomsId>recvUpG0mnMChCwaY</LocalAxiomsId>

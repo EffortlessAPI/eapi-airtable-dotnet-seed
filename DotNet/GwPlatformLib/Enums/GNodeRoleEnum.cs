@@ -14,6 +14,7 @@ namespace GwPlatformDotNet.Lib.Enums
             SUPERVISOR,
             WIR,
             CTN,
+            ADMIN,
             ATOMICTNODE,
             CONTRACTCOORDINATOR,
             NEUTRAL,

@@ -20,7 +20,7 @@ namespace GwPlatform.Lib.DataClasses
                 Name = "Ground",
                 Definition = @"This node represents electrical ground in the world. It is the `ToNode` for all TerminalAssets. That is, a TerminalAsset viewed as an ElectricalComponent has power flowing from its FromNode to its ToNode, and the ToNode is ground. ",
                 ColorHex = "",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.FALSE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
@@ -33,7 +33,7 @@ namespace GwPlatform.Lib.DataClasses
                 Name = "Supervisor",
                 Definition = @"This is a GNode role for an actor/agent that is identified with a docker container and that starts up a set of agents, after getting sent initialization data either by the World Instance Registry (if it is a World Coordinator) or from a World Coordinator.  The agents managed by a supervisor will all use code from the same repository - although the same repository can be used for multiple Supervisors.",
                 ColorHex = "",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.TRUE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
@@ -46,7 +46,7 @@ namespace GwPlatform.Lib.DataClasses
                 Name = "Wir",
                 Definition = @"WIR stands for the World Instance Registry -a service that maintains information about World Instances, including links to their WorldCoordinators. At the request of Admin, it will gather the initialization data  (GNodes, Components, GNode Strategies,  Grid Run Classes and GRCGNodes) for the world, validate consistency, and then instantiate a new World Instance by creating a container for its WorldCoordinator with this initializing data. It also creates a world-specific broker for the World Instance.    ",
                 ColorHex = "",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.TRUE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
@@ -74,6 +74,19 @@ The sum of the power (and current) withdrawn for the TerminalSSNode children of 
             GNodeRole.GNRsByEnum[GNodeRoleEnum.CTN] = gnrCtn;
             GNodeRole.GNRsByName["CTN"] = gnrCtn;
         
+            var gnrAdmin = new GNodeRole() {
+                Name = "Admin",
+                Definition = @"GNodeRole of not being a GNode but having admin authority",
+                ColorHex = "#ede0f3",
+                HasAgentEnum = FuzzyLogicEnum.FALSE,
+                ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
+                HasPowerLevel = true,
+                HasVoltageEnum = FuzzyLogicEnum.TRUE
+            };
+            GNodeRole.AllGNRs.Add(gnrAdmin);
+            GNodeRole.GNRsByEnum[GNodeRoleEnum.ADMIN] = gnrAdmin;
+            GNodeRole.GNRsByName["ADMIN"] = gnrAdmin;
+        
             var gnrAtomicTNode = new GNodeRole() {
                 Name = "AtomicTNode",
                 Definition = @"An AtomicTNode - short for Atomic Transactive Node - is a TerminalSSNode that has the potential to transact in contracts on behalf of its associated ControllableAsset. At present there is only one Role for this - TerminalAsset. However, transformers for example may also be controllable and could be associated with AtomicTNodes.
@@ -95,7 +108,7 @@ The Atomicity of an AtomicTNode means that there are no AtomicTNode children in 
                 Name = "ContractCoordinator",
                 Definition = @"Coordinates contracts for energy services. Typically this will be with an AtomicTNode or an AggregatedTNode.",
                 ColorHex = "#d0f2d2",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.TRUE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
@@ -108,7 +121,7 @@ The Atomicity of an AtomicTNode means that there are no AtomicTNode children in 
                 Name = "Neutral",
                 Definition = @"We aren't using Neutral yet since we have not moved to a three-phase representation but it'll be here as a node when we do.",
                 ColorHex = "",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.FALSE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
@@ -138,7 +151,7 @@ The TerminalAsset is also an InterconnectionComponent, where the FromNode is eit
                 Name = "Mpr",
                 Definition = @"Short for MessageProtocolRegistry.",
                 ColorHex = "",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.TRUE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
@@ -205,7 +218,7 @@ The TerminalAsset is also an InterconnectionComponent, where the FromNode is eit
                 Name = "WorldCoordinator",
                 Definition = @"<![CDATA[A World Coordinator is associated to a unique world instance, and has ultimate responsibility for the appropriate functioning of its World Instance.  It maintains a user interface allowing Admin to make various changes - for example changing a terminal asset strategy so it runs in scala instead of python, or adding a GridRunClass that adds a whole new set of instantiated GNodes.  This starts with spinning up a container for each of its Supervisors, providing these Supervisors with appropriate creation & change information regarding the World instantiated GNodes, their Components, and their Strategies. Critically the World Coordinator also allocates responsibility for GNodeInstances - its Supervisors create a disjoint cover of all GNodeInstances that HaveAgents. The WorldCoordinator can also be a Supervisor. The World Coordinator is created and initialized by the WorldInstanceRegistry (WIR). Note that the WIR also creates a world-specific message broker (i.e. the only messages running on this broker are between agents within this specific World Instance) for the WorldCoordinator.]]>",
                 ColorHex = "#e35d14",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.TRUE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
@@ -237,7 +250,7 @@ A TerminalSSNodes has Electrical Quantities (current, voltage, etc.).
                 Name = "ServiceCoordinator",
                 Definition = @"Only one non-development node can be a ServiceCoordinator, and it must be a root node.  The children of the Service Coordinator are services that can be used by multiple world instances simultaneously. The first feature is that it has only one non-development world instance, and that instance is not simulated. The second is that its descendants are limited to a small set of 'Code Service' GNodes - which in particular rules out any GNodes reflecting physical assets on the grid.  The third is that it and its descendants can communicate with other world instances. ",
                 ColorHex = "#053982",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.TRUE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
@@ -290,7 +303,7 @@ Combined with the ConductorTopology nodes, the InterconnectionComponent nodes le
                 Name = "ComponentRegistry",
                 Definition = @"Components - and particular electrical components - as well as Component Attribute Classes and ComponentTypes",
                 ColorHex = "",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.TRUE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
@@ -303,7 +316,7 @@ Combined with the ConductorTopology nodes, the InterconnectionComponent nodes le
                 Name = "Gnr",
                 Definition = @"Short for GNodeRegistry, Gnr is a  Gridworks Platform Service (i.e., in the tree whose root is a Service Root) which is the authority for the durable data specific to GNodes. In particular it is the authority for mutable data, including the GNode Alias and their inherited tree structure.",
                 ColorHex = "",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.TRUE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
@@ -315,7 +328,7 @@ Combined with the ConductorTopology nodes, the InterconnectionComponent nodes le
             var gnrActuatingDevice = new GNodeRole() {
                 Name = "ActuatingDevice",
                 Definition = @"We have not yet thought through exactly how we will model and implement SCADA, metering and control. It may be that we want to add GNodes which have the role ActuatingDevice. This is under development.",
-                ColorHex = "",
+                ColorHex = "#0e6f05 ",
                 HasAgentEnum = FuzzyLogicEnum.MAYBE,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,

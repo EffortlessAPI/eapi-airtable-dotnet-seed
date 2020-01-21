@@ -37,12 +37,18 @@ namespace GwPlatform.Lib.DataClasses
             GNodeRole.GNRsByEnum = new Dictionary&lt;GNodeRoleEnum, GNodeRole>();
             GNodeRole.GNRsByName = new Dictionary&lt;String, GNodeRole>();
 
-        <xsl:for-each select="//GNodeRoles/GNodeRole"><xsl:variable name="squot">'</xsl:variable>
+        <xsl:for-each select="//GNodeRoles/GNodeRole"><xsl:variable name="squot">'</xsl:variable><xsl:variable name="has-agent" select="normalize-space(//FuzzyLogics/FuzzyLogic[FuzzyLogicId = current()/HasAgent]/Key)"/>
             var gnr<xsl:value-of select="Name"/> = new GNodeRole() {
                 Name = "<xsl:value-of select="Name"/>",
                 Definition = @"<xsl:value-of select="translate(Definition, '&#34;', $squot)"/>",
                 ColorHex = "<xsl:value-of select="ColorHex"/>",
-                HasAgentEnum = FuzzyLogicEnum.MAYBE,
+                HasAgentEnum = FuzzyLogicEnum.<xsl:choose>
+                    <xsl:when test="$has-agent = 'TRUE'">TRUE</xsl:when>
+                    <xsl:when test="$has-agent = 'checked'">TRUE</xsl:when>
+                    <xsl:when test="$has-agent = 'FALSE'">FALSE</xsl:when>
+                    <xsl:when test="$has-agent = ''">FALSE</xsl:when>
+                    <xsl:otherwise>MAYBE</xsl:otherwise>
+                </xsl:choose>,
                 ElectricallyConnectsAndDisconnectsEnum = FuzzyLogicEnum.TRUE,
                 HasPowerLevel = true,
                 HasVoltageEnum = FuzzyLogicEnum.TRUE
