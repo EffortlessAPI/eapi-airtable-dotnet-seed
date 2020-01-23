@@ -1,0 +1,83 @@
+<html><head><title>GwPlatform Project Summary</title><link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /><style>
+body {
+    padding: 1em;
+}
+
+.ssotme-root {
+    color: #EE2222;
+}
+
+.relative-path {
+    font-style: italics;
+    color: #2222EE;
+}
+
+.command-line {
+    text-indent: 5em;
+}
+
+.project-transpiler-link-box {
+    max-width: 70em;
+    font-size: 1.2em; 
+    font-weight; bold; 
+    padding: 0.25em;
+    border: solid #EEEEEE 1px;
+    margin: 0.25em;
+    margin-bottom: 0.8s5em;
+}
+
+.pre {
+    font-family: monospace;
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+
+}
+        </style></head><body><h1>GwPlatform Project Summary</h1><h2>Build Plan</h2><div style="margin-top: 0.75em;"><b>[SSoTme-root] </b>/>
+            <div class="pre" style="padding-left: 15em; text-indent:-15em; font-size: 0.8em;">effortless/ssot</div></div><div style="margin-top: 0.75em;"><b>[SSoTme-root] </b>/DotNet/GwPlatformLib/SassyMQ/>
+            <div class="pre" style="padding-left: 15em; text-indent:-15em; font-size: 0.8em;">sassymq/smql-to-csharp-rabbitmq -i ../../../SassyMQ/Lexicon.smql -i ../../../ODXML/DataSchema.odxml -p smq-namespace=EffortlessApi.SassyMQ.Lib</div></div><div style="margin-top: 0.75em;"><b>[SSoTme-root] </b>/DotNet/GwPlatformLib/DataClasses/>
+            <div class="pre" style="padding-left: 15em; text-indent:-15em; font-size: 0.8em;">odxml42/odxml-to-csharp-pocos -i ../../../ODXML/DataSchema.odxml -p airtable=true</div></div><div style="margin-top: 0.75em;"><b>[SSoTme-root] </b>/SSoT/>
+            <div class="pre" style="padding-left: 15em; text-indent:-15em; font-size: 0.8em;">airtable/airtable-to-xml -p baseId=apphD1KcIwZ02ANPL -i Entities.json -w 120000</div></div><div style="margin-top: 0.75em;"><b>[SSoTme-root] </b>/DotNet/GwPlatformLib/DataClasses/>
+            <div class="pre" style="padding-left: 15em; text-indent:-15em; font-size: 0.8em;">codee42/xml-xslt-transform -i ../../../SSoT/Airtable.xml -i CreateDerivedDataClasses.xslt</div></div><div style="margin-top: 0.75em;"><b>[SSoTme-root] </b>/DotNet/GwPlatformLib/Enums/>
+            <div class="pre" style="padding-left: 15em; text-indent:-15em; font-size: 0.8em;">codee42/xml-xslt-transform -i ../../../SSoT/Airtable.xml -i CreateDerivedEnums.xslt</div></div><h2>Input Files</h2><div><h3>Lexicon.smql</h3><div style="background-color: #EEEEEE; margin: 0.25em; border: solid #CCCCCC 1px;"><div style="margin-left: 1em;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path">/DotNet/GwPlatformLib/SassyMQ</span><br />/> <b>ssotme </b> <a href="#38069e8e-e468-468f-adb6-06cbfe211251" ></a> -i " /SassyMQ/Lexicon.smql, ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div></div></div><div><h3>DataSchema.odxml</h3><div style="background-color: #EEEEEE; margin: 0.25em; border: solid #CCCCCC 1px;"><div style="margin-left: 1em;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path">/DotNet/GwPlatformLib/DataClasses</span><br />/> <b>ssotme </b> <a href="#05446ed8-0087-433d-a28b-948e30bbc8da" ></a> -i " /ODXML/DataSchema.odxml, ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div></div></div><div><h3>Entities.json</h3><div style="background-color: #EEEEEE; margin: 0.25em; border: solid #CCCCCC 1px;"><div style="margin-left: 1em;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path">/SSoT</span><br />/> <b>ssotme </b> <a href="#062a5e7b-d6e7-4a83-9296-1a4b64cb1a57" ></a> -i " /SSoT/Entities.json, ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div></div></div><div><h3>Airtable.xml</h3><div style="background-color: #EEEEEE; margin: 0.25em; border: solid #CCCCCC 1px;"><div style="margin-left: 1em;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path">/DotNet/GwPlatformLib/DataClasses</span><br />/> <b>ssotme </b> <a href="#3b84817c-f272-4dd6-9f98-5ba130ec19b5" ></a> -i " /SSoT/Airtable.xml, ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div><div style="margin-left: 1em;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path">/DotNet/GwPlatformLib/Enums</span><br />/> <b>ssotme </b> <a href="#2906edef-c76c-4a83-b42c-9eccb7bf929c" ></a> -i " /SSoT/Airtable.xml, ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div></div></div><hr /><H3>All Transpilers</H3>
+        
+        <hr id="590c469f-c55e-479a-9165-11191de6e23d 6/>
+
+        <div style="clear: both;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path"></span><br />/> <b>ssotme </b> <a href="#590c469f-c55e-479a-9165-11191de6e23d" ></a> -i " , ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div><div style="clear: both;"><div style="white-space: pre-wrap; font-size: 0.8em; margin-top: -1.2em; padding: 0.2em;">SSoT</div></div><div style="white-space: pre-wrap; clear: both"><span class="command-line">effortless/ssot</span></div><div style="margin-left: 1em; padding: 0.5em;">make-fks-collections=true ----->
+                </div><div style="margin-left: 2em; padding: 0.5em;"></div>
+        <hr id="38069e8e-e468-468f-adb6-06cbfe211251 6/>
+
+        <div style="clear: both;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path">/DotNet/GwPlatformLib/SassyMQ</span><br />/> <b>ssotme </b> <a href="#38069e8e-e468-468f-adb6-06cbfe211251" ></a> -i " /SassyMQ/Lexicon.smql, ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div><div style="clear: both;"><div style="white-space: pre-wrap; font-size: 0.8em; margin-top: -1.2em; padding: 0.2em;">Smql To CSharp RabbitMQ</div></div><div style="white-space: pre-wrap; clear: both"><span class="command-line">sassymq/smql-to-csharp-rabbitmq -i ../../../SassyMQ/Lexicon.smql -i ../../../ODXML/DataSchema.odxml -p smq-namespace=EffortlessApi.SassyMQ.Lib</span></div><div style="margin-left: 1em; padding: 0.5em;"><div>/SassyMQ/Lexicon.smql ----->
+                        </div><div>/ODXML/DataSchema.odxml ----->
+                        </div></div><div style="margin-left: 2em; padding: 0.5em;"></div>
+        <hr id="05446ed8-0087-433d-a28b-948e30bbc8da 6/>
+
+        <div style="clear: both;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path">/DotNet/GwPlatformLib/DataClasses</span><br />/> <b>ssotme </b> <a href="#05446ed8-0087-433d-a28b-948e30bbc8da" ></a> -i " /ODXML/DataSchema.odxml, ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div><div style="clear: both;"><div style="white-space: pre-wrap; font-size: 0.8em; margin-top: -1.2em; padding: 0.2em;">Odxml To CSharp POCOs</div></div><div style="white-space: pre-wrap; clear: both"><span class="command-line">odxml42/odxml-to-csharp-pocos -i ../../../ODXML/DataSchema.odxml -p airtable=true</span></div><div style="margin-left: 1em; padding: 0.5em;"><div>/ODXML/DataSchema.odxml ----->
+                        </div></div><div style="margin-left: 2em; padding: 0.5em;"></div>
+        <hr id="062a5e7b-d6e7-4a83-9296-1a4b64cb1a57 6/>
+
+        <div style="clear: both;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path">/SSoT</span><br />/> <b>ssotme </b> <a href="#062a5e7b-d6e7-4a83-9296-1a4b64cb1a57" ></a> -i " /SSoT/Entities.json, ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div><div style="clear: both;"><div style="white-space: pre-wrap; font-size: 0.8em; margin-top: -1.2em; padding: 0.2em;">Extracts the contents of an airtable base as a single Xml file.</div></div><div style="white-space: pre-wrap; clear: both"><span class="command-line">airtable/airtable-to-xml -p baseId=apphD1KcIwZ02ANPL -i Entities.json -w 120000</span></div><div style="margin-left: 1em; padding: 0.5em;"><div>/SSoT/Entities.json ----->
+                        </div></div><div style="margin-left: 2em; padding: 0.5em;"></div>
+        <hr id="3b84817c-f272-4dd6-9f98-5ba130ec19b5 6/>
+
+        <div style="clear: both;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path">/DotNet/GwPlatformLib/DataClasses</span><br />/> <b>ssotme </b> <a href="#3b84817c-f272-4dd6-9f98-5ba130ec19b5" ></a> -i " /SSoT/Airtable.xml, ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div><div style="clear: both;"><div style="white-space: pre-wrap; font-size: 0.8em; margin-top: -1.2em; padding: 0.2em;">Given an Xml and Xslt file, will process and "split" a resulting fileset.</div></div><div style="white-space: pre-wrap; clear: both"><span class="command-line">codee42/xml-xslt-transform -i ../../../SSoT/Airtable.xml -i CreateDerivedDataClasses.xslt</span></div><div style="margin-left: 1em; padding: 0.5em;"><div>/SSoT/Airtable.xml ----->
+                        </div><div>/DotNet/GwPlatformLib/DataClasses/CreateDerivedDataClasses.xslt ----->
+                        </div></div><div style="margin-left: 2em; padding: 0.5em;"></div>
+        <hr id="2906edef-c76c-4a83-b42c-9eccb7bf929c 6/>
+
+        <div style="clear: both;"><div class="project-transpiler-link-box"><div class="pull-left"><div class="pull-left" style="height: 3em; width: 3em;"></div><div class="pull-left" style="height: 3em; width: 3em;"></div></div><h3></h3><div style="font-weight: bold; padding-after: 1em;"><div style="padding: 0.2em; white-space: pre-wrap; font-family: monospace"><span class="ssotme-root">[SSoTme-root]</span><span class="relative-path">/DotNet/GwPlatformLib/Enums</span><br />/> <b>ssotme </b> <a href="#2906edef-c76c-4a83-b42c-9eccb7bf929c" ></a> -i " /SSoT/Airtable.xml, ..."
+                </div><div style="padding-left: 2em;"></div></div></div></div><div style="clear: both;"><div style="white-space: pre-wrap; font-size: 0.8em; margin-top: -1.2em; padding: 0.2em;">Given an Xml and Xslt file, will process and "split" a resulting fileset.</div></div><div style="white-space: pre-wrap; clear: both"><span class="command-line">codee42/xml-xslt-transform -i ../../../SSoT/Airtable.xml -i CreateDerivedEnums.xslt</span></div><div style="margin-left: 1em; padding: 0.5em;"><div>/SSoT/Airtable.xml ----->
+                        </div><div>/DotNet/GwPlatformLib/Enums/CreateDerivedEnums.xslt ----->
+                        </div></div><div style="margin-left: 2em; padding: 0.5em;"></div></body></html>

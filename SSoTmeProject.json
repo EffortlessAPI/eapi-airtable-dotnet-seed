@@ -101,6 +101,28 @@
       "Name": "AirtableToXml",
       "RelativePath": "/SSoT",
       "CommandLine": "airtable/airtable-to-xml -p baseId=apphD1KcIwZ02ANPL -i Entities.json -w 120000"
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "ProjectTranspilerId": "2d7b2047-2f8a-418a-a188-6e973b3e21cd",
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/DotNet/GwPlatformLib/DataClasses",
+      "CommandLine": "\" codee42/xml-xslt-transform -i ../../../SSoT/Airtable.xml -i CreateDerivedDataClasses.xslt\""
+    },
+    {
+      "MatchedTranspiler": {
+        "TranspilerId": "4b713f03-1d9f-42f2-b02f-e3cdbd237bb3",
+        "Name": "XmlXsltTransform",
+        "Description": "Given an Xml and Xslt file, will process and \"split\" a resulting fileset."
+      },
+      "ProjectTranspilerId": "2906edef-c76c-4a83-b42c-9eccb7bf929c",
+      "Name": "XmlXsltTransform",
+      "RelativePath": "/DotNet/GwPlatformLib/Enums",
+      "CommandLine": "codee42/xml-xslt-transform -i ../../../SSoT/Airtable.xml -i CreateDerivedEnums.xslt"
     }
   ]
 }

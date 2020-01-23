@@ -23,6 +23,9 @@ namespace ConsoleApp1
                 admin.AccessToken = reply.AccessToken;
                 payload = admin.CreatePayload();
 
+                Console.WriteLine(JsonConvert.SerializeObject(GNodeRole.AllGNodeRoles, Formatting.Indented));
+                Console.ReadLine();
+
                 admin.GetGNodeRoles(payload, (nsReply, nsBdea) =>
                 {
                     Console.WriteLine(JsonConvert.SerializeObject(nsReply.GNodeRoles, Formatting.Indented));
@@ -35,7 +38,7 @@ namespace ConsoleApp1
             }, (error, ebdea) =>
             {
                 Console.WriteLine("ERROR: {0}", error.ErrorMessage);
-                    waiting = false;
+                waiting = false;
             });
             Task.Factory.StartNew(() =>
             {

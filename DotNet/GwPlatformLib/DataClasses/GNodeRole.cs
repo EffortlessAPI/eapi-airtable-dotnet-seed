@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using GwPlatformDotNet.Lib.Enums;
+using System.Linq;
 
 
 namespace GwPlatform.Lib.DataClasses
@@ -18,20 +19,40 @@ namespace GwPlatform.Lib.DataClasses
         {
             this.InitPoco();
         }
+
+        public FuzzyLogic HasAgent { 
+            get{
+                return FuzzyLogic.AllFuzzyLogics.FirstOrDefault(firstFL => this.HasAgentValue == firstFL.Value);
+            }
+        
+        }
+        // TODO ONE: HasAgentDerived as a field means create HasAgent with the type of HasAgentDerived using HasAgentValue
+        // TODO: create a test that fails if this.HasAgentValue is not a subset of FuzzyLogic.AllFuzzyLogicValues 
+        // That allows HasAgentValue to be null ... but if it is populated it must
+        // be in the FuzzyLogic.AllFuzzyLogicValues list.
+
+        public FuzzyLogic ElectricallyConnectsAndDisconnects {
+            get{
+                return FuzzyLogic.AllFuzzyLogics.FirstOrDefault(firstFL => this.ElectricallyConnectsAndDisconnectsValue == firstFL.Value);
+            }      
+        }
+
+        public FuzzyLogic HasVoltage { 
+            get{
+                return FuzzyLogic.AllFuzzyLogics.FirstOrDefault(firstFL => this.HasVoltageValue == firstFL.Value);
+            }      
+        }
        static GNodeRole()
         {
             GNodeRole.PopulateGNodeRoles();
-            GNodeRole.PopulateAllGNRs();
         }
         public override String ToString()
         {
             return String.Format("GNodeRole: {0}", this.Value);
         }
-
         public Nullable<DateTime> IRLCreatedAtUTC { get; set; }
         public static List<GNodeRole> AllGNRs { get; private set; }
 
-        public static Dictionary<GNodeRoleEnum, GNodeRole> GNRsByName { get; private set; }
 
  
 
