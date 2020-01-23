@@ -15,6 +15,11 @@ namespace GwPlatform.Lib.DataClasses
         {
             this.InitPoco();
         }
+
+        public override String ToString()
+        {
+            return String.Format("FuzzyLogic: {0}", this.Value);
+        }
                             
     }
 }

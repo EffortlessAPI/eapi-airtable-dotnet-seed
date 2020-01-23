@@ -25,49 +25,61 @@ namespace GwPlatform.Lib.DataClasses
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodeRoleId")]
         public String GNodeRoleId { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "Name")]
-        public String Name { get; set; }
-    
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "Definition")]
         public String Definition { get; set; }
-    
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "EffortlessAPILexiconSpeakerNIC")]                    
-        [RemoteIsCollection]
-        public String[] EffortlessAPILexiconSpeakerNIC { get; set; }
-    
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "EffortlessAPIListenerNIC")]                    
-        [RemoteIsCollection]
-        public String[] EffortlessAPIListenerNIC { get; set; }
-    
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "StrategiesNIC")]                    
-        [RemoteIsCollection]
-        public String[] StrategiesNIC { get; set; }
-    
-        // [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "ElectricallyConnectsAndDisconnects")]
-        // public String ElectricallyConnectsAndDisconnects { get; set; }
     
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasInterconnectionComponentDerived")]
         public Boolean HasInterconnectionComponentDerived { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasPowerLevel")]
-        public Boolean HasPowerLevel { get; set; }
-    
-        // [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasVoltage")]
-        // public String HasVoltage { get; set; }
-    
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryRoleForTheseGNodesNIC")]                    
-        [RemoteIsCollection]
-        public String[] PrimaryRoleForTheseGNodesNIC { get; set; }
-    
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "CoreLexiconNIC")]                    
-        [RemoteIsCollection]
-        public String[] CoreLexiconNIC { get; set; }
-    
-        // [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasAgent")]
-        // public String HasAgent { get; set; }
-    
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "ColorHex")]
         public String ColorHex { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasAgentValue")]
+        public String HasAgentValue { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasAgentDerived")]                    
+        [RemoteIsCollection]
+        public String HasAgentDerived { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "MessageCategoryNic")]                    
+        [RemoteIsCollection]
+        public String[] MessageCategoryNic { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "EffortlessAPIListenerNic")]                    
+        [RemoteIsCollection]
+        public String[] EffortlessAPIListenerNic { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "StrategiesNic")]                    
+        [RemoteIsCollection]
+        public String[] StrategiesNic { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "ElectricallyConnectsAndDisconnectsDerived")]                    
+        [RemoteIsCollection]
+        public String ElectricallyConnectsAndDisconnectsDerived { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasVoltageDerived")]                    
+        [RemoteIsCollection]
+        public String HasVoltageDerived { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryRoleForTheseGNodesNic")]                    
+        [RemoteIsCollection]
+        public String[] PrimaryRoleForTheseGNodesNic { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "CoreLexiconNic")]                    
+        [RemoteIsCollection]
+        public String[] CoreLexiconNic { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "ElectricallyConnectsAndDisconnectsValue")]
+        public String ElectricallyConnectsAndDisconnectsValue { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasVoltageValue")]
+        public String HasVoltageValue { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "Value")]
+        public String Value { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "HasPowerLevel")]
+        public Nullable<Boolean> HasPowerLevel { get; set; }
     
 
         

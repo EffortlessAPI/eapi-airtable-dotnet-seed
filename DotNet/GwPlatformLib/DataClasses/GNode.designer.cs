@@ -115,6 +115,21 @@ namespace GwPlatform.Lib.DataClasses
         [RemoteIsCollection]
         public String[] GRCGNodesDrop { get; set; }
     
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodeStatusId")]                    
+        [RemoteIsCollection]
+        public String GNodeStatusId { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "PrimaryComponentId")]                    
+        [RemoteIsCollection]
+        public String PrimaryComponentId { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "RatedPowerInjectedVaDerived")]
+        public Nullable<Int32> RatedPowerInjectedVaDerived { get; set; }
+    
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GRCGNodesNic")]                    
+        [RemoteIsCollection]
+        public String[] GRCGNodesNic { get; set; }
+    
 
         
 

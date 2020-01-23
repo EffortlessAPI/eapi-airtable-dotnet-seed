@@ -2381,15 +2381,13 @@ energy contracts.</Definition>
   </PhysicsParadigms>
   <GNodes>
     <GNode>
-      <GNodeId>recZx3zD9eKA04gLR</GNodeId>
-      <createdTime>2019-11-29T04:39:37Z</createdTime>
-      <PrimaryGNodeRoleId>recZp9Gm4Ows71NSb</PrimaryGNodeRoleId>
-      <HasAgentFuzzyLogicValueIdFromComponent>True</HasAgentFuzzyLogicValueIdFromComponent>
-      <Alias>sw1</Alias>
-      <DisplayName>Gridworks Platform Services</DisplayName>
-      <EmailAddressDerived>sw1@gridworks-consulting.com</EmailAddressDerived>
+      <GNodeId>recL5WagoOjYrt6u9</GNodeId>
+      <createdTime>2020-01-21T15:43:22Z</createdTime>
+      <PrimaryGNodeRoleId>recB1iP5mNLqfMMoy</PrimaryGNodeRoleId>
+      <Alias>dev</Alias>
+      <EmailAddressDerived>dev@gridworks-consulting.com</EmailAddressDerived>
       <CableOrWireRatedPowerFlowVADerived>0</CableOrWireRatedPowerFlowVADerived>
-      <PrimaryGNodeRole>WorldCoordinator</PrimaryGNodeRole>
+      <PrimaryGNodeRole>Admin</PrimaryGNodeRole>
     </GNode>
   </GNodes>
   <StrategyParams>
@@ -2757,86 +2755,85 @@ energy contracts.</Definition>
   </GNodeInstances>
   <FuzzyLogics>
     <FuzzyLogic>
-      <FuzzyLogicId>rec3agpVctOGM3eyv</FuzzyLogicId>
-      <createdTime>2020-01-20T18:56:31Z</createdTime>
-      <Key>checked</Key>
-      <GNodeRoles>recZp9Gm4Ows71NSb</GNodeRoles>
-      <GNodeRoles>rec5fLkCIJJYyyQC1</GNodeRoles>
-      <GNodeRoles>rece0NnrQMWN5yidT</GNodeRoles>
-      <GNodeRoles>recQEmZLyTIbXWrVd</GNodeRoles>
-      <GNodeRoles>recod0ttcJqF2WUsO</GNodeRoles>
-      <GNodeRoles>rec5x4gpUn6EfwXPb</GNodeRoles>
-    </FuzzyLogic>
-    <FuzzyLogic>
       <FuzzyLogicId>rec7JPro5iL9ZNIka</FuzzyLogicId>
       <createdTime>2020-01-20T18:55:01Z</createdTime>
-      <GNodeRoles3>recIItvQ3JP4YA62l</GNodeRoles3>
-      <GNodeRoles3>recZp9Gm4Ows71NSb</GNodeRoles3>
-      <GNodeRoles3>recgvGnsFTxPMSM8G</GNodeRoles3>
-      <GNodeRoles3>rece0NnrQMWN5yidT</GNodeRoles3>
-      <GNodeRoles3>recod0ttcJqF2WUsO</GNodeRoles3>
-      <GNodeRoles3>rec5x4gpUn6EfwXPb</GNodeRoles3>
-      <GNodeRoles3>recnqlWF2ATSg2z36</GNodeRoles3>
-      <Key>FALSE</Key>
-      <Value>False</Value>
-      <GNodeRoles2>recHJhmyHsUhpf7BP</GNodeRoles2>
-      <GNodeRoles2>recIItvQ3JP4YA62l</GNodeRoles2>
-      <GNodeRoles2>recZp9Gm4Ows71NSb</GNodeRoles2>
-      <GNodeRoles2>recbEfWZRaQttID71</GNodeRoles2>
-      <GNodeRoles2>recgvGnsFTxPMSM8G</GNodeRoles2>
-      <GNodeRoles2>rec25JT0vuxAN0oDH</GNodeRoles2>
-      <GNodeRoles2>recIOvk9Z6ufqr0pV</GNodeRoles2>
-      <GNodeRoles2>rece0NnrQMWN5yidT</GNodeRoles2>
-      <GNodeRoles2>recod0ttcJqF2WUsO</GNodeRoles2>
-      <GNodeRoles2>rec5x4gpUn6EfwXPb</GNodeRoles2>
-      <GNodeRoles2>recnqlWF2ATSg2z36</GNodeRoles2>
+      <GNodeRoles3Nic>recIItvQ3JP4YA62l</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recZp9Gm4Ows71NSb</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recgvGnsFTxPMSM8G</GNodeRoles3Nic>
+      <GNodeRoles3Nic>rece0NnrQMWN5yidT</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recod0ttcJqF2WUsO</GNodeRoles3Nic>
+      <GNodeRoles3Nic>rec5x4gpUn6EfwXPb</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recnqlWF2ATSg2z36</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recRAOi9fvGITA4Q0</GNodeRoles3Nic>
+      <GNodeRoles3Nic>rec5fLkCIJJYyyQC1</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recMbxucKKcuZhl3O</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recQEmZLyTIbXWrVd</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recB1iP5mNLqfMMoy</GNodeRoles3Nic>
+      <Name>False</Name>
+      <GNodeRoles2Nic>recIItvQ3JP4YA62l</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recZp9Gm4Ows71NSb</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recgvGnsFTxPMSM8G</GNodeRoles2Nic>
+      <GNodeRoles2Nic>rec25JT0vuxAN0oDH</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recIOvk9Z6ufqr0pV</GNodeRoles2Nic>
+      <GNodeRoles2Nic>rece0NnrQMWN5yidT</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recod0ttcJqF2WUsO</GNodeRoles2Nic>
+      <GNodeRoles2Nic>rec5x4gpUn6EfwXPb</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recnqlWF2ATSg2z36</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recB1iP5mNLqfMMoy</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recMbxucKKcuZhl3O</GNodeRoles2Nic>
+      <GNodeRoles2Nic>rec5fLkCIJJYyyQC1</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recRAOi9fvGITA4Q0</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recbEfWZRaQttID71</GNodeRoles2Nic>
+      <GNodeRolesNic>recB1iP5mNLqfMMoy</GNodeRolesNic>
+      <GNodeRolesNic>rec25JT0vuxAN0oDH</GNodeRolesNic>
+      <GNodeRolesNic>recIOvk9Z6ufqr0pV</GNodeRolesNic>
     </FuzzyLogic>
     <FuzzyLogic>
       <FuzzyLogicId>rec8a49BAVbZpiDZc</FuzzyLogicId>
       <createdTime>2020-01-20T18:55:01Z</createdTime>
-      <GNodeRoles3>recHJhmyHsUhpf7BP</GNodeRoles3>
-      <GNodeRoles3>recbEfWZRaQttID71</GNodeRoles3>
-      <GNodeRoles3>rec6UPMjMnhPtnF7H</GNodeRoles3>
-      <GNodeRoles3>recIqmLqTqvTyRncR</GNodeRoles3>
-      <GNodeRoles3>recQt2QWPxouyedKY</GNodeRoles3>
-      <GNodeRoles3>rec25JT0vuxAN0oDH</GNodeRoles3>
-      <GNodeRoles3>recIOvk9Z6ufqr0pV</GNodeRoles3>
-      <Key>TRUE</Key>
-      <Value>True</Value>
-      <GNodeRoles2>recIqmLqTqvTyRncR</GNodeRoles2>
-      <GNodeRoles>recnqlWF2ATSg2z36</GNodeRoles>
-      <GNodeRoles>recIItvQ3JP4YA62l</GNodeRoles>
-      <GNodeRoles>recgvGnsFTxPMSM8G</GNodeRoles>
+      <GNodeRoles3Nic>recHJhmyHsUhpf7BP</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recbEfWZRaQttID71</GNodeRoles3Nic>
+      <GNodeRoles3Nic>rec6UPMjMnhPtnF7H</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recIqmLqTqvTyRncR</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recQt2QWPxouyedKY</GNodeRoles3Nic>
+      <GNodeRoles3Nic>rec25JT0vuxAN0oDH</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recIOvk9Z6ufqr0pV</GNodeRoles3Nic>
+      <GNodeRoles3Nic>rechJpsEs37dyehKh</GNodeRoles3Nic>
+      <GNodeRoles3Nic>recrI72Mi4LQXveNZ</GNodeRoles3Nic>
+      <Name>True</Name>
+      <GNodeRoles2Nic>recIqmLqTqvTyRncR</GNodeRoles2Nic>
+      <GNodeRolesNic>recnqlWF2ATSg2z36</GNodeRolesNic>
+      <GNodeRolesNic>recIItvQ3JP4YA62l</GNodeRolesNic>
+      <GNodeRolesNic>recod0ttcJqF2WUsO</GNodeRolesNic>
+      <GNodeRolesNic>recMbxucKKcuZhl3O</GNodeRolesNic>
+      <GNodeRolesNic>rece0NnrQMWN5yidT</GNodeRolesNic>
+      <GNodeRolesNic>rec5fLkCIJJYyyQC1</GNodeRolesNic>
+      <GNodeRolesNic>rec5x4gpUn6EfwXPb</GNodeRolesNic>
+      <GNodeRolesNic>recZp9Gm4Ows71NSb</GNodeRolesNic>
     </FuzzyLogic>
     <FuzzyLogic>
       <FuzzyLogicId>recHkD2aM3iCYsgU4</FuzzyLogicId>
       <createdTime>2020-01-20T18:55:01Z</createdTime>
-      <GNodeRoles3>rechJpsEs37dyehKh</GNodeRoles3>
-      <GNodeRoles3>recQydUsptO4Rit9A</GNodeRoles3>
-      <GNodeRoles3>recrI72Mi4LQXveNZ</GNodeRoles3>
-      <GNodeRoles3>rec5fLkCIJJYyyQC1</GNodeRoles3>
-      <GNodeRoles3>recQEmZLyTIbXWrVd</GNodeRoles3>
-      <Key>MAYBE</Key>
-      <Value>Maybe</Value>
-      <GNodeRoles2>rechJpsEs37dyehKh</GNodeRoles2>
-      <GNodeRoles2>rec6UPMjMnhPtnF7H</GNodeRoles2>
-      <GNodeRoles2>recQydUsptO4Rit9A</GNodeRoles2>
-      <GNodeRoles2>recQt2QWPxouyedKY</GNodeRoles2>
-      <GNodeRoles2>recrI72Mi4LQXveNZ</GNodeRoles2>
-      <GNodeRoles2>rec5fLkCIJJYyyQC1</GNodeRoles2>
-      <GNodeRoles2>recQEmZLyTIbXWrVd</GNodeRoles2>
-      <GNodeRoles>recIqmLqTqvTyRncR</GNodeRoles>
-      <GNodeRoles>rec6UPMjMnhPtnF7H</GNodeRoles>
-    </FuzzyLogic>
-    <FuzzyLogic>
-      <FuzzyLogicId>recSOUncyN1lF6lBj</FuzzyLogicId>
-      <fields />
-      <createdTime>2020-01-20T18:55:31Z</createdTime>
-    </FuzzyLogic>
-    <FuzzyLogic>
-      <FuzzyLogicId>recmlbE5UW9Fo1dVr</FuzzyLogicId>
-      <fields />
-      <createdTime>2020-01-20T18:56:08Z</createdTime>
+      <GNodeRoles3Nic>recQydUsptO4Rit9A</GNodeRoles3Nic>
+      <Name>Maybe</Name>
+      <GNodeRoles2Nic>rechJpsEs37dyehKh</GNodeRoles2Nic>
+      <GNodeRoles2Nic>rec6UPMjMnhPtnF7H</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recQydUsptO4Rit9A</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recrI72Mi4LQXveNZ</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recQEmZLyTIbXWrVd</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recHJhmyHsUhpf7BP</GNodeRoles2Nic>
+      <GNodeRoles2Nic>recQt2QWPxouyedKY</GNodeRoles2Nic>
+      <GNodeRolesNic>recIqmLqTqvTyRncR</GNodeRolesNic>
+      <GNodeRolesNic>rec6UPMjMnhPtnF7H</GNodeRolesNic>
+      <GNodeRolesNic>recrI72Mi4LQXveNZ</GNodeRolesNic>
+      <GNodeRolesNic>recQydUsptO4Rit9A</GNodeRolesNic>
+      <GNodeRolesNic>recHJhmyHsUhpf7BP</GNodeRolesNic>
+      <GNodeRolesNic>recQEmZLyTIbXWrVd</GNodeRolesNic>
+      <GNodeRolesNic>recQt2QWPxouyedKY</GNodeRolesNic>
+      <GNodeRolesNic>rechJpsEs37dyehKh</GNodeRolesNic>
+      <GNodeRolesNic>recgvGnsFTxPMSM8G</GNodeRolesNic>
+      <GNodeRolesNic>recbEfWZRaQttID71</GNodeRolesNic>
+      <GNodeRolesNic>recRAOi9fvGITA4Q0</GNodeRolesNic>
     </FuzzyLogic>
   </FuzzyLogics>
   <ComponentCategories>
@@ -2982,46 +2979,56 @@ energy contracts.</Definition>
     <GNodeRole>
       <GNodeRoleId>rec25JT0vuxAN0oDH</GNodeRoleId>
       <createdTime>2019-07-25T19:59:42Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec8a49BAVbZpiDZc</HasVoltageDerived>
       <Definition>This node represents electrical ground in the world. It is the `ToNode` for all TerminalAssets. That is, a TerminalAsset viewed as an ElectricalComponent has power flowing from its FromNode to its ToNode, and the ToNode is ground. </Definition>
       <HasPowerLevel>true</HasPowerLevel>
-      <Name>Ground</Name>
+      <HasAgentDerived>rec7JPro5iL9ZNIka</HasAgentDerived>
+      <Value>Ground</Value>
+      <HasAgentValue>False</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>True</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rec5fLkCIJJYyyQC1</GNodeRoleId>
       <createdTime>2019-07-24T17:20:45Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <StrategiesNIC>recU1MKPY17bumD9t</StrategiesNIC>
-      <StrategiesNIC>recm34ju9cLZltLWX</StrategiesNIC>
-      <StrategiesNIC>recwTIvZoj3Q8HW2B</StrategiesNIC>
-      <HasVoltage>recHkD2aM3iCYsgU4</HasVoltage>
-      <EffortlessAPIListenerNIC>rechEajrpHRktMBrq</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>rec5QtviFZ6LUmRMm</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <StrategiesNic>recU1MKPY17bumD9t</StrategiesNic>
+      <StrategiesNic>recm34ju9cLZltLWX</StrategiesNic>
+      <StrategiesNic>recwTIvZoj3Q8HW2B</StrategiesNic>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
+      <EffortlessAPIListenerNic>rechEajrpHRktMBrq</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>rec5QtviFZ6LUmRMm</EffortlessAPIListenerNic>
       <Definition>This is a GNode role for an actor/agent that is identified with a docker container and that starts up a set of agents, after getting sent initialization data either by the World Instance Registry (if it is a World Coordinator) or from a World Coordinator.  The agents managed by a supervisor will all use code from the same repository - although the same repository can be used for multiple Supervisors.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>rec4Dw8NKawCNmvfH</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>Supervisor</Name>
+      <MessageCategoryNic>rec4Dw8NKawCNmvfH</MessageCategoryNic>
+      <HasAgentDerived>rec8a49BAVbZpiDZc</HasAgentDerived>
+      <Value>Supervisor</Value>
+      <HasAgentValue>True</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rec5x4gpUn6EfwXPb</GNodeRoleId>
       <createdTime>2019-12-04T23:52:15Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
-      <EffortlessAPIListenerNIC>recYpPprOf23bdtsp</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recqFiRdVU8RivqhB</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
+      <EffortlessAPIListenerNic>recYpPprOf23bdtsp</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>recqFiRdVU8RivqhB</EffortlessAPIListenerNic>
       <Definition>WIR stands for the World Instance Registry -a service that maintains information about World Instances, including links to their WorldCoordinators. At the request of Admin, it will gather the initialization data  (GNodes, Components, GNode Strategies,  Grid Run Classes and GRCGNodes) for the world, validate consistency, and then instantiate a new World Instance by creating a container for its WorldCoordinator with this initializing data. It also creates a world-specific broker for the World Instance.    </Definition>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>Wir</Name>
+      <HasAgentDerived>rec8a49BAVbZpiDZc</HasAgentDerived>
+      <Value>Wir</Value>
+      <HasAgentValue>True</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rec6UPMjMnhPtnF7H</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <StrategiesNIC>rec3EczddpCyPiwSf</StrategiesNIC>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
-      <EffortlessAPIListenerNIC>recQ3oPcbrj7huB3J</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recfeXesSjJnD9Fkz</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnectsDerived>
+      <StrategiesNic>rec3EczddpCyPiwSf</StrategiesNic>
+      <HasVoltageDerived>rec8a49BAVbZpiDZc</HasVoltageDerived>
+      <EffortlessAPIListenerNic>recQ3oPcbrj7huB3J</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>recfeXesSjJnD9Fkz</EffortlessAPIListenerNic>
       <ColorHex>#2f576e</ColorHex>
       <Definition>A ConductorTopologyNode (Ctn)  is a GNode that corresponds to an electrically equivalent copper junction on the electric grid. This means that electrical measurement quantities of current or power withdrawn, voltage, and phase angle are meaningful and well-defined for a  ConductTopologyNode. 
 
@@ -3030,169 +3037,226 @@ energy contracts.</Definition>
 All TerminalSSNode children of a ConductorTopologyNode have a special relationship w the CopperToplogy Node: specifically, the assumption is that the TerminalSSNodes are within the 'zone of equivalent phasor/voltage.'
 
 The sum of the power (and current) withdrawn for the TerminalSSNode children of a TopologyNode equals the power (and current)  withdrawn for the TopologyNode.  This is true for any model of power - DC, phasor, instantaneous. The tree structure on TopologyNodes "follows the copper" - that is, in addition to the above requirement, the parent of a TopologyNode is also a TopologyNode, and electrical power can flow between the two. A TopologyNode therefore also has well defined "flow" electrical measurements associated to it - both current and power - which describe the flow on this edge. The reference direction is taken to be from the parent to the TopologyNode. That is, if there is power flowing from the parent to the TopologyNode it will be a positive measurement.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>reczbQ4WrChlnoo3l</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recgDPFuaC0LCIuAW</EffortlessAPILexiconSpeakerNIC>
+      <MessageCategoryNic>reczbQ4WrChlnoo3l</MessageCategoryNic>
+      <MessageCategoryNic>recgDPFuaC0LCIuAW</MessageCategoryNic>
       <HasPowerLevel>true</HasPowerLevel>
-      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
-      <Name>Ctn</Name>
-      <CoreLexiconNIC>recpUFFrFe3e92x82</CoreLexiconNIC>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>Ctn</Value>
+      <CoreLexiconNic>recpUFFrFe3e92x82</CoreLexiconNic>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>Maybe</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>True</HasVoltageValue>
+    </GNodeRole>
+    <GNodeRole>
+      <GNodeRoleId>recB1iP5mNLqfMMoy</GNodeRoleId>
+      <createdTime>2020-01-21T15:43:42Z</createdTime>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
+      <PrimaryRoleForTheseGNodesNic>recL5WagoOjYrt6u9</PrimaryRoleForTheseGNodesNic>
+      <ColorHex>#ede0f3</ColorHex>
+      <Definition>GNodeRole of not being a GNode but having admin authority</Definition>
+      <HasAgentDerived>rec7JPro5iL9ZNIka</HasAgentDerived>
+      <Value>Admin</Value>
+      <HasAgentValue>False</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recHJhmyHsUhpf7BP</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
-      <EffortlessAPIListenerNIC>recfZctcYPodOzY3q</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recEysplQavaTSpAr</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec8a49BAVbZpiDZc</HasVoltageDerived>
+      <EffortlessAPIListenerNic>recfZctcYPodOzY3q</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>recEysplQavaTSpAr</EffortlessAPIListenerNic>
       <ColorHex>#7b47d6</ColorHex>
       <Definition>An AtomicTNode - short for Atomic Transactive Node - is a TerminalSSNode that has the potential to transact in contracts on behalf of its associated ControllableAsset. At present there is only one Role for this - TerminalAsset. However, transformers for example may also be controllable and could be associated with AtomicTNodes.
 
 Note that "potential" is left as a matter of judgement for the operators of the system. For example, an air compressor with a lot of flexibility in terms of when it operates, but at present no communication capabilities, could have an AtomicTNode associated to it.  
 
 The Atomicity of an AtomicTNode means that there are no AtomicTNode children in the GNode tree below AtomicTNodes.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>rec0mooombOszscJy</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recG8p9A6rhsxL9Dv</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recjOaOJWrIZn4GMt</EffortlessAPILexiconSpeakerNIC>
+      <MessageCategoryNic>rec0mooombOszscJy</MessageCategoryNic>
+      <MessageCategoryNic>recG8p9A6rhsxL9Dv</MessageCategoryNic>
+      <MessageCategoryNic>recjOaOJWrIZn4GMt</MessageCategoryNic>
       <HasPowerLevel>true</HasPowerLevel>
-      <Name>AtomicTNode</Name>
-      <CoreLexiconNIC>recrIcm7tXtsaaeJ7</CoreLexiconNIC>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>AtomicTNode</Value>
+      <CoreLexiconNic>recrIcm7tXtsaaeJ7</CoreLexiconNic>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>Maybe</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>True</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recIItvQ3JP4YA62l</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
       <ColorHex>#d0f2d2</ColorHex>
       <Definition>Coordinates contracts for energy services. Typically this will be with an AtomicTNode or an AggregatedTNode.</Definition>
-      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
-      <Name>ContractCoordinator</Name>
+      <HasAgentDerived>rec8a49BAVbZpiDZc</HasAgentDerived>
+      <Value>ContractCoordinator</Value>
+      <HasAgentValue>True</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recIOvk9Z6ufqr0pV</GNodeRoleId>
       <createdTime>2019-07-26T11:42:22Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec8a49BAVbZpiDZc</HasVoltageDerived>
       <Definition>We aren't using Neutral yet since we have not moved to a three-phase representation but it'll be here as a node when we do.</Definition>
-      <Name>Neutral</Name>
+      <HasPowerLevel>true</HasPowerLevel>
+      <HasAgentDerived>rec7JPro5iL9ZNIka</HasAgentDerived>
+      <Value>Neutral</Value>
+      <HasAgentValue>False</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>True</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recIqmLqTqvTyRncR</GNodeRoleId>
       <createdTime>2019-07-03T15:47:54Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec8a49BAVbZpiDZc</ElectricallyConnectsAndDisconnects>
-      <StrategiesNIC>reclNmVyDgRcIRKs0</StrategiesNIC>
-      <StrategiesNIC>recRj8AkS5XoyLiiz</StrategiesNIC>
-      <StrategiesNIC>reccOpjAZcdo2Twg0</StrategiesNIC>
-      <StrategiesNIC>recX7hjBmW6JV5N1t</StrategiesNIC>
-      <StrategiesNIC>rec4wBagVJAx7BMvI</StrategiesNIC>
-      <StrategiesNIC>recWDKXE4cLAcmdIt</StrategiesNIC>
-      <StrategiesNIC>rec3Arz4M2hSsDj4q</StrategiesNIC>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
-      <EffortlessAPIListenerNIC>recTfgDR2PEOJNVXk</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recoS5I3MirhGUtmr</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recVSlK7cVn36s9CS</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>reckALZS3SfDVpb98</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recG8p9A6rhsxL9Dv</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recjOaOJWrIZn4GMt</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>rec7MMGmHT2DMiXzr</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>rec8a49BAVbZpiDZc</ElectricallyConnectsAndDisconnectsDerived>
+      <StrategiesNic>reclNmVyDgRcIRKs0</StrategiesNic>
+      <StrategiesNic>recRj8AkS5XoyLiiz</StrategiesNic>
+      <StrategiesNic>reccOpjAZcdo2Twg0</StrategiesNic>
+      <StrategiesNic>recX7hjBmW6JV5N1t</StrategiesNic>
+      <StrategiesNic>rec4wBagVJAx7BMvI</StrategiesNic>
+      <StrategiesNic>recWDKXE4cLAcmdIt</StrategiesNic>
+      <StrategiesNic>rec3Arz4M2hSsDj4q</StrategiesNic>
+      <HasVoltageDerived>rec8a49BAVbZpiDZc</HasVoltageDerived>
+      <EffortlessAPIListenerNic>recTfgDR2PEOJNVXk</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>recoS5I3MirhGUtmr</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>recVSlK7cVn36s9CS</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>reckALZS3SfDVpb98</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>recG8p9A6rhsxL9Dv</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>recjOaOJWrIZn4GMt</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>rec7MMGmHT2DMiXzr</EffortlessAPIListenerNic>
       <ColorHex>#43b1cc</ColorHex>
       <Definition>A GNode representing physical device capable of injecting or withdrawing electrical power, at the location of its parent. The parent must  be a TerminalSSNode.  Equivalently, the primary role of the parent must be either  AtomicTNode or TerminalSSNode 
 
 It may feel extraneous to have both a TerminalSSNode and a TerminalAsset. In most of the system, the TerminalSSNode will be representing the TerminalAsset - for example, we expect to say "oh this TerminalSSNode is a 3 kW storage heater."  The asset allows for us to have different contexts of "same" and "different." In particular if the 3 kW storage heater has to be replaced, and it is replaced by a storage heater of the same make and model, then in this instance the TerminalAsset is replaced (including its immutable serial number, for example) but the TerminalSsNode keeps its name and id.
 
 The TerminalAsset is also an InterconnectionComponent, where the FromNode is either its TerminalSsNode or AtomicTNode (note that when we introduce control devices this may expand) and the ToNode is Ground.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>recdWSUBFkT9t7M8B</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recFPxihszHzSGKQR</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recfZctcYPodOzY3q</EffortlessAPILexiconSpeakerNIC>
+      <MessageCategoryNic>recdWSUBFkT9t7M8B</MessageCategoryNic>
+      <MessageCategoryNic>recFPxihszHzSGKQR</MessageCategoryNic>
+      <MessageCategoryNic>recfZctcYPodOzY3q</MessageCategoryNic>
       <HasPowerLevel>true</HasPowerLevel>
-      <HasAgent>recHkD2aM3iCYsgU4</HasAgent>
-      <Name>TerminalAsset</Name>
-      <CoreLexiconNIC>recUbAewFC2ZjEmnj</CoreLexiconNIC>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>TerminalAsset</Value>
+      <CoreLexiconNic>recUbAewFC2ZjEmnj</CoreLexiconNic>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>True</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>True</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recMbxucKKcuZhl3O</GNodeRoleId>
       <createdTime>2019-12-05T00:02:14Z</createdTime>
-      <EffortlessAPIListenerNIC>reczkeZjcrDU726j8</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recYAHuzndMvMKnQI</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
+      <EffortlessAPIListenerNic>reczkeZjcrDU726j8</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>recYAHuzndMvMKnQI</EffortlessAPIListenerNic>
       <Definition>Short for MessageProtocolRegistry.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>recmaGgkdAbneFxmY</EffortlessAPILexiconSpeakerNIC>
-      <Name>Mpr</Name>
+      <MessageCategoryNic>recmaGgkdAbneFxmY</MessageCategoryNic>
+      <HasAgentDerived>rec8a49BAVbZpiDZc</HasAgentDerived>
+      <Value>Mpr</Value>
+      <HasAgentValue>True</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recQEmZLyTIbXWrVd</GNodeRoleId>
       <createdTime>2019-08-01T00:59:24Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>recHkD2aM3iCYsgU4</HasVoltage>
-      <EffortlessAPIListenerNIC>rec5x7Mqmm7KfqBNZ</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>rec0mooombOszscJy</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>receLjgbbY11xFg3r</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recmaGgkdAbneFxmY</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
+      <EffortlessAPIListenerNic>rec5x7Mqmm7KfqBNZ</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>rec0mooombOszscJy</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>receLjgbbY11xFg3r</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>recmaGgkdAbneFxmY</EffortlessAPIListenerNic>
       <Definition>A GNode is a fundamental unit of abstraction in the Gridworks Lexicon and code. GNodes have a tree structure created by left to right reading of the alias, with "." as the separator. For example, a GNode with alias sw1.ne has a parent with alias of sw1. This tree structure is used both as a method of capturing known topological information about electric grids, and as an organizational principle for coding actions and functions.  
 
 </Definition>
-      <EffortlessAPILexiconSpeakerNIC>recYAHuzndMvMKnQI</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>reclQdE6CGJSAnw67</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>rec5QtviFZ6LUmRMm</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>GNode</Name>
+      <MessageCategoryNic>recYAHuzndMvMKnQI</MessageCategoryNic>
+      <MessageCategoryNic>reclQdE6CGJSAnw67</MessageCategoryNic>
+      <MessageCategoryNic>rec5QtviFZ6LUmRMm</MessageCategoryNic>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>GNode</Value>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>Maybe</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recQt2QWPxouyedKY</GNodeRoleId>
       <createdTime>2019-07-11T14:40:41Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
+      <ElectricallyConnectsAndDisconnectsDerived>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec8a49BAVbZpiDZc</HasVoltageDerived>
       <ColorHex>#70ccb0</ColorHex>
       <Definition>A ConductorTopology GNode (GridCoordinator) where its ConductorTopology descendants represent a locally coherent part of the grid. Specifically, if one wants to impose some consistency requirements on a set of GNode strategies (via creating a Grid Run Class), it is assumed that this will impact all instantiated GNodes at or below a particular GridRoot. It must be a ConductorTopologyNode.  It is the only kind of ConductorTopologyNode that does not necessarily have a parent ConductorTopologyNode (although it can).</Definition>
       <HasPowerLevel>true</HasPowerLevel>
-      <Name>GridRoot</Name>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>GridRoot</Value>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>Maybe</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>True</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recQydUsptO4Rit9A</GNodeRoleId>
       <createdTime>2019-07-01T22:57:29Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>recHkD2aM3iCYsgU4</HasVoltage>
+      <ElectricallyConnectsAndDisconnectsDerived>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>recHkD2aM3iCYsgU4</HasVoltageDerived>
       <ColorHex>#438a79</ColorHex>
       <Definition>An AggregatedTNode is an aggregation of AtomicTNodes that has the potential  of entering into contracts with a contract coordinator on behalf of its AtomicTNodes. We use the term synonymously with Microgrid.</Definition>
       <HasPowerLevel>true</HasPowerLevel>
-      <Name>AggregatedTNode</Name>
-      <CoreLexiconNIC>reczKU5eR5ycC1pjj</CoreLexiconNIC>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>AggregatedTNode</Value>
+      <CoreLexiconNic>reczKU5eR5ycC1pjj</CoreLexiconNic>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>Maybe</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>Maybe</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recRAOi9fvGITA4Q0</GNodeRoleId>
       <createdTime>2019-08-31T11:41:04Z</createdTime>
-      <StrategiesNIC>recSffOrlJYsi6eTe</StrategiesNIC>
-      <EffortlessAPIListenerNIC>recGPO4CP7FJXmq91</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <StrategiesNic>recSffOrlJYsi6eTe</StrategiesNic>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
+      <EffortlessAPIListenerNic>recGPO4CP7FJXmq91</EffortlessAPIListenerNic>
       <Definition>An entity responsible for issuing TimeSteps. A WorldCoordinator is always a TimeCoordinator. However, there may be additional time coordinators (for example sending higher resolution TimeSteps to a sub-grid of the larger WorldInstance).</Definition>
-      <EffortlessAPILexiconSpeakerNIC>rec5x7Mqmm7KfqBNZ</EffortlessAPILexiconSpeakerNIC>
-      <Name>TimeCoordinator</Name>
-      <CoreLexiconNIC>recB1nR7a64D2OCBM</CoreLexiconNIC>
+      <MessageCategoryNic>rec5x7Mqmm7KfqBNZ</MessageCategoryNic>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>TimeCoordinator</Value>
+      <CoreLexiconNic>recB1nR7a64D2OCBM</CoreLexiconNic>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recZp9Gm4Ows71NSb</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <StrategiesNIC>recFJ78S2yTf1Cbst</StrategiesNIC>
-      <StrategiesNIC>reckrrRE7GDFwIoT6</StrategiesNIC>
-      <StrategiesNIC>recPXH6xiPkK3JanJ</StrategiesNIC>
-      <StrategiesNIC>recfWXer5QST8BMsU</StrategiesNIC>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
-      <PrimaryRoleForTheseGNodesNIC>recZx3zD9eKA04gLR</PrimaryRoleForTheseGNodesNIC>
-      <EffortlessAPIListenerNIC>rec4Dw8NKawCNmvfH</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>recluvGaKNi8jAu0i</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <StrategiesNic>recFJ78S2yTf1Cbst</StrategiesNic>
+      <StrategiesNic>reckrrRE7GDFwIoT6</StrategiesNic>
+      <StrategiesNic>recPXH6xiPkK3JanJ</StrategiesNic>
+      <StrategiesNic>recfWXer5QST8BMsU</StrategiesNic>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
+      <EffortlessAPIListenerNic>rec4Dw8NKawCNmvfH</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>recluvGaKNi8jAu0i</EffortlessAPIListenerNic>
       <ColorHex>#e35d14</ColorHex>
       <Definition>&lt;![CDATA[A World Coordinator is associated to a unique world instance, and has ultimate responsibility for the appropriate functioning of its World Instance.  It maintains a user interface allowing Admin to make various changes - for example changing a terminal asset strategy so it runs in scala instead of python, or adding a GridRunClass that adds a whole new set of instantiated GNodes.  This starts with spinning up a container for each of its Supervisors, providing these Supervisors with appropriate creation &amp; change information regarding the World instantiated GNodes, their Components, and their Strategies. Critically the World Coordinator also allocates responsibility for GNodeInstances - its Supervisors create a disjoint cover of all GNodeInstances that HaveAgents. The WorldCoordinator can also be a Supervisor. The World Coordinator is created and initialized by the WorldInstanceRegistry (WIR). Note that the WIR also creates a world-specific message broker (i.e. the only messages running on this broker are between agents within this specific World Instance) for the WorldCoordinator.]]&gt;</Definition>
-      <EffortlessAPILexiconSpeakerNIC>rechEajrpHRktMBrq</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recU64rhLXVwCJZ2L</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recYpPprOf23bdtsp</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recqFiRdVU8RivqhB</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>WorldCoordinator</Name>
-      <CoreLexiconNIC>recJijbhL2A8Swc22</CoreLexiconNIC>
+      <MessageCategoryNic>rechEajrpHRktMBrq</MessageCategoryNic>
+      <MessageCategoryNic>recU64rhLXVwCJZ2L</MessageCategoryNic>
+      <MessageCategoryNic>recYpPprOf23bdtsp</MessageCategoryNic>
+      <MessageCategoryNic>recqFiRdVU8RivqhB</MessageCategoryNic>
+      <HasAgentDerived>rec8a49BAVbZpiDZc</HasAgentDerived>
+      <Value>WorldCoordinator</Value>
+      <CoreLexiconNic>recJijbhL2A8Swc22</CoreLexiconNic>
+      <HasAgentValue>True</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recbEfWZRaQttID71</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec8a49BAVbZpiDZc</HasVoltage>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec8a49BAVbZpiDZc</HasVoltageDerived>
       <Definition>A TerminalSSNodes is an infinitesimally long InterconnectionComponent that connects its parent (a ConductorTopologyNode) to its unique child (a Terminal Asset). The FromNode of a TerminalSSNode is its parent ConductorTopologyNode and its ToNode is its TerminalAsset.
 
 NB: We may change 'child' to 'descendant' when we add metering and control devices as GNode parents of Terminal Assets.  
@@ -3201,49 +3265,59 @@ A TerminalSSNodes has Electrical Quantities (current, voltage, etc.).
 
 </Definition>
       <HasPowerLevel>true</HasPowerLevel>
-      <Name>TerminalSsNode</Name>
-      <CoreLexiconNIC>recD3SFBSWdxVFsP4</CoreLexiconNIC>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>TerminalSsNode</Value>
+      <CoreLexiconNic>recD3SFBSWdxVFsP4</CoreLexiconNic>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>True</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rece0NnrQMWN5yidT</GNodeRoleId>
       <createdTime>2019-07-30T18:41:59Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
       <ColorHex>#053982</ColorHex>
       <Definition>Only one non-development node can be a ServiceCoordinator, and it must be a root node.  The children of the Service Coordinator are services that can be used by multiple world instances simultaneously. The first feature is that it has only one non-development world instance, and that instance is not simulated. The second is that its descendants are limited to a small set of "Code Service" GNodes - which in particular rules out any GNodes reflecting physical assets on the grid.  The third is that it and its descendants can communicate with other world instances. </Definition>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>ServiceCoordinator</Name>
+      <HasAgentDerived>rec8a49BAVbZpiDZc</HasAgentDerived>
+      <Value>ServiceCoordinator</Value>
+      <HasAgentValue>True</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recgvGnsFTxPMSM8G</GNodeRoleId>
       <createdTime>2019-07-11T14:41:58Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <StrategiesNIC>recp8qW8l2LjxQmiA</StrategiesNIC>
-      <StrategiesNIC>recOhHQipyJJJUxub</StrategiesNIC>
-      <StrategiesNIC>recA4LEYM8WwhaMNQ</StrategiesNIC>
-      <StrategiesNIC>recTNnQLKuSVCpPwo</StrategiesNIC>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
-      <EffortlessAPIListenerNIC>recdWSUBFkT9t7M8B</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>reczbQ4WrChlnoo3l</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <StrategiesNic>recp8qW8l2LjxQmiA</StrategiesNic>
+      <StrategiesNic>recOhHQipyJJJUxub</StrategiesNic>
+      <StrategiesNic>recA4LEYM8WwhaMNQ</StrategiesNic>
+      <StrategiesNic>recTNnQLKuSVCpPwo</StrategiesNic>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
+      <EffortlessAPIListenerNic>recdWSUBFkT9t7M8B</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>reczbQ4WrChlnoo3l</EffortlessAPIListenerNic>
       <ColorHex>#bae6ff</ColorHex>
       <Definition>A NetworkModeler is a GNode responsible for global coordination of either simulated or estimated reality in its associated grid. It must be the child of a GridRoot. Its associated grid is all the descendants of its parent which are part of the grid (e.g. InterconnectionComponents, Ctns ), or interact physically with the grid (e.g. AtomicTNodes, MeteringDevices). 
 
 In an entirely simulated world, we may choose to define the `real ElectricalQuantities` as  the NetworkModeler estimates of the ElectricalQuantities associated to Ctns (Conductor Topology Nodes), InterconnectionComponents, TerminalAssets at each TimeStep. 
 </Definition>
-      <EffortlessAPILexiconSpeakerNIC>recoS5I3MirhGUtmr</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recfeXesSjJnD9Fkz</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recVSlK7cVn36s9CS</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recGPO4CP7FJXmq91</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>reckALZS3SfDVpb98</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
-      <Name>NetworkModeler</Name>
-      <CoreLexiconNIC>recGy6SR7us0cnjKh</CoreLexiconNIC>
+      <MessageCategoryNic>recoS5I3MirhGUtmr</MessageCategoryNic>
+      <MessageCategoryNic>recfeXesSjJnD9Fkz</MessageCategoryNic>
+      <MessageCategoryNic>recVSlK7cVn36s9CS</MessageCategoryNic>
+      <MessageCategoryNic>recGPO4CP7FJXmq91</MessageCategoryNic>
+      <MessageCategoryNic>reckALZS3SfDVpb98</MessageCategoryNic>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>NetworkModeler</Value>
+      <CoreLexiconNic>recGy6SR7us0cnjKh</CoreLexiconNic>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>rechJpsEs37dyehKh</GNodeRoleId>
       <createdTime>2019-07-01T22:56:27Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>recHkD2aM3iCYsgU4</HasVoltage>
+      <ElectricallyConnectsAndDisconnectsDerived>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec8a49BAVbZpiDZc</HasVoltageDerived>
       <Definition>An InterconnectionComponent is a component with electrical characteristics that mean it has a non-trivial relationship between voltage and current. In addition, it has a FromNode and ToNode indicating where it connects on each side (and determining the direction of positive current flow).  
 
 
@@ -3257,57 +3331,81 @@ Note that every ConductorTopologyNode also represents an InterconnectionComponen
 
 Combined with the ConductorTopology nodes, the InterconnectionComponent nodes let us complete the conducting graphs. The reference direction is captured by FromNode and ToNode.</Definition>
       <HasPowerLevel>true</HasPowerLevel>
-      <Name>InterconnectionComponent</Name>
-      <CoreLexiconNIC>recnJPvjuxJwaLrcP</CoreLexiconNIC>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>InterconnectionComponent</Value>
+      <CoreLexiconNic>recnJPvjuxJwaLrcP</CoreLexiconNic>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>Maybe</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>True</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recnqlWF2ATSg2z36</GNodeRoleId>
       <createdTime>2019-12-04T23:57:56Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
-      <EffortlessAPIListenerNIC>recCG5srZAZ42u8yZ</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
+      <EffortlessAPIListenerNic>recCG5srZAZ42u8yZ</EffortlessAPIListenerNic>
       <Definition>Components - and particular electrical components - as well as Component Attribute Classes and ComponentTypes</Definition>
-      <EffortlessAPILexiconSpeakerNIC>recnT4N4GzZLmMMQZ</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec8a49BAVbZpiDZc</HasAgent>
-      <Name>ComponentRegistry</Name>
+      <MessageCategoryNic>recnT4N4GzZLmMMQZ</MessageCategoryNic>
+      <HasAgentDerived>rec8a49BAVbZpiDZc</HasAgentDerived>
+      <Value>ComponentRegistry</Value>
+      <HasAgentValue>True</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recod0ttcJqF2WUsO</GNodeRoleId>
       <createdTime>2019-11-29T04:01:13Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>rec7JPro5iL9ZNIka</HasVoltage>
-      <EffortlessAPIListenerNIC>recnT4N4GzZLmMMQZ</EffortlessAPIListenerNIC>
-      <EffortlessAPIListenerNIC>reclQdE6CGJSAnw67</EffortlessAPIListenerNIC>
+      <ElectricallyConnectsAndDisconnectsDerived>rec7JPro5iL9ZNIka</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec7JPro5iL9ZNIka</HasVoltageDerived>
+      <EffortlessAPIListenerNic>recnT4N4GzZLmMMQZ</EffortlessAPIListenerNic>
+      <EffortlessAPIListenerNic>reclQdE6CGJSAnw67</EffortlessAPIListenerNic>
       <Definition>Short for GNodeRegistry, Gnr is a  Gridworks Platform Service (i.e., in the tree whose root is a Service Root) which is the authority for the durable data specific to GNodes. In particular it is the authority for mutable data, including the GNode Alias and their inherited tree structure.</Definition>
-      <EffortlessAPILexiconSpeakerNIC>recDkW2OWVBvl1vtN</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>receLjgbbY11xFg3r</EffortlessAPILexiconSpeakerNIC>
-      <EffortlessAPILexiconSpeakerNIC>recCG5srZAZ42u8yZ</EffortlessAPILexiconSpeakerNIC>
-      <HasAgent>rec3agpVctOGM3eyv</HasAgent>
-      <Name>Gnr</Name>
+      <MessageCategoryNic>recDkW2OWVBvl1vtN</MessageCategoryNic>
+      <MessageCategoryNic>receLjgbbY11xFg3r</MessageCategoryNic>
+      <MessageCategoryNic>recCG5srZAZ42u8yZ</MessageCategoryNic>
+      <HasAgentDerived>rec8a49BAVbZpiDZc</HasAgentDerived>
+      <Value>Gnr</Value>
+      <HasAgentValue>True</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>False</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>False</HasVoltageValue>
     </GNodeRole>
     <GNodeRole>
       <GNodeRoleId>recrI72Mi4LQXveNZ</GNodeRoleId>
       <createdTime>2019-07-23T20:05:22Z</createdTime>
-      <ElectricallyConnectsAndDisconnects>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnects>
-      <HasVoltage>recHkD2aM3iCYsgU4</HasVoltage>
+      <ElectricallyConnectsAndDisconnectsDerived>recHkD2aM3iCYsgU4</ElectricallyConnectsAndDisconnectsDerived>
+      <HasVoltageDerived>rec8a49BAVbZpiDZc</HasVoltageDerived>
+      <ColorHex>#0e6f05 </ColorHex>
       <Definition>We have not yet thought through exactly how we will model and implement SCADA, metering and control. It may be that we want to add GNodes which have the role ActuatingDevice. This is under development.</Definition>
       <HasPowerLevel>true</HasPowerLevel>
-      <Name>ActuatingDevice</Name>
+      <HasAgentDerived>recHkD2aM3iCYsgU4</HasAgentDerived>
+      <Value>ActuatingDevice</Value>
+      <HasAgentValue>Maybe</HasAgentValue>
+      <ElectricallyConnectsAndDisconnectsValue>Maybe</ElectricallyConnectsAndDisconnectsValue>
+      <HasVoltageValue>True</HasVoltageValue>
     </GNodeRole>
   </GNodeRoles>
   <LocalAxiomss>
     <LocalAxioms>
       <LocalAxiomsId>recNaVqxqgDg20vCX</LocalAxiomsId>
       <createdTime>2020-01-16T18:50:29Z</createdTime>
-      <Name>GNodeAliasMatchesWorldInstance</Name>
       <MessageProtocolFields>recgkxXbqMKrvrbXd</MessageProtocolFields>
       <Description>Given a GNodeInstance gni with GNodeAlias gni.GrcGNode.GNode.Alias. The WorldInstanceName has format FirstWord + '__' + x, where x is an integer and FirstWord is the first (from the left) word in the GNodeAlias.
 </Description>
+      <AdHocName>GNodeAliasMatchesWorldInstance</AdHocName>
+      <Name>GNodeAliasMatchesWorldInstance</Name>
     </LocalAxioms>
     <LocalAxioms>
       <LocalAxiomsId>recjOWzryJqDSC1Uj</LocalAxiomsId>
-      <fields />
       <createdTime>2020-01-16T18:50:29Z</createdTime>
+      <IsAttributeDerivation>true</IsAttributeDerivation>
+      <FormalStatement>Component match {
+    case Some =&gt; GNode.Component.RatedPowerInjectedVa
+    case None =&gt; None
+}</FormalStatement>
+      <Table>GNode</Table>
+      <Description>GNode inherits its RatedPowerInjectedVa from its PrimaryComponent</Description>
+      <Attribute>RatedPowerInjectedVa</Attribute>
+      <Name>GNode__RatedPowerInjectedVa</Name>
     </LocalAxioms>
     <LocalAxioms>
       <LocalAxiomsId>recvUpG0mnMChCwaY</LocalAxiomsId>

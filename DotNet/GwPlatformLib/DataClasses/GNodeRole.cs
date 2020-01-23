@@ -20,18 +20,14 @@ namespace GwPlatform.Lib.DataClasses
         }
        static GNodeRole()
         {
+            GNodeRole.PopulateGNodeRoles();
             GNodeRole.PopulateAllGNRs();
         }
         public override String ToString()
         {
-            return String.Format("GNodeRole: {0}", this.Name);
+            return String.Format("GNodeRole: {0}", this.Value);
         }
 
-        public FuzzyLogicEnum HasAgent { get; private set; }
-
-        public FuzzyLogicEnum ElectricallyConnectsAndDisconnects { get; private set; }
-
-        public FuzzyLogicEnum HasVoltage { get; private set; }
         public Nullable<DateTime> IRLCreatedAtUTC { get; set; }
         public static List<GNodeRole> AllGNRs { get; private set; }
 

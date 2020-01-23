@@ -39,7 +39,8 @@ namespace GwPlatform.Lib.DataClasses
         [RemoteIsCollection]
         public String[] GNodes { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodesIgnore")]
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodesIgnore")]                    
+        [RemoteIsCollection]
         public String[] GNodesIgnore { get; set; }
     
 

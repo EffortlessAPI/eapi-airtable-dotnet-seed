@@ -41,6 +41,10 @@ namespace GwPlatform.Lib.DataClasses
         [RemoteIsCollection]
         public String[] CoreLexiconTerms { get; set; }
     
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodes")]                    
+        [RemoteIsCollection]
+        public String[] GNodes { get; set; }
+    
 
         
 

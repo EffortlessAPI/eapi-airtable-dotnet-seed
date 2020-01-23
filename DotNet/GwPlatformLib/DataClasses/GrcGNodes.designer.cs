@@ -28,10 +28,12 @@ namespace GwPlatform.Lib.DataClasses
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GrcGNodeAliasFromGNodeandStrategy")]
         public String GrcGNodeAliasFromGNodeandStrategy { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GridRunClassId")]
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GridRunClassId")]                    
+        [RemoteIsCollection]
         public String GridRunClassId { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodeId")]
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodeId")]                    
+        [RemoteIsCollection]
         public String GNodeId { get; set; }
     
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodeStrategyAlias")]
@@ -52,10 +54,12 @@ namespace GwPlatform.Lib.DataClasses
         [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodeAliasFromGNode")]
         public String GNodeAliasFromGNode { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "SupervisorContainersDrop")]
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "SupervisorContainersDrop")]                    
+        [RemoteIsCollection]
         public String[] SupervisorContainersDrop { get; set; }
     
-        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodeInstancesDrop")]
+        [JsonProperty(DefaultValueHandling = DefaultValueHandling.IgnoreAndPopulate, PropertyName = "GNodeInstancesDrop")]                    
+        [RemoteIsCollection]
         public String[] GNodeInstancesDrop { get; set; }
     
 
