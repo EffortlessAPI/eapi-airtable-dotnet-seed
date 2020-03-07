@@ -9,7 +9,7 @@ namespace ConsoleApp1
 {
     public static class Extensions
     {
-        private static JwtBuilder builder
+        private static JwtBuilder StaticBuilder
         {
             get
             {
@@ -19,7 +19,14 @@ namespace ConsoleApp1
             }
         }
 
-        static string C_SECRET { get { return ConfigurationManager.AppSettings["JwtSecret"]; } }
+        static string C_SECRET
+        {
+            get
+            {
+                if (ConfigurationManager.AppSettings["JwtSecret"] == null) return "NO SECRET SET";
+                else return ConfigurationManager.AppSettings["JwtSecret"];
+            }
+        }
 
         private class jwtWrapper<T>
         {
@@ -27,14 +34,13 @@ namespace ConsoleApp1
             public T user { get; set; }
         }
 
-        public static T GetJWT<T>(this String jwt)
+        public static T GetJWT<T>(this String jwt, Boolean verifySignature = true)
         {
             if (String.IsNullOrEmpty(jwt)) throw new Exception("Missing JWT in Payload.AccessToken");
             else
             {
-                var decodedToken = builder
-                        .MustVerifySignature()
-                        .Decode(jwt);
+                var builder = ((verifySignature) ? StaticBuilder.MustVerifySignature() : StaticBuilder);
+                var decodedToken = builder.Decode(jwt);
                 var apiUser = JsonConvert.DeserializeObject<jwtWrapper<T>>(decodedToken);
                 var expDate = DateTimeOffset.FromUnixTimeSeconds(apiUser.exp);
                 if (ReferenceEquals(apiUser, null) || (expDate < DateTime.UtcNow)) throw new AuthenticationException("Invalid jtw");
