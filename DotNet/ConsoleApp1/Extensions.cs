@@ -1,6 +1,8 @@
+using EffortlessApi.SassyMQ.Lib;
 using JWT.Algorithms;
 using JWT.Builder;
 using Newtonsoft.Json;
+using RabbitMQ.Client.Events;
 using System;
 using System.Configuration;
 using System.Security.Authentication;
@@ -48,5 +50,17 @@ namespace ConsoleApp1
             }
         }
 
+        public static bool FailOnTimeout(this Boolean result) {
+            if (!result) throw new Exception("Timed out waiting for a response");
+            else return true;
+        }
+
+        public static bool HasNoErrors(this StandardPayload payloadWithPossibleError, BasicDeliverEventArgs bdea)
+        {
+            if (!String.IsNullOrEmpty(payloadWithPossibleError.ErrorMessage)) {
+                throw new Exception(String.Format("{0} - {1}", bdea.RoutingKey, payloadWithPossibleError.ErrorMessage));
+            }
+            else return true;
+        }
     }
 }
